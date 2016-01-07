@@ -1,0 +1,4386 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fable - Children Kindergarten Theme\n"
+"POT-Creation-Date: 2015-11-06 12:44+0100\n"
+"PO-Revision-Date: 2015-11-06 12:45+0100\n"
+"Last-Translator: \n"
+"Language-Team: QuanticaLabs <quanticalabs@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../blog-content.php:54
+#, php-format
+msgid "Viev all posts from \"%s %s\""
+msgstr ""
+
+#: ../blog-content.php:151
+msgid "Continue reading"
+msgstr ""
+
+#: ../blog-content.php:169 ../class/Theme.Notice.class.php:46
+#: ../woocommerce/checkout/thankyou.php:20 ../woocommerce/notices/error.php:25
+msgid "Error"
+msgstr ""
+
+#: ../blog-content.php:169
+msgid "No post found."
+msgstr ""
+
+#: ../comments.php:10
+#, php-format
+msgid "All comments (%s)"
+msgstr ""
+
+#: ../comments.php:28 ../class/Theme.Blog.class.php:101
+msgid "Next"
+msgstr ""
+
+#: ../comments.php:29 ../class/Theme.Blog.class.php:102
+msgid "Previous"
+msgstr ""
+
+#: ../pb_config.php:89 ../pb_config.php:128
+msgid "Small"
+msgstr ""
+
+#: ../pb_config.php:96 ../pb_config.php:135
+msgid "Medium"
+msgstr ""
+
+#: ../pb_config.php:103 ../pb_config.php:142
+msgid "Large"
+msgstr ""
+
+#: ../single-content.php:128
+msgid "Leave a reply"
+msgstr ""
+
+#: ../single-content.php:163 ../woocommerce/single-product-reviews.php:62
+msgid "Name"
+msgstr ""
+
+#: ../single-content.php:171 ../woocommerce/single-product-reviews.php:64
+msgid "Email"
+msgstr ""
+
+#: ../single-content.php:179
+msgid "Website"
+msgstr ""
+
+#: ../single-content.php:187
+msgid "Comment"
+msgstr ""
+
+#: ../single-content.php:195
+msgid "Leave Your Reply"
+msgstr ""
+
+#: ../single-content.php:196
+msgid "Cancel reply"
+msgstr ""
+
+#: ../single-content.php:199
+msgid "Post comment"
+msgstr ""
+
+#: ../ts_config.php:16
+msgid "Accordion"
+msgstr ""
+
+#: ../ts_config.php:22 ../ts_config.php:47 ../ts_config.php:66
+#: ../ts_config.php:91 ../ts_config.php:140 ../ts_config.php:159
+#: ../ts_config.php:178 ../ts_config.php:197 ../ts_config.php:216
+#: ../ts_config.php:235 ../ts_config.php:266 ../ts_config.php:285
+#: ../ts_config.php:304 ../ts_config.php:365 ../ts_config.php:384
+#: ../ts_config.php:409 ../ts_config.php:428 ../ts_config.php:453
+#: ../ts_config.php:472 ../ts_config.php:491 ../ts_config.php:510
+#: ../ts_config.php:529 ../ts_config.php:548 ../ts_config.php:567
+#: ../ts_config.php:586 ../ts_config.php:605 ../ts_config.php:624
+#: ../ts_config.php:643 ../ts_config.php:662 ../ts_config.php:681
+#: ../ts_config.php:12879 ../ts_config.php:12986 ../ts_config.php:13143
+#: ../ts_config.php:13239 ../ts_config.php:13420 ../ts_config.php:13601
+#: ../ts_config.php:13651
+msgid "Default"
+msgstr ""
+
+#: ../ts_config.php:27 ../ts_config.php:52 ../ts_config.php:71
+#: ../ts_config.php:96 ../ts_config.php:145 ../ts_config.php:164
+#: ../ts_config.php:183 ../ts_config.php:202 ../ts_config.php:221
+#: ../ts_config.php:240 ../ts_config.php:271 ../ts_config.php:290
+#: ../ts_config.php:309 ../ts_config.php:370 ../ts_config.php:389
+#: ../ts_config.php:414 ../ts_config.php:433 ../ts_config.php:458
+#: ../ts_config.php:477 ../ts_config.php:496 ../ts_config.php:515
+#: ../ts_config.php:534 ../ts_config.php:553 ../ts_config.php:572
+#: ../ts_config.php:591 ../ts_config.php:610 ../ts_config.php:629
+#: ../ts_config.php:648 ../ts_config.php:667 ../ts_config.php:686
+#: ../ts_config.php:12916 ../ts_config.php:13014 ../ts_config.php:13188
+#: ../ts_config.php:13326 ../ts_config.php:13507 ../ts_config.php:13623
+#: ../ts_config.php:13695 ../template/admin/admin.php:49
+msgid "Footer"
+msgstr ""
+
+#: ../ts_config.php:35
+msgid "Audio"
+msgstr ""
+
+#: ../ts_config.php:41
+msgid "Base"
+msgstr ""
+
+#: ../ts_config.php:60
+msgid "Blockquote"
+msgstr ""
+
+#: ../ts_config.php:79 ../template/admin/admin.php:45
+msgid "Blog"
+msgstr ""
+
+#: ../ts_config.php:85 ../ts_config.php:1462 ../ts_config.php:1554
+#: ../ts_config.php:2548 ../ts_config.php:2772 ../ts_config.php:5785
+#: ../ts_config.php:6319 ../ts_config.php:6650
+msgid "Box"
+msgstr ""
+
+#: ../ts_config.php:104 ../ts_config.php:2679 ../ts_config.php:2878
+#: ../ts_config.php:6750
+msgid "Button"
+msgstr ""
+
+#: ../ts_config.php:110
+msgid "Call to action"
+msgstr ""
+
+#: ../ts_config.php:116
+msgid "Class"
+msgstr ""
+
+#: ../ts_config.php:122
+msgid "Comment form"
+msgstr ""
+
+#: ../ts_config.php:128 ../ts_config.php:710 ../ts_config.php:11775
+#: ../template/admin/admin.php:51
+msgid "Comments list"
+msgstr ""
+
+#: ../ts_config.php:134
+msgid "Contact form"
+msgstr ""
+
+#: ../ts_config.php:153
+msgid "Counter box"
+msgstr ""
+
+#: ../ts_config.php:172 ../ts_config.php:4335 ../ts_config.php:4394
+msgid "Counter list"
+msgstr ""
+
+#: ../ts_config.php:191 ../ts_config.php:1913 ../ts_config.php:3158
+#: ../ts_config.php:4455 ../ts_config.php:4481 ../ts_config.php:7707
+msgid "Divider"
+msgstr ""
+
+#: ../ts_config.php:210
+msgid "Dropcap"
+msgstr ""
+
+#: ../ts_config.php:229
+msgid "Feature"
+msgstr ""
+
+#: ../ts_config.php:248
+msgid "FlexSlider"
+msgstr ""
+
+#: ../ts_config.php:254 ../ts_config.php:5538
+msgid "Go to top"
+msgstr ""
+
+#: ../ts_config.php:260 ../ts_config.php:1648 ../ts_config.php:2795
+#: ../ts_config.php:4075 ../ts_config.php:4240 ../ts_config.php:4661
+#: ../ts_config.php:4662 ../ts_config.php:4831 ../ts_config.php:4832
+#: ../ts_config.php:6672 ../ts_config.php:6876 ../ts_config.php:7581
+#: ../ts_config.php:8737 ../ts_config.php:8886 ../ts_config.php:10183
+#: ../ts_config.php:10307 ../ts_config.php:11006 ../ts_config.php:11065
+#: ../ts_config.php:11126 ../ts_config.php:11185
+msgid "Header"
+msgstr ""
+
+#: ../ts_config.php:279
+msgid "Header and subheader"
+msgstr ""
+
+#: ../ts_config.php:298
+msgid "Image"
+msgstr ""
+
+#: ../ts_config.php:317 ../class/Theme.Menu.class.php:107
+#: ../template/admin/admin.php:48
+msgid "Menu"
+msgstr ""
+
+#: ../ts_config.php:323
+msgid "Nivo slider"
+msgstr ""
+
+#: ../ts_config.php:329 ../ts_config.php:3071 ../ts_config.php:3676
+#: ../ts_config.php:3940
+msgid "Notices"
+msgstr ""
+
+#: ../ts_config.php:335 ../ts_config.php:6522
+msgid "Page header"
+msgstr ""
+
+#: ../ts_config.php:341 ../ts_config.php:6583
+msgid "Preformatted text"
+msgstr ""
+
+#: ../ts_config.php:347
+msgid "Pricing Plan"
+msgstr ""
+
+#: ../ts_config.php:353
+msgid "Recent posts"
+msgstr ""
+
+#: ../ts_config.php:359 ../ts_config.php:7674
+msgid "Social icons"
+msgstr ""
+
+#: ../ts_config.php:378
+msgid "Tab"
+msgstr ""
+
+#: ../ts_config.php:397
+msgid "Team"
+msgstr ""
+
+#: ../ts_config.php:403
+msgid "Testimonial"
+msgstr ""
+
+#: ../ts_config.php:422
+msgid "Twitter user timeline"
+msgstr ""
+
+#: ../ts_config.php:441
+msgid "Vertical Grid"
+msgstr ""
+
+#: ../ts_config.php:447
+msgid "Widget: Archives"
+msgstr ""
+
+#: ../ts_config.php:466
+msgid "Widget: Calendar"
+msgstr ""
+
+#: ../ts_config.php:485
+msgid "Widget: Categories"
+msgstr ""
+
+#: ../ts_config.php:504
+msgid "Widget: Custom menu"
+msgstr ""
+
+#: ../ts_config.php:523
+msgid "Widget: Meta"
+msgstr ""
+
+#: ../ts_config.php:542
+msgid "Widget: Pages"
+msgstr ""
+
+#: ../ts_config.php:561
+msgid "Widget: Recent comments"
+msgstr ""
+
+#: ../ts_config.php:580
+msgid "Widget: Recent posts"
+msgstr ""
+
+#: ../ts_config.php:599
+msgid "Widget: RSS"
+msgstr ""
+
+#: ../ts_config.php:618
+msgid "Widget: Search"
+msgstr ""
+
+#: ../ts_config.php:637
+msgid "Widget: Tags"
+msgstr ""
+
+#: ../ts_config.php:656
+msgid "Widget: Theme most commented"
+msgstr ""
+
+#: ../ts_config.php:675
+msgid "Widget: Theme recent posts"
+msgstr ""
+
+#: ../ts_config.php:694 ../template/admin/admin.php:74
+msgid "WooCommerce"
+msgstr ""
+
+#: ../ts_config.php:700 ../ts_config.php:3012 ../ts_config.php:3583
+#: ../ts_config.php:3847 ../template/admin/plugin_fancybox_image.php:45
+msgid "Buttons"
+msgstr ""
+
+#: ../ts_config.php:705 ../woocommerce/cart/cart-empty.php:18
+msgid "Cart"
+msgstr ""
+
+#: ../ts_config.php:715
+msgid "Form"
+msgstr ""
+
+#: ../ts_config.php:720 ../ts_config.php:12453
+msgid "Form coupon"
+msgstr ""
+
+#: ../ts_config.php:725
+msgid "Form login"
+msgstr ""
+
+#: ../ts_config.php:730
+msgid "Form reset password"
+msgstr ""
+
+#: ../ts_config.php:735
+msgid "My account"
+msgstr ""
+
+#: ../ts_config.php:740 ../ts_config.php:12594
+msgid "\"On sale\" badge"
+msgstr ""
+
+#: ../ts_config.php:745 ../ts_config.php:1990 ../ts_config.php:3333
+#: ../ts_config.php:4119 ../ts_config.php:4284 ../ts_config.php:4706
+#: ../ts_config.php:4876 ../ts_config.php:7899 ../ts_config.php:8052
+#: ../ts_config.php:8197 ../ts_config.php:8340
+msgid "Pagination"
+msgstr ""
+
+#: ../ts_config.php:750
+msgid "Payment"
+msgstr ""
+
+#: ../ts_config.php:755 ../woocommerce/cart/cart.php:28
+msgid "Price"
+msgstr ""
+
+#: ../ts_config.php:760
+msgid "Products list"
+msgstr ""
+
+#: ../ts_config.php:765
+msgid "Star rating"
+msgstr ""
+
+#: ../ts_config.php:770 ../ts_config.php:13043
+msgid "Table"
+msgstr ""
+
+#: ../ts_config.php:775
+msgid "Widget: Price filter"
+msgstr ""
+
+#: ../ts_config.php:780
+msgid "Widget: Products categories list"
+msgstr ""
+
+#: ../ts_config.php:785
+msgid "Widget: Product tag cloud"
+msgstr ""
+
+#: ../ts_config.php:790
+msgid "Widget: Recent reviews"
+msgstr ""
+
+#: ../ts_config.php:795
+msgid "Widget: Shopping cart"
+msgstr ""
+
+#: ../ts_config.php:803
+msgid "zAccordion"
+msgstr ""
+
+#: ../ts_config.php:815 ../ts_config.php:969 ../ts_config.php:2444
+#: ../ts_config.php:7043 ../ts_config.php:7125 ../ts_config.php:12635
+msgid "Normal state"
+msgstr ""
+
+#: ../ts_config.php:816 ../ts_config.php:970
+msgid "Normal (default) tab state colors"
+msgstr ""
+
+#: ../ts_config.php:824 ../ts_config.php:874 ../ts_config.php:924
+#: ../ts_config.php:978 ../ts_config.php:1028 ../ts_config.php:1078
+#: ../ts_config.php:1134 ../ts_config.php:1202 ../ts_config.php:1242
+#: ../ts_config.php:1281 ../ts_config.php:1355 ../ts_config.php:1410
+#: ../ts_config.php:1657 ../ts_config.php:1691 ../ts_config.php:1715
+#: ../ts_config.php:1737 ../ts_config.php:1790 ../ts_config.php:1812
+#: ../ts_config.php:1867 ../ts_config.php:1944 ../ts_config.php:1999
+#: ../ts_config.php:2453 ../ts_config.php:2502 ../ts_config.php:2644
+#: ../ts_config.php:2666 ../ts_config.php:2688 ../ts_config.php:2887
+#: ../ts_config.php:2948 ../ts_config.php:3021 ../ts_config.php:3137
+#: ../ts_config.php:3197 ../ts_config.php:3220 ../ts_config.php:3243
+#: ../ts_config.php:3265 ../ts_config.php:3287 ../ts_config.php:3342
+#: ../ts_config.php:3482 ../ts_config.php:3592 ../ts_config.php:3746
+#: ../ts_config.php:3856 ../ts_config.php:4012 ../ts_config.php:4084
+#: ../ts_config.php:4106 ../ts_config.php:4177 ../ts_config.php:4249
+#: ../ts_config.php:4271 ../ts_config.php:4670 ../ts_config.php:4693
+#: ../ts_config.php:4840 ../ts_config.php:4863 ../ts_config.php:5019
+#: ../ts_config.php:5054 ../ts_config.php:5089 ../ts_config.php:5124
+#: ../ts_config.php:5159 ../ts_config.php:5194 ../ts_config.php:5255
+#: ../ts_config.php:5290 ../ts_config.php:5325 ../ts_config.php:5360
+#: ../ts_config.php:5395 ../ts_config.php:5430 ../ts_config.php:5493
+#: ../ts_config.php:5519 ../ts_config.php:6415 ../ts_config.php:6437
+#: ../ts_config.php:6503 ../ts_config.php:6531 ../ts_config.php:6564
+#: ../ts_config.php:6631 ../ts_config.php:6681 ../ts_config.php:6703
+#: ../ts_config.php:6730 ../ts_config.php:6759 ../ts_config.php:6846
+#: ../ts_config.php:6885 ../ts_config.php:6908 ../ts_config.php:6930
+#: ../ts_config.php:6952 ../ts_config.php:7024 ../ts_config.php:7218
+#: ../ts_config.php:7271 ../ts_config.php:7335 ../ts_config.php:7403
+#: ../ts_config.php:7456 ../ts_config.php:7520 ../ts_config.php:7590
+#: ../ts_config.php:7612 ../ts_config.php:7634 ../ts_config.php:7656
+#: ../ts_config.php:7716 ../ts_config.php:7822 ../ts_config.php:7975
+#: ../ts_config.php:8130 ../ts_config.php:8273 ../ts_config.php:8516
+#: ../ts_config.php:8565 ../ts_config.php:8618 ../ts_config.php:8667
+#: ../ts_config.php:8723 ../ts_config.php:8746 ../ts_config.php:8795
+#: ../ts_config.php:8872 ../ts_config.php:8895 ../ts_config.php:8944
+#: ../ts_config.php:9023 ../ts_config.php:9072 ../ts_config.php:9125
+#: ../ts_config.php:9174 ../ts_config.php:9280 ../ts_config.php:9325
+#: ../ts_config.php:9433 ../ts_config.php:9477 ../ts_config.php:9542
+#: ../ts_config.php:9591 ../ts_config.php:9644 ../ts_config.php:9693
+#: ../ts_config.php:9749 ../ts_config.php:9798 ../ts_config.php:9851
+#: ../ts_config.php:9900 ../ts_config.php:9956 ../ts_config.php:9980
+#: ../ts_config.php:10007 ../ts_config.php:10031 ../ts_config.php:10060
+#: ../ts_config.php:10083 ../ts_config.php:10125 ../ts_config.php:10148
+#: ../ts_config.php:10192 ../ts_config.php:10214 ../ts_config.php:10252
+#: ../ts_config.php:10290 ../ts_config.php:10316 ../ts_config.php:10338
+#: ../ts_config.php:10376 ../ts_config.php:10414 ../ts_config.php:10442
+#: ../ts_config.php:10533 ../ts_config.php:10624 ../ts_config.php:10715
+#: ../ts_config.php:10808 ../ts_config.php:10857 ../ts_config.php:10910
+#: ../ts_config.php:10959 ../ts_config.php:11015 ../ts_config.php:11048
+#: ../ts_config.php:11074 ../ts_config.php:11107 ../ts_config.php:11135
+#: ../ts_config.php:11168 ../ts_config.php:11194 ../ts_config.php:11227
+#: ../ts_config.php:11255 ../ts_config.php:11462 ../ts_config.php:11609
+#: ../ts_config.php:11726 ../ts_config.php:11817 ../ts_config.php:11840
+#: ../ts_config.php:12011 ../ts_config.php:12126 ../ts_config.php:12178
+#: ../ts_config.php:12564 ../ts_config.php:12603 ../ts_config.php:12644
+#: ../ts_config.php:12696 ../ts_config.php:12748 ../ts_config.php:12966
+#: ../ts_config.php:13248 ../ts_config.php:13335 ../ts_config.php:13429
+#: ../ts_config.php:13516 ../ts_config.php:13765 ../ts_config.php:13776
+msgid "Text color"
+msgstr ""
+
+#: ../ts_config.php:836 ../ts_config.php:886 ../ts_config.php:936
+#: ../ts_config.php:990 ../ts_config.php:1040 ../ts_config.php:1090
+msgid "Border color of the icon"
+msgstr ""
+
+#: ../ts_config.php:852 ../ts_config.php:902 ../ts_config.php:952
+#: ../ts_config.php:1006 ../ts_config.php:1056 ../ts_config.php:1106
+msgid "Background color of the icon"
+msgstr ""
+
+#: ../ts_config.php:865 ../ts_config.php:1019 ../ts_config.php:2493
+#: ../ts_config.php:7082 ../ts_config.php:7164 ../ts_config.php:9271
+#: ../ts_config.php:9424 ../ts_config.php:12687
+msgid "Hover state"
+msgstr ""
+
+#: ../ts_config.php:866 ../ts_config.php:1020
+msgid "Hover tab state colors"
+msgstr ""
+
+#: ../ts_config.php:915 ../ts_config.php:1069 ../ts_config.php:12739
+msgid "Active state"
+msgstr ""
+
+#: ../ts_config.php:916 ../ts_config.php:1070
+msgid "Active tab state colors"
+msgstr ""
+
+#: ../ts_config.php:1125
+msgid "Player"
+msgstr ""
+
+#: ../ts_config.php:1126
+msgid "Player colors"
+msgstr ""
+
+#: ../ts_config.php:1145 ../ts_config.php:1214 ../ts_config.php:1254
+#: ../ts_config.php:1329 ../ts_config.php:1388 ../ts_config.php:1443
+#: ../ts_config.php:1823 ../ts_config.php:1878 ../ts_config.php:1922
+#: ../ts_config.php:2029 ../ts_config.php:2139 ../ts_config.php:2295
+#: ../ts_config.php:2480 ../ts_config.php:2529 ../ts_config.php:2557
+#: ../ts_config.php:2715 ../ts_config.php:2781 ../ts_config.php:2898
+#: ../ts_config.php:3033 ../ts_config.php:3298 ../ts_config.php:3372
+#: ../ts_config.php:3516 ../ts_config.php:3621 ../ts_config.php:3780
+#: ../ts_config.php:3885 ../ts_config.php:4039 ../ts_config.php:4204
+#: ../ts_config.php:4594 ../ts_config.php:4632 ../ts_config.php:4764
+#: ../ts_config.php:4802 ../ts_config.php:5229 ../ts_config.php:5465
+#: ../ts_config.php:5586 ../ts_config.php:5608 ../ts_config.php:5689
+#: ../ts_config.php:5711 ../ts_config.php:5794 ../ts_config.php:6003
+#: ../ts_config.php:6328 ../ts_config.php:6459 ../ts_config.php:6481
+#: ../ts_config.php:6542 ../ts_config.php:6659 ../ts_config.php:6786
+#: ../ts_config.php:6857 ../ts_config.php:7013 ../ts_config.php:7069
+#: ../ts_config.php:7108 ../ts_config.php:7151 ../ts_config.php:7190
+#: ../ts_config.php:7249 ../ts_config.php:7313 ../ts_config.php:7377
+#: ../ts_config.php:7434 ../ts_config.php:7498 ../ts_config.php:7562
+#: ../ts_config.php:7683 ../ts_config.php:7886 ../ts_config.php:8039
+#: ../ts_config.php:8184 ../ts_config.php:8327 ../ts_config.php:8543
+#: ../ts_config.php:8592 ../ts_config.php:8645 ../ts_config.php:8695
+#: ../ts_config.php:8773 ../ts_config.php:8823 ../ts_config.php:8922
+#: ../ts_config.php:8972 ../ts_config.php:9050 ../ts_config.php:9099
+#: ../ts_config.php:9152 ../ts_config.php:9202 ../ts_config.php:9258
+#: ../ts_config.php:9303 ../ts_config.php:9356 ../ts_config.php:9411
+#: ../ts_config.php:9455 ../ts_config.php:9512 ../ts_config.php:9569
+#: ../ts_config.php:9618 ../ts_config.php:9671 ../ts_config.php:9721
+#: ../ts_config.php:9776 ../ts_config.php:9825 ../ts_config.php:9878
+#: ../ts_config.php:9928 ../ts_config.php:10469 ../ts_config.php:10560
+#: ../ts_config.php:10742 ../ts_config.php:10835 ../ts_config.php:10884
+#: ../ts_config.php:10937 ../ts_config.php:10987 ../ts_config.php:11322
+#: ../ts_config.php:11509 ../ts_config.php:11644 ../ts_config.php:11755
+#: ../ts_config.php:11899 ../ts_config.php:12046 ../ts_config.php:12155
+#: ../ts_config.php:12207 ../ts_config.php:12575 ../ts_config.php:12615
+#: ../ts_config.php:12674 ../ts_config.php:12726 ../ts_config.php:12778
+#: ../ts_config.php:12822 ../ts_config.php:12860 ../ts_config.php:13275
+#: ../ts_config.php:13362 ../ts_config.php:13456 ../ts_config.php:13543
+#: ../ts_config.php:13754
+msgid "Background color"
+msgstr ""
+
+#: ../ts_config.php:1156 ../ts_config.php:4377 ../ts_config.php:4436
+#: ../ts_config.php:7776
+msgid "Progress bar background color"
+msgstr ""
+
+#: ../ts_config.php:1168
+msgid "Seek bar background color"
+msgstr ""
+
+#: ../ts_config.php:1179
+msgid "Value bar background color"
+msgstr ""
+
+#: ../ts_config.php:1193
+msgid "Track list"
+msgstr ""
+
+#: ../ts_config.php:1194
+msgid "Track list colors"
+msgstr ""
+
+#: ../ts_config.php:1233
+msgid "Selection"
+msgstr ""
+
+#: ../ts_config.php:1234
+msgid "Selection colors"
+msgstr ""
+
+#: ../ts_config.php:1272 ../ts_config.php:1491 ../ts_config.php:1583
+#: ../ts_config.php:2227 ../ts_config.php:2383 ../ts_config.php:4509
+#: ../ts_config.php:4546 ../class/Theme.Post.class.php:14
+msgid "Text"
+msgstr ""
+
+#: ../ts_config.php:1273 ../ts_config.php:1492 ../ts_config.php:1584
+#: ../ts_config.php:2228 ../ts_config.php:2384 ../ts_config.php:4510
+#: ../ts_config.php:4547
+msgid "Text colors"
+msgstr ""
+
+#: ../ts_config.php:1296 ../ts_config.php:1366 ../ts_config.php:1421
+#: ../ts_config.php:6963 ../ts_config.php:9230 ../ts_config.php:9384
+msgid "Link color"
+msgstr ""
+
+#: ../ts_config.php:1307 ../ts_config.php:1377 ../ts_config.php:1432
+#: ../ts_config.php:1536 ../ts_config.php:1628 ../ts_config.php:6974
+msgid "Link color (hover state)"
+msgstr ""
+
+#: ../ts_config.php:1320
+msgid "Page"
+msgstr ""
+
+#: ../ts_config.php:1321
+msgid "Page colors"
+msgstr ""
+
+#: ../ts_config.php:1346
+msgid "Footer top"
+msgstr ""
+
+#: ../ts_config.php:1347
+msgid "Footer top colors"
+msgstr ""
+
+#: ../ts_config.php:1401
+msgid "Footer bottom"
+msgstr ""
+
+#: ../ts_config.php:1402
+msgid "Footer bottom colors"
+msgstr ""
+
+#: ../ts_config.php:1463 ../ts_config.php:1555 ../ts_config.php:2549
+#: ../ts_config.php:2773 ../ts_config.php:6320 ../ts_config.php:6651
+msgid "Box colors"
+msgstr ""
+
+#: ../ts_config.php:1471 ../ts_config.php:1563 ../ts_config.php:2209
+#: ../ts_config.php:2365 ../ts_config.php:2617 ../ts_config.php:6388
+msgid "Border left color"
+msgstr ""
+
+#: ../ts_config.php:1500 ../ts_config.php:1592
+msgid "Quote color"
+msgstr ""
+
+#: ../ts_config.php:1512 ../ts_config.php:1604
+msgid "Author name color"
+msgstr ""
+
+#: ../ts_config.php:1524 ../ts_config.php:1616
+msgid "Link color (default state)"
+msgstr ""
+
+#: ../ts_config.php:1649 ../ts_config.php:2796 ../ts_config.php:4076
+#: ../ts_config.php:4241 ../ts_config.php:6673 ../ts_config.php:6877
+#: ../ts_config.php:7582 ../ts_config.php:8738 ../ts_config.php:8887
+#: ../ts_config.php:10184 ../ts_config.php:10308 ../ts_config.php:11007
+#: ../ts_config.php:11066 ../ts_config.php:11127 ../ts_config.php:11186
+msgid "Header colors"
+msgstr ""
+
+#: ../ts_config.php:1669 ../ts_config.php:1749 ../ts_config.php:1834
+#: ../ts_config.php:1889 ../ts_config.php:1966 ../ts_config.php:2040
+#: ../ts_config.php:2726 ../ts_config.php:2909 ../ts_config.php:3045
+#: ../ts_config.php:3309 ../ts_config.php:3383 ../ts_config.php:3633
+#: ../ts_config.php:3897 ../ts_config.php:6797 ../ts_config.php:8835
+#: ../ts_config.php:8984 ../ts_config.php:10571 ../ts_config.php:10753
+#: ../ts_config.php:11026 ../ts_config.php:11085 ../ts_config.php:11146
+#: ../ts_config.php:11205 ../ts_config.php:11353 ../ts_config.php:11530
+#: ../ts_config.php:11659 ../ts_config.php:13286 ../ts_config.php:13373
+#: ../ts_config.php:13467 ../ts_config.php:13554
+msgid "Text color (hover state)"
+msgstr ""
+
+#: ../ts_config.php:1682 ../ts_config.php:3234 ../ts_config.php:6899
+#: ../ts_config.php:10205 ../ts_config.php:10329
+#: ../woocommerce/myaccount/my-orders.php:35
+msgid "Date"
+msgstr ""
+
+#: ../ts_config.php:1683 ../ts_config.php:3235 ../ts_config.php:6900
+#: ../ts_config.php:10206 ../ts_config.php:10330
+msgid "Date colors"
+msgstr ""
+
+#: ../ts_config.php:1706
+msgid "Post type icon"
+msgstr ""
+
+#: ../ts_config.php:1707
+msgid "Post type icon colors"
+msgstr ""
+
+#: ../ts_config.php:1728
+msgid "Post meta bar"
+msgstr ""
+
+#: ../ts_config.php:1729
+msgid "Post meta bar colors"
+msgstr ""
+
+#: ../ts_config.php:1760
+msgid "Bottom border color"
+msgstr ""
+
+#: ../ts_config.php:1781 ../ts_config.php:6921
+msgid "Excerpt"
+msgstr ""
+
+#: ../ts_config.php:1782 ../ts_config.php:6922
+msgid "Excerpt colors"
+msgstr ""
+
+#: ../ts_config.php:1803
+msgid "Button \"Continue reading\""
+msgstr ""
+
+#: ../ts_config.php:1804
+msgid "Button \"Continue reading\" colors"
+msgstr ""
+
+#: ../ts_config.php:1845 ../ts_config.php:1900 ../ts_config.php:2070
+#: ../ts_config.php:2753 ../ts_config.php:2920 ../ts_config.php:3057
+#: ../ts_config.php:3320 ../ts_config.php:3413 ../ts_config.php:3662
+#: ../ts_config.php:3926 ../ts_config.php:4991 ../ts_config.php:5558
+#: ../ts_config.php:5619 ../ts_config.php:5722 ../ts_config.php:6254
+#: ../ts_config.php:6824 ../ts_config.php:7694 ../ts_config.php:8846
+#: ../ts_config.php:8995 ../ts_config.php:10598 ../ts_config.php:10780
+#: ../ts_config.php:11420 ../ts_config.php:11577 ../ts_config.php:11694
+#: ../ts_config.php:13313 ../ts_config.php:13401 ../ts_config.php:13494
+#: ../ts_config.php:13582
+msgid "Background color (hover state)"
+msgstr ""
+
+#: ../ts_config.php:1858
+msgid "Button \"Leave a reply\""
+msgstr ""
+
+#: ../ts_config.php:1859
+msgid "Button \"Leave a reply\" colors"
+msgstr ""
+
+#: ../ts_config.php:1914 ../ts_config.php:3159 ../ts_config.php:4456
+#: ../ts_config.php:4482 ../ts_config.php:7708 ../ts_config.php:7878
+#: ../ts_config.php:8031 ../ts_config.php:8176 ../ts_config.php:8319
+msgid "Divider colors"
+msgstr ""
+
+#: ../ts_config.php:1935
+msgid "Post navigation"
+msgstr ""
+
+#: ../ts_config.php:1936
+msgid "Post navigation colors"
+msgstr ""
+
+#: ../ts_config.php:1955 ../ts_config.php:2010 ../ts_config.php:2464
+#: ../ts_config.php:2513 ../ts_config.php:2699 ../ts_config.php:2960
+#: ../ts_config.php:3167 ../ts_config.php:3353 ../ts_config.php:3497
+#: ../ts_config.php:3604 ../ts_config.php:3761 ../ts_config.php:3868
+#: ../ts_config.php:4023 ../ts_config.php:4061 ../ts_config.php:4188
+#: ../ts_config.php:4226 ../ts_config.php:4605 ../ts_config.php:4643
+#: ../ts_config.php:4775 ../ts_config.php:4813 ../ts_config.php:5983
+#: ../ts_config.php:6592 ../ts_config.php:6770 ../ts_config.php:6985
+#: ../ts_config.php:7052 ../ts_config.php:7091 ../ts_config.php:7134
+#: ../ts_config.php:7173 ../ts_config.php:7230 ../ts_config.php:7283
+#: ../ts_config.php:7347 ../ts_config.php:7415 ../ts_config.php:7468
+#: ../ts_config.php:7532 ../ts_config.php:7804 ../ts_config.php:7957
+#: ../ts_config.php:8112 ../ts_config.php:8255 ../ts_config.php:8527
+#: ../ts_config.php:8576 ../ts_config.php:8629 ../ts_config.php:8678
+#: ../ts_config.php:8757 ../ts_config.php:8807 ../ts_config.php:8906
+#: ../ts_config.php:8956 ../ts_config.php:9034 ../ts_config.php:9083
+#: ../ts_config.php:9136 ../ts_config.php:9185 ../ts_config.php:9241
+#: ../ts_config.php:9291 ../ts_config.php:9338 ../ts_config.php:9395
+#: ../ts_config.php:9444 ../ts_config.php:9490 ../ts_config.php:9553
+#: ../ts_config.php:9602 ../ts_config.php:9655 ../ts_config.php:9704
+#: ../ts_config.php:9760 ../ts_config.php:9809 ../ts_config.php:9862
+#: ../ts_config.php:9911 ../ts_config.php:10094 ../ts_config.php:10159
+#: ../ts_config.php:10225 ../ts_config.php:10263 ../ts_config.php:10349
+#: ../ts_config.php:10387 ../ts_config.php:10453 ../ts_config.php:10544
+#: ../ts_config.php:10635 ../ts_config.php:10726 ../ts_config.php:10819
+#: ../ts_config.php:10868 ../ts_config.php:10921 ../ts_config.php:10970
+#: ../ts_config.php:11286 ../ts_config.php:11483 ../ts_config.php:11624
+#: ../ts_config.php:11738 ../ts_config.php:11863 ../ts_config.php:12026
+#: ../ts_config.php:12138 ../ts_config.php:12190 ../ts_config.php:12462
+#: ../ts_config.php:12496 ../ts_config.php:12530 ../ts_config.php:12655
+#: ../ts_config.php:12707 ../ts_config.php:12759 ../ts_config.php:12806
+#: ../ts_config.php:12844 ../ts_config.php:13052 ../ts_config.php:13259
+#: ../ts_config.php:13346 ../ts_config.php:13440 ../ts_config.php:13527
+msgid "Border color"
+msgstr ""
+
+#: ../ts_config.php:1977 ../ts_config.php:2051 ../ts_config.php:2737
+#: ../ts_config.php:3394 ../ts_config.php:3645 ../ts_config.php:3909
+#: ../ts_config.php:4139 ../ts_config.php:4304 ../ts_config.php:4726
+#: ../ts_config.php:4896 ../ts_config.php:4947 ../ts_config.php:6208
+#: ../ts_config.php:6288 ../ts_config.php:6808 ../ts_config.php:7919
+#: ../ts_config.php:8072 ../ts_config.php:8217 ../ts_config.php:8360
+#: ../ts_config.php:10582 ../ts_config.php:10764 ../ts_config.php:11384
+#: ../ts_config.php:11551 ../ts_config.php:11674 ../ts_config.php:13297
+#: ../ts_config.php:13384 ../ts_config.php:13478 ../ts_config.php:13565
+msgid "Border color (hover state)"
+msgstr ""
+
+#: ../ts_config.php:1991 ../ts_config.php:3334 ../ts_config.php:4120
+#: ../ts_config.php:4285 ../ts_config.php:4707 ../ts_config.php:4877
+#: ../ts_config.php:7900 ../ts_config.php:8053 ../ts_config.php:8198
+#: ../ts_config.php:8341
+msgid "Pagination colors"
+msgstr ""
+
+#: ../ts_config.php:2081 ../ts_config.php:3424
+msgid "Text color (active state)"
+msgstr ""
+
+#: ../ts_config.php:2092 ../ts_config.php:3435
+msgid "Border color (active state)"
+msgstr ""
+
+#: ../ts_config.php:2111 ../ts_config.php:3454
+msgid "Background color (active state)"
+msgstr ""
+
+#: ../ts_config.php:2130 ../ts_config.php:2286
+msgid "Background"
+msgstr ""
+
+#: ../ts_config.php:2131 ../ts_config.php:2287
+msgid "Background colors"
+msgstr ""
+
+#: ../ts_config.php:2152 ../ts_config.php:2308
+msgid "Border"
+msgstr ""
+
+#: ../ts_config.php:2153 ../ts_config.php:2309
+msgid "Border colors"
+msgstr ""
+
+#: ../ts_config.php:2161 ../ts_config.php:2317 ../ts_config.php:2568
+#: ../ts_config.php:6339
+msgid "Border top color"
+msgstr ""
+
+#: ../ts_config.php:2177 ../ts_config.php:2333 ../ts_config.php:2584
+#: ../ts_config.php:6356
+msgid "Border right color"
+msgstr ""
+
+#: ../ts_config.php:2193 ../ts_config.php:2349 ../ts_config.php:2600
+#: ../ts_config.php:6372
+msgid "Border bottom color"
+msgstr ""
+
+#: ../ts_config.php:2236 ../ts_config.php:2392 ../ts_config.php:8139
+#: ../ts_config.php:8282
+msgid "Content text color"
+msgstr ""
+
+#: ../ts_config.php:2247 ../ts_config.php:2403 ../ts_config.php:6026
+#: ../ts_config.php:13079 ../template/admin/meta_box_header.php:16
+msgid "Header text color"
+msgstr ""
+
+#: ../ts_config.php:2258 ../ts_config.php:2414
+msgid "Link text color"
+msgstr ""
+
+#: ../ts_config.php:2269 ../ts_config.php:2425
+msgid "Link text color (hover state)"
+msgstr ""
+
+#: ../ts_config.php:2445 ../ts_config.php:7044 ../ts_config.php:7126
+msgid "Normal (default) state colors"
+msgstr ""
+
+#: ../ts_config.php:2494 ../ts_config.php:7083 ../ts_config.php:7165
+#: ../ts_config.php:9272 ../ts_config.php:9425
+msgid "Hover state colors"
+msgstr ""
+
+#: ../ts_config.php:2635 ../ts_config.php:6406
+msgid "First line"
+msgstr ""
+
+#: ../ts_config.php:2636 ../ts_config.php:6407
+msgid "First line colors"
+msgstr ""
+
+#: ../ts_config.php:2657 ../ts_config.php:6428
+msgid "Second line"
+msgstr ""
+
+#: ../ts_config.php:2658 ../ts_config.php:6429
+msgid "Second line colors"
+msgstr ""
+
+#: ../ts_config.php:2680 ../ts_config.php:2879 ../ts_config.php:3013
+#: ../ts_config.php:3584 ../ts_config.php:3848 ../ts_config.php:6751
+msgid "Button colors"
+msgstr ""
+
+#: ../ts_config.php:2804
+msgid "Class name text color"
+msgstr ""
+
+#: ../ts_config.php:2815
+msgid "Class label text color"
+msgstr ""
+
+#: ../ts_config.php:2828
+msgid "Attributes"
+msgstr ""
+
+#: ../ts_config.php:2829
+msgid "Attributes colors"
+msgstr ""
+
+#: ../ts_config.php:2837
+msgid "Attribute name text color"
+msgstr ""
+
+#: ../ts_config.php:2848
+msgid "Attribute value text color"
+msgstr ""
+
+#: ../ts_config.php:2859
+msgid "Separator color"
+msgstr ""
+
+#: ../ts_config.php:2939 ../ts_config.php:3473 ../ts_config.php:3737
+msgid "Fields"
+msgstr ""
+
+#: ../ts_config.php:2940 ../ts_config.php:3474 ../ts_config.php:3738
+msgid "Field colors"
+msgstr ""
+
+#: ../ts_config.php:2977
+msgid "Text color (focus state)"
+msgstr ""
+
+#: ../ts_config.php:2989
+msgid "Border color (focus state)"
+msgstr ""
+
+#: ../ts_config.php:3072 ../ts_config.php:3677 ../ts_config.php:3941
+msgid "Notice colors"
+msgstr ""
+
+#: ../ts_config.php:3080 ../ts_config.php:3685 ../ts_config.php:3949
+msgid "Text color - success notice"
+msgstr ""
+
+#: ../ts_config.php:3091 ../ts_config.php:3696 ../ts_config.php:3960
+msgid "Background color - success notice"
+msgstr ""
+
+#: ../ts_config.php:3103 ../ts_config.php:3708 ../ts_config.php:3972
+msgid "Text color - error notice"
+msgstr ""
+
+#: ../ts_config.php:3114 ../ts_config.php:3719 ../ts_config.php:3983
+msgid "Background color - error notice"
+msgstr ""
+
+#: ../ts_config.php:3128
+msgid "Notes"
+msgstr ""
+
+#: ../ts_config.php:3129
+msgid "Notes colors"
+msgstr ""
+
+#: ../ts_config.php:3188 ../ts_config.php:9947 ../ts_config.php:9998
+#: ../ts_config.php:10243 ../ts_config.php:10367
+msgid "Author"
+msgstr ""
+
+#: ../ts_config.php:3189 ../ts_config.php:9948 ../ts_config.php:9999
+#: ../ts_config.php:10244 ../ts_config.php:10368
+msgid "Author colors"
+msgstr ""
+
+#: ../ts_config.php:3211
+msgid "Author of parent comment"
+msgstr ""
+
+#: ../ts_config.php:3212
+msgid "Author of parent comment colors"
+msgstr ""
+
+#: ../ts_config.php:3256 ../ts_config.php:4097 ../ts_config.php:4262
+#: ../ts_config.php:4684 ../ts_config.php:4685 ../ts_config.php:4854
+#: ../ts_config.php:4855 ../ts_config.php:7831 ../ts_config.php:7984
+#: ../ts_config.php:10281 ../ts_config.php:10405
+msgid "Content"
+msgstr ""
+
+#: ../ts_config.php:3257 ../ts_config.php:4098 ../ts_config.php:4263
+#: ../ts_config.php:10282 ../ts_config.php:10406
+msgid "Content colors"
+msgstr ""
+
+#: ../ts_config.php:3278
+msgid "Reply button"
+msgstr ""
+
+#: ../ts_config.php:3279
+msgid "Reply button colors"
+msgstr ""
+
+#: ../ts_config.php:3530 ../ts_config.php:3794 ../ts_config.php:10480
+#: ../ts_config.php:10662 ../ts_config.php:11922 ../ts_config.php:12061
+msgid "Text color (on focus)"
+msgstr ""
+
+#: ../ts_config.php:3544 ../ts_config.php:3808 ../ts_config.php:10491
+#: ../ts_config.php:10673 ../ts_config.php:11945 ../ts_config.php:12076
+msgid "Border color (on focus)"
+msgstr ""
+
+#: ../ts_config.php:3567 ../ts_config.php:3831 ../ts_config.php:10511
+#: ../ts_config.php:10651 ../ts_config.php:10693 ../ts_config.php:11977
+#: ../ts_config.php:12100
+msgid "Background color (on focus)"
+msgstr ""
+
+#: ../ts_config.php:4003 ../ts_config.php:4168
+msgid "Text counter"
+msgstr ""
+
+#: ../ts_config.php:4004 ../ts_config.php:4169
+msgid "Text counter colors"
+msgstr ""
+
+#: ../ts_config.php:4052 ../ts_config.php:4217
+msgid "Graphic counter"
+msgstr ""
+
+#: ../ts_config.php:4053 ../ts_config.php:4218
+msgid "Graphic counter colors"
+msgstr ""
+
+#: ../ts_config.php:4128 ../ts_config.php:4293 ../ts_config.php:4715
+#: ../ts_config.php:4885 ../ts_config.php:4936 ../ts_config.php:6197
+#: ../ts_config.php:6277 ../ts_config.php:7908 ../ts_config.php:8061
+#: ../ts_config.php:8206 ../ts_config.php:8349
+msgid "Border color (normal state)"
+msgstr ""
+
+#: ../ts_config.php:4150 ../ts_config.php:4315 ../ts_config.php:4737
+#: ../ts_config.php:4907 ../ts_config.php:4958 ../ts_config.php:6219
+#: ../ts_config.php:6299 ../ts_config.php:7930 ../ts_config.php:8083
+#: ../ts_config.php:8228 ../ts_config.php:8371
+msgid "Border color (selected state)"
+msgstr ""
+
+#: ../ts_config.php:4336 ../ts_config.php:4395
+msgid "Counter list colors"
+msgstr ""
+
+#: ../ts_config.php:4344 ../ts_config.php:4403 ../ts_config.php:7743
+msgid "Label text color"
+msgstr ""
+
+#: ../ts_config.php:4355 ../ts_config.php:4414 ../ts_config.php:7754
+msgid "Value text color"
+msgstr ""
+
+#: ../ts_config.php:4366 ../ts_config.php:4425 ../ts_config.php:7765
+msgid "Progress bar foreground color"
+msgstr ""
+
+#: ../ts_config.php:4464 ../ts_config.php:4490
+msgid "Line color"
+msgstr ""
+
+#: ../ts_config.php:4518 ../ts_config.php:4555
+msgid "Text color of first letter"
+msgstr ""
+
+#: ../ts_config.php:4529 ../ts_config.php:4566
+msgid "Background color of first letter"
+msgstr ""
+
+#: ../ts_config.php:4585 ../ts_config.php:4755
+msgid "Icon of even elements"
+msgstr ""
+
+#: ../ts_config.php:4586 ../ts_config.php:4756
+msgid "Colors of icons for even elements"
+msgstr ""
+
+#: ../ts_config.php:4623 ../ts_config.php:4793
+msgid "Icon of odd elements"
+msgstr ""
+
+#: ../ts_config.php:4624 ../ts_config.php:4794
+msgid "Colors of icons for odd elements"
+msgstr ""
+
+#: ../ts_config.php:4927
+msgid "Control pagination"
+msgstr ""
+
+#: ../ts_config.php:4928
+msgid "Control pagination colors"
+msgstr ""
+
+#: ../ts_config.php:4971 ../ts_config.php:6233
+msgid "Direction pagination"
+msgstr ""
+
+#: ../ts_config.php:4972 ../ts_config.php:6234
+msgid "Direction pagination colors"
+msgstr ""
+
+#: ../ts_config.php:4980 ../ts_config.php:5547 ../ts_config.php:6242
+msgid "Background color (normal state)"
+msgstr ""
+
+#: ../ts_config.php:5010 ../ts_config.php:5011 ../ts_config.php:5246
+#: ../ts_config.php:5247 ../template/admin/admin.php:62
+msgid "Header H1"
+msgstr ""
+
+#: ../ts_config.php:5031 ../ts_config.php:5066 ../ts_config.php:5101
+#: ../ts_config.php:5136 ../ts_config.php:5171 ../ts_config.php:5206
+#: ../ts_config.php:5267 ../ts_config.php:5302 ../ts_config.php:5337
+#: ../ts_config.php:5372 ../ts_config.php:5407 ../ts_config.php:5442
+msgid "Text color for b (bold) markup"
+msgstr ""
+
+#: ../ts_config.php:5045 ../ts_config.php:5046 ../ts_config.php:5281
+#: ../ts_config.php:5282 ../template/admin/admin.php:63
+msgid "Header H2"
+msgstr ""
+
+#: ../ts_config.php:5080 ../ts_config.php:5081 ../ts_config.php:5316
+#: ../ts_config.php:5317 ../template/admin/admin.php:64
+msgid "Header H3"
+msgstr ""
+
+#: ../ts_config.php:5115 ../ts_config.php:5116 ../ts_config.php:5351
+#: ../ts_config.php:5352 ../template/admin/admin.php:65
+msgid "Header H4"
+msgstr ""
+
+#: ../ts_config.php:5150 ../ts_config.php:5151 ../ts_config.php:5386
+#: ../ts_config.php:5387 ../template/admin/admin.php:66
+msgid "Header H5"
+msgstr ""
+
+#: ../ts_config.php:5185 ../ts_config.php:5186 ../ts_config.php:5421
+#: ../ts_config.php:5422 ../template/admin/admin.php:67
+msgid "Header H6"
+msgstr ""
+
+#: ../ts_config.php:5220 ../ts_config.php:5456
+msgid "Header widget underline"
+msgstr ""
+
+#: ../ts_config.php:5221 ../ts_config.php:5457
+msgid "Header widget underline color"
+msgstr ""
+
+#: ../ts_config.php:5484 ../ts_config.php:5485 ../ts_config.php:5511
+#: ../template/admin/meta_box_header.php:94
+msgid "Subheader text color"
+msgstr ""
+
+#: ../ts_config.php:5510
+msgid "Subheader text"
+msgstr ""
+
+#: ../ts_config.php:5539
+msgid "Go to top colors"
+msgstr ""
+
+#: ../ts_config.php:5577 ../ts_config.php:5680
+msgid "Image hover icon"
+msgstr ""
+
+#: ../ts_config.php:5578 ../ts_config.php:5681
+msgid "Image hover icon colors"
+msgstr ""
+
+#: ../ts_config.php:5599 ../ts_config.php:5702
+msgid "Text box"
+msgstr ""
+
+#: ../ts_config.php:5600 ../ts_config.php:5703
+msgid "Text box under image"
+msgstr ""
+
+#: ../ts_config.php:5630 ../ts_config.php:5733
+msgid "Caption text color"
+msgstr ""
+
+#: ../ts_config.php:5641 ../ts_config.php:5744
+msgid "Caption text color (hover state)"
+msgstr ""
+
+#: ../ts_config.php:5652 ../ts_config.php:5755
+msgid "Description text color"
+msgstr ""
+
+#: ../ts_config.php:5663 ../ts_config.php:5766
+msgid "Description text color (hover state)"
+msgstr ""
+
+#: ../ts_config.php:5786
+msgid "Colors for entire box"
+msgstr ""
+
+#: ../ts_config.php:5807
+msgid "Menu first level"
+msgstr ""
+
+#: ../ts_config.php:5808
+msgid "Menu styles for first level"
+msgstr ""
+
+#: ../ts_config.php:5816 ../ts_config.php:5907 ../ts_config.php:6048
+msgid "Menu element text color"
+msgstr ""
+
+#: ../ts_config.php:5827 ../ts_config.php:5918 ../ts_config.php:6076
+msgid "Menu element background color"
+msgstr ""
+
+#: ../ts_config.php:5838 ../ts_config.php:5929 ../ts_config.php:6087
+msgid "Menu element text color (hover state)"
+msgstr ""
+
+#: ../ts_config.php:5849 ../ts_config.php:5940 ../ts_config.php:6115
+msgid "Menu element background color (hover state)"
+msgstr ""
+
+#: ../ts_config.php:5860 ../ts_config.php:5951 ../ts_config.php:6126
+msgid "Menu element text color (active state)"
+msgstr ""
+
+#: ../ts_config.php:5878 ../ts_config.php:5967 ../ts_config.php:6164
+msgid "Menu element background color (active state)"
+msgstr ""
+
+#: ../ts_config.php:5898
+msgid "Menu next levels"
+msgstr ""
+
+#: ../ts_config.php:5899
+msgid "Menu styles for next levels"
+msgstr ""
+
+#: ../ts_config.php:6017
+msgid "Mega menu"
+msgstr ""
+
+#: ../ts_config.php:6018
+msgid "Mega menu colors"
+msgstr ""
+
+#: ../ts_config.php:6039 ../template/admin/general_menu.php:11
+msgid "Responsive menu"
+msgstr ""
+
+#: ../ts_config.php:6040
+msgid "Responsive menu colors"
+msgstr ""
+
+#: ../ts_config.php:6059
+msgid "Menu element border color"
+msgstr ""
+
+#: ../ts_config.php:6098
+msgid "Menu element border color (hover state)"
+msgstr ""
+
+#: ../ts_config.php:6142
+msgid "Menu element border color (active state)"
+msgstr ""
+
+#: ../ts_config.php:6188
+msgid "Default pagination"
+msgstr ""
+
+#: ../ts_config.php:6189
+msgid "Default pagination colors"
+msgstr ""
+
+#: ../ts_config.php:6268
+msgid "Thumbail pagination"
+msgstr ""
+
+#: ../ts_config.php:6269
+msgid "Thumbail pagination colors"
+msgstr ""
+
+#: ../ts_config.php:6450 ../class/Walker_Nav_Menu.php:195
+msgid "Icon"
+msgstr ""
+
+#: ../ts_config.php:6451
+msgid "Icon colors"
+msgstr ""
+
+#: ../ts_config.php:6472
+msgid "Timeline"
+msgstr ""
+
+#: ../ts_config.php:6473
+msgid "Timeline colors"
+msgstr ""
+
+#: ../ts_config.php:6494 ../template/admin/plugin_fancybox_image.php:95
+#: ../template/admin/plugin_fancybox_video.php:75
+msgid "Close button"
+msgstr ""
+
+#: ../ts_config.php:6495
+msgid "Close button colors"
+msgstr ""
+
+#: ../ts_config.php:6523
+msgid "Page header colors"
+msgstr ""
+
+#: ../ts_config.php:6555
+msgid "Page subheader"
+msgstr ""
+
+#: ../ts_config.php:6556
+msgid "Page subheader colors"
+msgstr ""
+
+#: ../ts_config.php:6584
+msgid "Preformatted text colors"
+msgstr ""
+
+#: ../ts_config.php:6608
+msgid "Label color"
+msgstr ""
+
+#: ../ts_config.php:6619
+msgid "Label color (hover state)"
+msgstr ""
+
+#: ../ts_config.php:6694 ../ts_config.php:7625
+#: ../class/Walker_Nav_Menu.php:180
+msgid "Description"
+msgstr ""
+
+#: ../ts_config.php:6695 ../ts_config.php:7626
+msgid "Description colors"
+msgstr ""
+
+#: ../ts_config.php:6721
+msgid "Features"
+msgstr ""
+
+#: ../ts_config.php:6722
+msgid "Features colors"
+msgstr ""
+
+#: ../ts_config.php:6837
+msgid "Pricing box"
+msgstr ""
+
+#: ../ts_config.php:6838
+msgid "Pricing box colors"
+msgstr ""
+
+#: ../ts_config.php:6943
+msgid "Post meta box"
+msgstr ""
+
+#: ../ts_config.php:6944
+msgid "Post meta box colors"
+msgstr ""
+
+#: ../ts_config.php:7004
+msgid "Comment count box"
+msgstr ""
+
+#: ../ts_config.php:7005
+msgid "Comment count box colors (for \"Template 1\" only)"
+msgstr ""
+
+#: ../ts_config.php:7209 ../ts_config.php:7394
+msgid "Tab normal state"
+msgstr ""
+
+#: ../ts_config.php:7210 ../ts_config.php:7395
+msgid "Tab normal (default) state colors"
+msgstr ""
+
+#: ../ts_config.php:7262 ../ts_config.php:7447
+msgid "Tab hover state"
+msgstr ""
+
+#: ../ts_config.php:7263 ../ts_config.php:7448
+msgid "Tab hover state colors"
+msgstr ""
+
+#: ../ts_config.php:7302 ../ts_config.php:7366 ../ts_config.php:7487
+#: ../ts_config.php:7551
+msgid "Arrow color"
+msgstr ""
+
+#: ../ts_config.php:7326 ../ts_config.php:7511
+msgid "Tab active state"
+msgstr ""
+
+#: ../ts_config.php:7327 ../ts_config.php:7512
+msgid "Tab active state colors"
+msgstr ""
+
+#: ../ts_config.php:7603 ../template/admin/meta_box_header.php:87
+msgid "Subheader"
+msgstr ""
+
+#: ../ts_config.php:7604
+msgid "Subheader colors"
+msgstr ""
+
+#: ../ts_config.php:7647
+msgid "Quote box"
+msgstr ""
+
+#: ../ts_config.php:7648
+msgid "Quote box colors"
+msgstr ""
+
+#: ../ts_config.php:7675
+msgid "Social icons color"
+msgstr ""
+
+#: ../ts_config.php:7734
+msgid "Skill list"
+msgstr ""
+
+#: ../ts_config.php:7735
+msgid "Skill list colors"
+msgstr ""
+
+#: ../ts_config.php:7795 ../ts_config.php:7948 ../ts_config.php:8103
+#: ../ts_config.php:8246
+msgid "Circle color"
+msgstr ""
+
+#: ../ts_config.php:7796 ../ts_config.php:7949 ../ts_config.php:8104
+#: ../ts_config.php:8247
+msgid "Circle colors"
+msgstr ""
+
+#: ../ts_config.php:7823 ../ts_config.php:7976
+msgid "Text color of testimonials"
+msgstr ""
+
+#: ../ts_config.php:7842 ../ts_config.php:7995
+msgid "Author name"
+msgstr ""
+
+#: ../ts_config.php:7853 ../ts_config.php:8006
+msgid "Author position"
+msgstr ""
+
+#: ../ts_config.php:7864 ../ts_config.php:8017
+msgid "Author company"
+msgstr ""
+
+#: ../ts_config.php:7877 ../ts_config.php:8030 ../ts_config.php:8175
+#: ../ts_config.php:8318
+msgid "Divider color"
+msgstr ""
+
+#: ../ts_config.php:8131 ../ts_config.php:8274
+msgid "Text color of tweets"
+msgstr ""
+
+#: ../ts_config.php:8151 ../ts_config.php:8294
+msgid "Author text color"
+msgstr ""
+
+#: ../ts_config.php:8162 ../ts_config.php:8305
+msgid "Date text color"
+msgstr ""
+
+#: ../ts_config.php:8391
+msgid "Even lines"
+msgstr ""
+
+#: ../ts_config.php:8392
+msgid "Even lines colors"
+msgstr ""
+
+#: ../ts_config.php:8400 ../ts_config.php:8455
+msgid "Text color for column name in HEX"
+msgstr ""
+
+#: ../ts_config.php:8411 ../ts_config.php:8466
+msgid "Text color for column value in HEX"
+msgstr ""
+
+#: ../ts_config.php:8422 ../ts_config.php:8477
+msgid "Background color for column name in HEX"
+msgstr ""
+
+#: ../ts_config.php:8433 ../ts_config.php:8488
+msgid "Background color for column value in HEX"
+msgstr ""
+
+#: ../ts_config.php:8446
+msgid "Odd lines"
+msgstr ""
+
+#: ../ts_config.php:8447
+msgid "Odd lines colors"
+msgstr ""
+
+#: ../ts_config.php:8507 ../ts_config.php:8609 ../ts_config.php:9014
+#: ../ts_config.php:9116 ../ts_config.php:9221 ../ts_config.php:9375
+#: ../ts_config.php:9533 ../ts_config.php:9635 ../ts_config.php:9740
+#: ../ts_config.php:9842 ../ts_config.php:10799 ../ts_config.php:10901
+msgid "Default state"
+msgstr ""
+
+#: ../ts_config.php:8508 ../ts_config.php:8610 ../ts_config.php:9015
+#: ../ts_config.php:9117 ../ts_config.php:9222 ../ts_config.php:9376
+#: ../ts_config.php:9534 ../ts_config.php:9636 ../ts_config.php:9741
+#: ../ts_config.php:9843 ../ts_config.php:10800 ../ts_config.php:10902
+msgid "Default state colors"
+msgstr ""
+
+#: ../ts_config.php:8556 ../ts_config.php:8658 ../ts_config.php:9063
+#: ../ts_config.php:9165 ../ts_config.php:9582 ../ts_config.php:9684
+#: ../ts_config.php:9789 ../ts_config.php:9891 ../ts_config.php:10848
+#: ../ts_config.php:10950
+msgid "Hover and selected state"
+msgstr ""
+
+#: ../ts_config.php:8557 ../ts_config.php:8659 ../ts_config.php:9064
+#: ../ts_config.php:9166 ../ts_config.php:9583 ../ts_config.php:9685
+#: ../ts_config.php:9790 ../ts_config.php:9892 ../ts_config.php:10849
+#: ../ts_config.php:10951
+msgid "Hover and selected state colors"
+msgstr ""
+
+#: ../ts_config.php:8714 ../ts_config.php:8863
+msgid "Caption"
+msgstr ""
+
+#: ../ts_config.php:8715 ../ts_config.php:8864
+msgid "Caption colors"
+msgstr ""
+
+#: ../ts_config.php:8786 ../ts_config.php:8935
+msgid "Cells"
+msgstr ""
+
+#: ../ts_config.php:8787 ../ts_config.php:8936
+msgid "Cells colors"
+msgstr ""
+
+#: ../ts_config.php:9316 ../ts_config.php:9468
+msgid "Selected state"
+msgstr ""
+
+#: ../ts_config.php:9317 ../ts_config.php:9469
+msgid "Selected state colors"
+msgstr ""
+
+#: ../ts_config.php:9971 ../ts_config.php:10022
+msgid "Post"
+msgstr ""
+
+#: ../ts_config.php:9972 ../ts_config.php:10023
+msgid "Post colors"
+msgstr ""
+
+#: ../ts_config.php:10051 ../ts_config.php:10116
+msgid "Link"
+msgstr ""
+
+#: ../ts_config.php:10052 ../ts_config.php:10117
+msgid "Link colors"
+msgstr ""
+
+#: ../ts_config.php:10074 ../ts_config.php:10139
+msgid "Date box"
+msgstr ""
+
+#: ../ts_config.php:10075 ../ts_config.php:10140
+msgid "Date box colors"
+msgstr ""
+
+#: ../ts_config.php:10433 ../ts_config.php:10615
+msgid "Text field"
+msgstr ""
+
+#: ../ts_config.php:10434 ../ts_config.php:10616
+msgid "Text field colors"
+msgstr ""
+
+#: ../ts_config.php:10524 ../ts_config.php:10706
+msgid "Submit button"
+msgstr ""
+
+#: ../ts_config.php:10525 ../ts_config.php:10707
+msgid "Submit button colors"
+msgstr ""
+
+#: ../ts_config.php:11039 ../ts_config.php:11098 ../ts_config.php:11159
+#: ../ts_config.php:11218
+msgid "Meta box"
+msgstr ""
+
+#: ../ts_config.php:11040 ../ts_config.php:11099 ../ts_config.php:11160
+#: ../ts_config.php:11219
+msgid "Meta box colors"
+msgstr ""
+
+#: ../ts_config.php:11246
+msgid "Button I (default)"
+msgstr ""
+
+#: ../ts_config.php:11247
+msgid "Button I (default) colors"
+msgstr ""
+
+#: ../ts_config.php:11453
+msgid "Button I (footer)"
+msgstr ""
+
+#: ../ts_config.php:11454
+msgid "Button I (footer) colors"
+msgstr ""
+
+#: ../ts_config.php:11600
+msgid "Button II (default)"
+msgstr ""
+
+#: ../ts_config.php:11601
+msgid "Button II (default) colors"
+msgstr ""
+
+#: ../ts_config.php:11717
+msgid "Cart totals"
+msgstr ""
+
+#: ../ts_config.php:11718
+msgid "Cart totals colors"
+msgstr ""
+
+#: ../ts_config.php:11776
+msgid "Comments list colors"
+msgstr ""
+
+#: ../ts_config.php:11784
+msgid "Comment border color"
+msgstr ""
+
+#: ../ts_config.php:11808
+msgid "Label (default)"
+msgstr ""
+
+#: ../ts_config.php:11809
+msgid "Label (default) colors"
+msgstr ""
+
+#: ../ts_config.php:11831
+msgid "Fields (default)"
+msgstr ""
+
+#: ../ts_config.php:11832
+msgid "Fields (default) colors"
+msgstr ""
+
+#: ../ts_config.php:12002
+msgid "Fields (footer)"
+msgstr ""
+
+#: ../ts_config.php:12003
+msgid "Fields (footer) colors"
+msgstr ""
+
+#: ../ts_config.php:12117
+msgid "Select list (default)"
+msgstr ""
+
+#: ../ts_config.php:12118
+msgid "Select list (default) colors"
+msgstr ""
+
+#: ../ts_config.php:12169
+msgid "Select list (footer)"
+msgstr ""
+
+#: ../ts_config.php:12170
+msgid "Select list (footer) colors"
+msgstr ""
+
+#: ../ts_config.php:12221 ../woocommerce/cart/cart.php:29
+msgid "Quantity"
+msgstr ""
+
+#: ../ts_config.php:12222
+msgid "Quantity field colors"
+msgstr ""
+
+#: ../ts_config.php:12230
+msgid "Field text color"
+msgstr ""
+
+#: ../ts_config.php:12252
+msgid "Field border color"
+msgstr ""
+
+#: ../ts_config.php:12283
+msgid "Field background color"
+msgstr ""
+
+#: ../ts_config.php:12305
+msgid "Button text color (hover state)"
+msgstr ""
+
+#: ../ts_config.php:12323
+msgid "Button border color (hover state)"
+msgstr ""
+
+#: ../ts_config.php:12346
+msgid "Button background color (hover state)"
+msgstr ""
+
+#: ../ts_config.php:12366
+msgid "Dropdown list"
+msgstr ""
+
+#: ../ts_config.php:12367
+msgid "Dropdown list colors"
+msgstr ""
+
+#: ../ts_config.php:12375
+msgid "List text color"
+msgstr ""
+
+#: ../ts_config.php:12388
+msgid "List border color"
+msgstr ""
+
+#: ../ts_config.php:12409
+msgid "List background color"
+msgstr ""
+
+#: ../ts_config.php:12423
+msgid "List active element text color"
+msgstr ""
+
+#: ../ts_config.php:12434
+msgid "List active element background color"
+msgstr ""
+
+#: ../ts_config.php:12454
+msgid "Form coupon colors"
+msgstr ""
+
+#: ../ts_config.php:12487
+msgid "Login form"
+msgstr ""
+
+#: ../ts_config.php:12488
+msgid "Login form colors"
+msgstr ""
+
+#: ../ts_config.php:12521
+msgid "Reset password form"
+msgstr ""
+
+#: ../ts_config.php:12522
+msgid "Reset password form colors"
+msgstr ""
+
+#: ../ts_config.php:12555
+msgid "Order info"
+msgstr ""
+
+#: ../ts_config.php:12556
+msgid "Order info colors"
+msgstr ""
+
+#: ../ts_config.php:12595
+msgid "\"On sale\" badge colors"
+msgstr ""
+
+#: ../ts_config.php:12636
+msgid "Colors of links in normal state"
+msgstr ""
+
+#: ../ts_config.php:12688
+msgid "Colors of links in hover state"
+msgstr ""
+
+#: ../ts_config.php:12740
+msgid "Colors of links in active state"
+msgstr ""
+
+#: ../ts_config.php:12797
+msgid "Payments list"
+msgstr ""
+
+#: ../ts_config.php:12798
+msgid "Payments list colors"
+msgstr ""
+
+#: ../ts_config.php:12835
+msgid "Payment description"
+msgstr ""
+
+#: ../ts_config.php:12836
+msgid "Payment description colors"
+msgstr ""
+
+#: ../ts_config.php:12880 ../ts_config.php:12987 ../ts_config.php:13144
+#: ../ts_config.php:13240 ../ts_config.php:13421 ../ts_config.php:13602
+#: ../ts_config.php:13652
+msgid "Default colors"
+msgstr ""
+
+#: ../ts_config.php:12888 ../ts_config.php:12925
+msgid "Price text color"
+msgstr ""
+
+#: ../ts_config.php:12900 ../ts_config.php:12937
+msgid "Price striked text color"
+msgstr ""
+
+#: ../ts_config.php:12917 ../ts_config.php:13015 ../ts_config.php:13189
+#: ../ts_config.php:13327 ../ts_config.php:13508 ../ts_config.php:13624
+#: ../ts_config.php:13696
+msgid "Footer colors"
+msgstr ""
+
+#: ../ts_config.php:12957
+msgid "Result count"
+msgstr ""
+
+#: ../ts_config.php:12958
+msgid "Result count colors"
+msgstr ""
+
+#: ../ts_config.php:12995 ../ts_config.php:13023
+msgid "Star color"
+msgstr ""
+
+#: ../ts_config.php:13044
+msgid "Table colors"
+msgstr ""
+
+#: ../ts_config.php:13093 ../template/admin/meta_box_header.php:23
+msgid "Header background color"
+msgstr ""
+
+#: ../ts_config.php:13107
+msgid "Cell text color"
+msgstr ""
+
+#: ../ts_config.php:13121
+msgid "Cell background color"
+msgstr ""
+
+#: ../ts_config.php:13152 ../ts_config.php:13197
+msgid "Slider primary color"
+msgstr ""
+
+#: ../ts_config.php:13164 ../ts_config.php:13209
+msgid "Slider secondary color"
+msgstr ""
+
+#: ../ts_config.php:13175 ../ts_config.php:13220
+msgid "Price range text color"
+msgstr ""
+
+#: ../ts_config.php:13610 ../ts_config.php:13632
+msgid "Reviewer name color"
+msgstr ""
+
+#: ../ts_config.php:13660 ../ts_config.php:13704
+msgid "Quantity text color"
+msgstr ""
+
+#: ../ts_config.php:13671 ../ts_config.php:13715
+msgid "Underline border color"
+msgstr ""
+
+#: ../ts_config.php:13682 ../ts_config.php:13726
+msgid "Subtotal text color"
+msgstr ""
+
+#: ../ts_config.php:13745
+msgid "Caption box"
+msgstr ""
+
+#: ../ts_config.php:13746
+msgid "Caption box colors"
+msgstr ""
+
+#: ../class/Theme.Background.class.php:14
+msgid "Image will not be repeated"
+msgstr ""
+
+#: ../class/Theme.Background.class.php:15
+msgid "Image will be repeated only vertically"
+msgstr ""
+
+#: ../class/Theme.Background.class.php:16
+msgid "Image will be repeated only horizontally"
+msgstr ""
+
+#: ../class/Theme.Background.class.php:17
+msgid "Image will be repeated both vertically and horizontally"
+msgstr ""
+
+#: ../class/Theme.Background.class.php:18
+msgid "Property should be inherited from the parent element"
+msgstr ""
+
+#: ../class/Theme.Background.class.php:23
+msgid "Auto"
+msgstr ""
+
+#: ../class/Theme.Background.class.php:24
+msgid "Length"
+msgstr ""
+
+#: ../class/Theme.Background.class.php:25
+msgid "Percentage"
+msgstr ""
+
+#: ../class/Theme.Background.class.php:26
+msgid "Cover"
+msgstr ""
+
+#: ../class/Theme.Background.class.php:27
+msgid "Contain"
+msgstr ""
+
+#: ../class/Theme.Background.class.php:28
+msgid "Initial"
+msgstr ""
+
+#: ../class/Theme.Background.class.php:29
+msgid "Inherit"
+msgstr ""
+
+#: ../class/Theme.Blog.class.php:14
+msgid "Post ID"
+msgstr ""
+
+#: ../class/Theme.Blog.class.php:15
+msgid "Post date"
+msgstr ""
+
+#: ../class/Theme.Blog.class.php:16
+msgid "Post title"
+msgstr ""
+
+#: ../class/Theme.Blog.class.php:21
+msgid "Ascending"
+msgstr ""
+
+#: ../class/Theme.Blog.class.php:22
+msgid "Descending"
+msgstr ""
+
+#: ../class/Theme.class.php:617 ../template/admin/admin.php:14
+msgid "Theme Options"
+msgstr ""
+
+#: ../class/Theme.class.php:629
+msgid "General options"
+msgstr ""
+
+#: ../class/Theme.class.php:630
+msgid "Header options"
+msgstr ""
+
+#: ../class/Theme.class.php:930
+msgid "Invalid value"
+msgstr ""
+
+#: ../class/Theme.class.php:1267
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:229
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../class/Theme.class.php:1268
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:230
+msgid "Install Plugins"
+msgstr ""
+
+#: ../class/Theme.class.php:1269
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:231
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../class/Theme.class.php:1270
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../class/Theme.class.php:1281
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:243
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../class/Theme.class.php:1282
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:245
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:2167
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../class/Theme.class.php:1283
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../class/Theme.class.php:1538
+#, php-format
+msgid ""
+"<b>You use old PHP version (%s) which is not compatible with at least one "
+"plugin provided to use in this theme. <u>It is highly recommended, to update "
+"PHP to version (at least) 5.3 before activating plugins.</u></b>"
+msgstr ""
+
+#: ../class/Theme.class.php:1553
+#, php-format
+msgid ""
+"<b>File %s cannot be created. Please make sure that this location is "
+"writable.</b>"
+msgstr ""
+
+#: ../class/Theme.Comment.class.php:47
+msgid "Please enter your name."
+msgstr ""
+
+#: ../class/Theme.Comment.class.php:53
+msgid "Please enter valid e-mail address."
+msgstr ""
+
+#: ../class/Theme.Comment.class.php:59
+msgid "Please enter valid URL address."
+msgstr ""
+
+#: ../class/Theme.Comment.class.php:66
+msgid "Please enter your message."
+msgstr ""
+
+#: ../class/Theme.Comment.class.php:128
+msgid "Your comment has been added."
+msgstr ""
+
+#: ../class/Theme.Comment.class.php:133
+msgid "Your comment could not be added."
+msgstr ""
+
+#: ../class/Theme.Comment.class.php:187
+#, php-format
+msgid " %1$s at %2$s"
+msgstr ""
+
+#: ../class/Theme.Comment.class.php:191
+msgid "Reply"
+msgstr ""
+
+#: ../class/Theme.Comment.class.php:246
+msgid "Read More"
+msgstr ""
+
+#: ../class/Theme.Comment.class.php:246
+msgid "Read Less"
+msgstr ""
+
+#: ../class/Theme.CSS.class.php:14 ../class/Theme.Layout.class.php:18
+msgid "100"
+msgstr ""
+
+#: ../class/Theme.CSS.class.php:15
+msgid "200"
+msgstr ""
+
+#: ../class/Theme.CSS.class.php:16
+msgid "300"
+msgstr ""
+
+#: ../class/Theme.CSS.class.php:17
+msgid "400"
+msgstr ""
+
+#: ../class/Theme.CSS.class.php:18
+msgid "500"
+msgstr ""
+
+#: ../class/Theme.CSS.class.php:19
+msgid "600"
+msgstr ""
+
+#: ../class/Theme.CSS.class.php:20
+msgid "700"
+msgstr ""
+
+#: ../class/Theme.CSS.class.php:21
+msgid "800"
+msgstr ""
+
+#: ../class/Theme.CSS.class.php:22
+msgid "900"
+msgstr ""
+
+#: ../class/Theme.CSS.class.php:23
+msgid "bold"
+msgstr ""
+
+#: ../class/Theme.CSS.class.php:24
+msgid "bolder"
+msgstr ""
+
+#: ../class/Theme.CSS.class.php:25 ../class/Theme.CSS.class.php:32
+msgid "inherit"
+msgstr ""
+
+#: ../class/Theme.CSS.class.php:26
+msgid "lighter"
+msgstr ""
+
+#: ../class/Theme.CSS.class.php:27 ../class/Theme.CSS.class.php:34
+msgid "normal"
+msgstr ""
+
+#: ../class/Theme.CSS.class.php:33
+msgid "italic"
+msgstr ""
+
+#: ../class/Theme.CSS.class.php:35
+msgid "oblique"
+msgstr ""
+
+#: ../class/Theme.Easing.class.php:14
+msgid "easeInQuad"
+msgstr ""
+
+#: ../class/Theme.Easing.class.php:15
+msgid "easeOutQuad"
+msgstr ""
+
+#: ../class/Theme.Easing.class.php:16
+msgid "easeInOutQuad"
+msgstr ""
+
+#: ../class/Theme.Easing.class.php:17
+msgid "easeInCubic"
+msgstr ""
+
+#: ../class/Theme.Easing.class.php:18
+msgid "easeOutCubic"
+msgstr ""
+
+#: ../class/Theme.Easing.class.php:19
+msgid "easeInOutCubic"
+msgstr ""
+
+#: ../class/Theme.Easing.class.php:20
+msgid "easeInQuart"
+msgstr ""
+
+#: ../class/Theme.Easing.class.php:21
+msgid "easeOutQuart"
+msgstr ""
+
+#: ../class/Theme.Easing.class.php:22 ../class/Theme.Easing.class.php:23
+msgid "easeInOutQuart"
+msgstr ""
+
+#: ../class/Theme.Easing.class.php:24
+msgid "easeInQuint"
+msgstr ""
+
+#: ../class/Theme.Easing.class.php:25
+msgid "easeOutQuint"
+msgstr ""
+
+#: ../class/Theme.Easing.class.php:26
+msgid "easeInOutQuint"
+msgstr ""
+
+#: ../class/Theme.Easing.class.php:27
+msgid "easeInSine"
+msgstr ""
+
+#: ../class/Theme.Easing.class.php:28
+msgid "easeOutSine"
+msgstr ""
+
+#: ../class/Theme.Easing.class.php:29
+msgid "easeInOutSine"
+msgstr ""
+
+#: ../class/Theme.Easing.class.php:30
+msgid "easeInExpo"
+msgstr ""
+
+#: ../class/Theme.Easing.class.php:31
+msgid "easeOutExpo"
+msgstr ""
+
+#: ../class/Theme.Easing.class.php:32
+msgid "easeInOutExpo"
+msgstr ""
+
+#: ../class/Theme.Easing.class.php:33
+msgid "easeInCirc"
+msgstr ""
+
+#: ../class/Theme.Easing.class.php:34
+msgid "easeOutCirc"
+msgstr ""
+
+#: ../class/Theme.Easing.class.php:35
+msgid "easeInOutCirc"
+msgstr ""
+
+#: ../class/Theme.Easing.class.php:36
+msgid "easeInElastic"
+msgstr ""
+
+#: ../class/Theme.Easing.class.php:37
+msgid "easeOutElastic"
+msgstr ""
+
+#: ../class/Theme.Easing.class.php:38
+msgid "easeInOutElastic"
+msgstr ""
+
+#: ../class/Theme.Easing.class.php:39
+msgid "easeInBack"
+msgstr ""
+
+#: ../class/Theme.Easing.class.php:40
+msgid "easeOutBack"
+msgstr ""
+
+#: ../class/Theme.Easing.class.php:41
+msgid "easeInOutBack"
+msgstr ""
+
+#: ../class/Theme.Easing.class.php:42
+msgid "easeInBounce"
+msgstr ""
+
+#: ../class/Theme.Easing.class.php:43
+msgid "easeOutBounce"
+msgstr ""
+
+#: ../class/Theme.Easing.class.php:44
+msgid "easeInOutBounce"
+msgstr ""
+
+#: ../class/Theme.Fancybox.class.php:14
+msgid "Elastic"
+msgstr ""
+
+#: ../class/Theme.Fancybox.class.php:15
+msgid "Fade"
+msgstr ""
+
+#: ../class/Theme.Fancybox.class.php:16
+msgid "None"
+msgstr ""
+
+#: ../class/Theme.Helper.class.php:231 ../class/Theme.Helper.class.php:269
+#: ../class/Theme.Menu.class.php:23 ../class/Theme.WidgetArea.class.php:14
+#: ../class/Walker_Nav_Menu.php:198
+msgid "[None]"
+msgstr ""
+
+#: ../class/Theme.Helper.class.php:232 ../class/Theme.Helper.class.php:270
+msgid "[Select]"
+msgstr ""
+
+#: ../class/Theme.Helper.class.php:233 ../class/Theme.Helper.class.php:271
+msgid "[Use default settings]"
+msgstr ""
+
+#: ../class/Theme.Image.class.php:14
+msgid "Blog - 100% (1050x630)"
+msgstr ""
+
+#: ../class/Theme.Image.class.php:15
+msgid "Blog - 50% (525x315)"
+msgstr ""
+
+#: ../class/Theme.Image.class.php:16
+msgid "Blog - Sidebar (690x414)"
+msgstr ""
+
+#: ../class/Theme.Image.class.php:17
+msgid "Gallery - 100% (1050x770)"
+msgstr ""
+
+#: ../class/Theme.Image.class.php:18
+msgid "Gallery - Sidebar (690x506)"
+msgstr ""
+
+#: ../class/Theme.Image.class.php:19
+msgid "Gallery - 50% (525x385)"
+msgstr ""
+
+#: ../class/Theme.Image.class.php:20
+msgid "Team (525x560)"
+msgstr ""
+
+#: ../class/Theme.Layout.class.php:17
+msgid "Layout 100%"
+msgstr ""
+
+#: ../class/Theme.Layout.class.php:24
+msgid "Layout 50x50%"
+msgstr ""
+
+#: ../class/Theme.Layout.class.php:25
+msgid "50x50"
+msgstr ""
+
+#: ../class/Theme.Layout.class.php:31
+msgid "Layout 33x33x33%"
+msgstr ""
+
+#: ../class/Theme.Layout.class.php:32
+msgid "33x33x33"
+msgstr ""
+
+#: ../class/Theme.Layout.class.php:38
+msgid "Layout 33x66%"
+msgstr ""
+
+#: ../class/Theme.Layout.class.php:39
+msgid "33x66"
+msgstr ""
+
+#: ../class/Theme.Layout.class.php:45
+msgid "Layout 66x33%"
+msgstr ""
+
+#: ../class/Theme.Layout.class.php:46
+msgid "66x33"
+msgstr ""
+
+#: ../class/Theme.Layout.class.php:52
+msgid "Layout 25x25x25x25%"
+msgstr ""
+
+#: ../class/Theme.Layout.class.php:53
+msgid "25x25x25x25"
+msgstr ""
+
+#: ../class/Theme.Layout.class.php:59
+msgid "Layout 25x75%"
+msgstr ""
+
+#: ../class/Theme.Layout.class.php:60
+msgid "25x75"
+msgstr ""
+
+#: ../class/Theme.Layout.class.php:66
+msgid "Layout 75x25%"
+msgstr ""
+
+#: ../class/Theme.Layout.class.php:67
+msgid "75x25"
+msgstr ""
+
+#: ../class/Theme.Menu.class.php:24 ../template/admin/general_footer.php:66
+#: ../template/admin/meta_box_header.php:45
+#: ../template/admin/meta_box_header.php:67
+msgid "[Use global settings]"
+msgstr ""
+
+#: ../class/Theme.Menu.class.php:25
+msgid "[Left unchaged]"
+msgstr ""
+
+#: ../class/Theme.Notice.class.php:47
+msgid "Changes can not be saved."
+msgstr ""
+
+#: ../class/Theme.Notice.class.php:51 ../woocommerce/notices/success.php:25
+msgid "Success"
+msgstr ""
+
+#: ../class/Theme.Notice.class.php:52
+msgid "All changes have been saved."
+msgstr ""
+
+#: ../class/Theme.Page.class.php:19
+msgid "Page options"
+msgstr ""
+
+#: ../class/Theme.Post.class.php:15
+msgid "Post with featured image"
+msgstr ""
+
+#: ../class/Theme.Post.class.php:16
+msgid "Post with image slider"
+msgstr ""
+
+#: ../class/Theme.Post.class.php:17
+msgid "Post with audio"
+msgstr ""
+
+#: ../class/Theme.Post.class.php:18
+msgid "Post with video"
+msgstr ""
+
+#: ../class/Theme.Post.class.php:19
+msgid "Post with quote"
+msgstr ""
+
+#: ../class/Theme.Post.class.php:27
+msgid "Post options"
+msgstr ""
+
+#: ../class/Theme.Post.class.php:82
+#, php-format
+msgid "Search products for phrase <i>%s</i>"
+msgstr ""
+
+#: ../class/Theme.Post.class.php:101
+#, php-format
+msgid "All posts from %s"
+msgstr ""
+
+#: ../class/Theme.Post.class.php:122
+#, php-format
+msgid "Search result for phrase <i>%s</i>"
+msgstr ""
+
+#: ../class/Theme.Post.class.php:188
+#, php-format
+msgid "View all posts marked as \"%s\""
+msgstr ""
+
+#: ../class/Theme.Post.class.php:220
+#, php-format
+msgid "View all posts filed under \"%s\""
+msgstr ""
+
+#: ../class/Theme.Widget.PostMostComment.class.php:12
+#, php-format
+msgid "(%s theme) Most commented"
+msgstr ""
+
+#: ../class/Theme.Widget.PostMostComment.class.php:12
+msgid "Displays most commented posts."
+msgstr ""
+
+#: ../class/Theme.Widget.PostRecent.class.php:12
+#, php-format
+msgid "(%s theme) Recent posts"
+msgstr ""
+
+#: ../class/Theme.Widget.PostRecent.class.php:12
+msgid "Displays latest posts."
+msgstr ""
+
+#: ../class/Theme.WidgetArea.class.php:15
+msgid "Left sidebar"
+msgstr ""
+
+#: ../class/Theme.WidgetArea.class.php:16
+msgid "Right sidebar"
+msgstr ""
+
+#: ../class/Theme.WidgetArea.class.php:31
+msgid "Widget Area"
+msgstr ""
+
+#: ../class/Theme.WidgetArea.class.php:32
+#: ../class/Theme.WidgetArea.class.php:43
+msgid "Widgets Areas"
+msgstr ""
+
+#: ../class/Theme.WidgetArea.class.php:33
+msgid "Add New"
+msgstr ""
+
+#: ../class/Theme.WidgetArea.class.php:34
+msgid "Add New Widget Area"
+msgstr ""
+
+#: ../class/Theme.WidgetArea.class.php:35
+msgid "Edit Widget Area"
+msgstr ""
+
+#: ../class/Theme.WidgetArea.class.php:36
+msgid "New Widget Area"
+msgstr ""
+
+#: ../class/Theme.WidgetArea.class.php:37
+msgid "All Widgets Areas"
+msgstr ""
+
+#: ../class/Theme.WidgetArea.class.php:38
+msgid "View Widget Area"
+msgstr ""
+
+#: ../class/Theme.WidgetArea.class.php:39
+msgid "Search Widgets Areas"
+msgstr ""
+
+#: ../class/Theme.WidgetArea.class.php:40
+msgid "No Widgets Areas Found"
+msgstr ""
+
+#: ../class/Theme.WidgetArea.class.php:41
+msgid "No Widgets Areas Found in Trash"
+msgstr ""
+
+#: ../class/Theme.WidgetArea.class.php:62
+#: ../template/admin/widget_post_most_comment.php:2
+#: ../template/admin/widget_post_recent.php:2
+msgid "Title"
+msgstr ""
+
+#: ../class/Theme.WidgetArea.class.php:87
+msgid "Options"
+msgstr ""
+
+#: ../class/Theme.Window.class.php:15
+msgid "Open page in the same frame"
+msgstr ""
+
+#: ../class/Theme.Window.class.php:16
+msgid "Open page in a new window"
+msgstr ""
+
+#: ../class/Walker_Nav_Menu.php:85
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: ../class/Walker_Nav_Menu.php:89
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: ../class/Walker_Nav_Menu.php:102
+msgid "sub item"
+msgstr ""
+
+#: ../class/Walker_Nav_Menu.php:117
+msgid "Move up"
+msgstr ""
+
+#: ../class/Walker_Nav_Menu.php:130
+msgid "Move down"
+msgstr ""
+
+#: ../class/Walker_Nav_Menu.php:132 ../class/Walker_Nav_Menu.php:134
+msgid "Edit Menu Item"
+msgstr ""
+
+#: ../class/Walker_Nav_Menu.php:143
+msgid "URL"
+msgstr ""
+
+#: ../class/Walker_Nav_Menu.php:150
+msgid "Navigation Label"
+msgstr ""
+
+#: ../class/Walker_Nav_Menu.php:156
+msgid "Title Attribute"
+msgstr ""
+
+#: ../class/Walker_Nav_Menu.php:163
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: ../class/Walker_Nav_Menu.php:168
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: ../class/Walker_Nav_Menu.php:174
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: ../class/Walker_Nav_Menu.php:182
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: ../class/Walker_Nav_Menu.php:208
+msgid "Enable Mega Menu"
+msgstr ""
+
+#: ../class/Walker_Nav_Menu.php:213
+msgid "Layout"
+msgstr ""
+
+#: ../class/Walker_Nav_Menu.php:236
+msgid "Move"
+msgstr ""
+
+#: ../class/Walker_Nav_Menu.php:237
+msgid "Up one"
+msgstr ""
+
+#: ../class/Walker_Nav_Menu.php:238
+msgid "Down one"
+msgstr ""
+
+#: ../class/Walker_Nav_Menu.php:241
+msgid "To the top"
+msgstr ""
+
+#: ../class/Walker_Nav_Menu.php:248
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: ../class/Walker_Nav_Menu.php:261
+msgid "Remove"
+msgstr ""
+
+#: ../class/Walker_Nav_Menu.php:262 ../woocommerce/myaccount/my-orders.php:77
+msgid "Cancel"
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:232
+msgid "Something went wrong."
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:244
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:246
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:247
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:248
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:593
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:2390
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:686
+msgid ""
+"The remote plugin package is does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:686
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:690
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:690
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:1332
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:1506
+msgid "Private Repository"
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:1336
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:1510
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:1341
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:1344
+msgid "Required"
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:1344
+msgid "Recommended"
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:1347
+msgid "Not Installed"
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:1350
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:1531
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\">Return to the Dashboard</"
+"a>"
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:1547
+msgid "Plugin"
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:1548
+msgid "Source"
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:1549
+msgid "Type"
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:1550
+#: ../woocommerce/myaccount/my-orders.php:36
+msgid "Status"
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:1568
+msgid "Install"
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:1569
+msgid "Activate"
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:1680
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:1801
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:2150
+msgid "Install package not available."
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:2151
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:2152
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:2153
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:2154
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:2155
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:2166
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:2289
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:2290
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:2294
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:2295
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:2295
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:2302
+msgid "Show Details"
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:2295
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:2302
+msgid "Hide Details"
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:2296
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:2297
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:2301
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:2302
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:2303
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../library/tgm_plugin_activation/class-tgm-plugin-activation.php:2304
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../template/admin/admin.php:42
+msgid "General settings"
+msgstr ""
+
+#: ../template/admin/admin.php:44
+msgid "Main"
+msgstr ""
+
+#: ../template/admin/admin.php:46
+msgid "Posts"
+msgstr ""
+
+#: ../template/admin/admin.php:47
+msgid "Pages"
+msgstr ""
+
+#: ../template/admin/admin.php:50 ../template/admin/general_favicon.php:3
+msgid "Favicon"
+msgstr ""
+
+#: ../template/admin/admin.php:52
+msgid "Custom JS code"
+msgstr ""
+
+#: ../template/admin/admin.php:53
+msgid "Content copying"
+msgstr ""
+
+#: ../template/admin/admin.php:54
+msgid "Go to top of page"
+msgstr ""
+
+#: ../template/admin/admin.php:55
+#: ../template/admin/general_responsive_mode.php:3
+msgid "Responsive mode"
+msgstr ""
+
+#: ../template/admin/admin.php:59
+msgid "Fonts settings"
+msgstr ""
+
+#: ../template/admin/admin.php:61
+msgid "Base font"
+msgstr ""
+
+#: ../template/admin/admin.php:68
+msgid "Google Fonts settings"
+msgstr ""
+
+#: ../template/admin/admin.php:72
+msgid "Plugins settings"
+msgstr ""
+
+#: ../template/admin/admin.php:75
+#: ../template/admin/plugin_maintenance_mode.php:3
+msgid "Maintenance mode"
+msgstr ""
+
+#: ../template/admin/admin.php:76
+msgid "Fancybox for videos"
+msgstr ""
+
+#: ../template/admin/admin.php:77
+msgid "Fancybox for images"
+msgstr ""
+
+#: ../template/admin/admin.php:81
+msgid "Custom CSS"
+msgstr ""
+
+#: ../template/admin/admin.php:148
+#: ../woocommerce/myaccount/form-edit-account.php:58
+msgid "Save changes"
+msgstr ""
+
+#: ../template/admin/custom_css.php:3
+msgid "Default CSS styles"
+msgstr ""
+
+#: ../template/admin/custom_css.php:4
+msgid "Default CSS styles."
+msgstr ""
+
+#: ../template/admin/custom_css.php:15 ../template/admin/custom_css.php:16
+#, php-format
+msgid "CSS styles for page width between %s px and %s px."
+msgstr ""
+
+#: ../template/admin/font_base.php:3 ../template/admin/font_header_h1.php:3
+#: ../template/admin/font_header_h2.php:3
+#: ../template/admin/font_header_h3.php:3
+#: ../template/admin/font_header_h4.php:3
+#: ../template/admin/font_header_h5.php:3
+#: ../template/admin/font_header_h6.php:3
+msgid "Google Font"
+msgstr ""
+
+#: ../template/admin/font_base.php:4 ../template/admin/font_header_h1.php:4
+#: ../template/admin/font_header_h2.php:4
+#: ../template/admin/font_header_h3.php:4
+#: ../template/admin/font_header_h4.php:4
+#: ../template/admin/font_header_h5.php:4
+#: ../template/admin/font_header_h6.php:4
+msgid "Enter name of Google Font and select it from list."
+msgstr ""
+
+#: ../template/admin/font_base.php:10 ../template/admin/font_header_h1.php:10
+#: ../template/admin/font_header_h2.php:10
+#: ../template/admin/font_header_h3.php:10
+#: ../template/admin/font_header_h4.php:10
+#: ../template/admin/font_header_h5.php:10
+#: ../template/admin/font_header_h6.php:10
+msgid "System font"
+msgstr ""
+
+#: ../template/admin/font_base.php:11 ../template/admin/font_header_h1.php:11
+#: ../template/admin/font_header_h2.php:11
+#: ../template/admin/font_header_h3.php:11
+#: ../template/admin/font_header_h4.php:11
+#: ../template/admin/font_header_h5.php:11
+#: ../template/admin/font_header_h6.php:11
+msgid "Enter name of system font."
+msgstr ""
+
+#: ../template/admin/font_base.php:17 ../template/admin/font_header_h1.php:17
+#: ../template/admin/font_header_h2.php:17
+#: ../template/admin/font_header_h3.php:17
+#: ../template/admin/font_header_h4.php:17
+#: ../template/admin/font_header_h5.php:17
+#: ../template/admin/font_header_h6.php:17
+msgid "Font size"
+msgstr ""
+
+#: ../template/admin/font_base.php:18 ../template/admin/font_header_h1.php:18
+#: ../template/admin/font_header_h2.php:18
+#: ../template/admin/font_header_h3.php:18
+#: ../template/admin/font_header_h4.php:18
+#: ../template/admin/font_header_h5.php:18
+#: ../template/admin/font_header_h6.php:18
+msgid "Font size (in px)."
+msgstr ""
+
+#: ../template/admin/font_base.php:22 ../template/admin/font_header_h1.php:22
+#: ../template/admin/font_header_h2.php:22
+#: ../template/admin/font_header_h3.php:22
+#: ../template/admin/font_header_h4.php:22
+#: ../template/admin/font_header_h5.php:22
+#: ../template/admin/font_header_h6.php:22
+msgid "Default font size."
+msgstr ""
+
+#: ../template/admin/font_base.php:39 ../template/admin/font_header_h1.php:39
+#: ../template/admin/font_header_h2.php:39
+#: ../template/admin/font_header_h3.php:39
+#: ../template/admin/font_header_h4.php:39
+#: ../template/admin/font_header_h5.php:39
+#: ../template/admin/font_header_h6.php:39
+#, php-format
+msgid "For page width between %dpx and %dpx."
+msgstr ""
+
+#: ../template/admin/font_base.php:53 ../template/admin/font_header_h1.php:53
+#: ../template/admin/font_header_h2.php:53
+#: ../template/admin/font_header_h3.php:53
+#: ../template/admin/font_header_h4.php:53
+#: ../template/admin/font_header_h5.php:53
+#: ../template/admin/font_header_h6.php:53
+msgid "Font style"
+msgstr ""
+
+#: ../template/admin/font_base.php:54 ../template/admin/font_header_h1.php:54
+#: ../template/admin/font_header_h2.php:54
+#: ../template/admin/font_header_h3.php:54
+#: ../template/admin/font_header_h4.php:54
+#: ../template/admin/font_header_h5.php:54
+#: ../template/admin/font_header_h6.php:54
+msgid "Font style."
+msgstr ""
+
+#: ../template/admin/font_base.php:65 ../template/admin/font_header_h1.php:65
+#: ../template/admin/font_header_h2.php:65
+#: ../template/admin/font_header_h3.php:65
+#: ../template/admin/font_header_h4.php:65
+#: ../template/admin/font_header_h5.php:65
+#: ../template/admin/font_header_h6.php:65
+msgid "Font weight"
+msgstr ""
+
+#: ../template/admin/font_base.php:66 ../template/admin/font_header_h1.php:66
+#: ../template/admin/font_header_h2.php:66
+#: ../template/admin/font_header_h3.php:66
+#: ../template/admin/font_header_h4.php:66
+#: ../template/admin/font_header_h5.php:66
+#: ../template/admin/font_header_h6.php:66
+msgid "Font weight."
+msgstr ""
+
+#: ../template/admin/font_base.php:77 ../template/admin/font_header_h1.php:77
+#: ../template/admin/font_header_h2.php:77
+#: ../template/admin/font_header_h3.php:77
+#: ../template/admin/font_header_h4.php:77
+#: ../template/admin/font_header_h5.php:77
+#: ../template/admin/font_header_h6.php:77
+msgid "Line height"
+msgstr ""
+
+#: ../template/admin/font_base.php:78 ../template/admin/font_header_h1.php:78
+#: ../template/admin/font_header_h2.php:78
+#: ../template/admin/font_header_h3.php:78
+#: ../template/admin/font_header_h4.php:78
+#: ../template/admin/font_header_h5.php:78
+#: ../template/admin/font_header_h6.php:78
+msgid "Line height with selected unit."
+msgstr ""
+
+#: ../template/admin/font_google_font_setting.php:3
+msgid "Import Google fonts"
+msgstr ""
+
+#: ../template/admin/font_google_font_setting.php:5
+msgid "Click to refresh list of Google fonts."
+msgstr ""
+
+#: ../template/admin/font_google_font_setting.php:6
+#, php-format
+msgid ""
+"These data are updated automatically every %s days. Use this option only "
+"when fonts aren't visible in theme."
+msgstr ""
+
+#: ../template/admin/font_google_font_setting.php:8
+msgid "Import"
+msgstr ""
+
+#: ../template/admin/general_blog.php:3
+msgid "Blog category page"
+msgstr ""
+
+#: ../template/admin/general_blog.php:4
+msgid "Get settings for category page from selected page."
+msgstr ""
+
+#: ../template/admin/general_blog.php:15
+msgid "Blog archive page"
+msgstr ""
+
+#: ../template/admin/general_blog.php:16
+msgid "Get settings for archive page from selected page."
+msgstr ""
+
+#: ../template/admin/general_blog.php:27
+msgid "Blog search page"
+msgstr ""
+
+#: ../template/admin/general_blog.php:28
+msgid "Get settings for search page from selected page."
+msgstr ""
+
+#: ../template/admin/general_blog.php:39
+msgid "Blog author page"
+msgstr ""
+
+#: ../template/admin/general_blog.php:40
+msgid "Get settings for author page from selected page."
+msgstr ""
+
+#: ../template/admin/general_blog.php:51
+msgid "Post sorting"
+msgstr ""
+
+#: ../template/admin/general_blog.php:52
+msgid "Set post sorting in blog pages."
+msgstr ""
+
+#: ../template/admin/general_blog.php:71
+#: ../template/admin/general_comment_list.php:3
+msgid "Automatic excerpt length"
+msgstr ""
+
+#: ../template/admin/general_blog.php:72
+#: ../template/admin/general_comment_list.php:4
+msgid "Number of words in automatic excerpt."
+msgstr ""
+
+#: ../template/admin/general_content_copying.php:3
+msgid "Right click"
+msgstr ""
+
+#: ../template/admin/general_content_copying.php:4
+msgid "Enable or disable right click."
+msgstr ""
+
+#: ../template/admin/general_content_copying.php:7
+#: ../template/admin/general_content_copying.php:17
+#: ../template/admin/general_footer.php:7
+#: ../template/admin/general_footer.php:17
+#: ../template/admin/general_footer.php:27
+#: ../template/admin/general_footer.php:90
+#: ../template/admin/general_go_top_top.php:7
+#: ../template/admin/general_go_top_top.php:24
+#: ../template/admin/general_main.php:53 ../template/admin/general_menu.php:32
+#: ../template/admin/general_menu.php:42 ../template/admin/general_menu.php:52
+#: ../template/admin/general_menu.php:83
+#: ../template/admin/general_responsive_mode.php:7
+#: ../template/admin/meta_box_general.php:58
+#: ../template/admin/meta_box_header.php:8
+#: ../template/admin/plugin_fancybox_image.php:49
+#: ../template/admin/plugin_fancybox_image.php:59
+#: ../template/admin/plugin_fancybox_image.php:69
+#: ../template/admin/plugin_fancybox_image.php:79
+#: ../template/admin/plugin_fancybox_image.php:89
+#: ../template/admin/plugin_fancybox_image.php:99
+#: ../template/admin/plugin_fancybox_image.php:109
+#: ../template/admin/plugin_fancybox_image.php:119
+#: ../template/admin/plugin_fancybox_image.php:129
+#: ../template/admin/plugin_fancybox_image.php:139
+#: ../template/admin/plugin_fancybox_image.php:149
+#: ../template/admin/plugin_fancybox_video.php:49
+#: ../template/admin/plugin_fancybox_video.php:59
+#: ../template/admin/plugin_fancybox_video.php:69
+#: ../template/admin/plugin_fancybox_video.php:79
+#: ../template/admin/plugin_maintenance_mode.php:7
+msgid "Enable"
+msgstr ""
+
+#: ../template/admin/general_content_copying.php:9
+#: ../template/admin/general_content_copying.php:19
+#: ../template/admin/general_footer.php:9
+#: ../template/admin/general_footer.php:19
+#: ../template/admin/general_footer.php:29
+#: ../template/admin/general_footer.php:92
+#: ../template/admin/general_go_top_top.php:9
+#: ../template/admin/general_go_top_top.php:26
+#: ../template/admin/general_main.php:55 ../template/admin/general_menu.php:34
+#: ../template/admin/general_menu.php:44 ../template/admin/general_menu.php:54
+#: ../template/admin/general_menu.php:85
+#: ../template/admin/general_responsive_mode.php:9
+#: ../template/admin/meta_box_general.php:60
+#: ../template/admin/meta_box_header.php:10
+#: ../template/admin/plugin_fancybox_image.php:51
+#: ../template/admin/plugin_fancybox_image.php:61
+#: ../template/admin/plugin_fancybox_image.php:71
+#: ../template/admin/plugin_fancybox_image.php:81
+#: ../template/admin/plugin_fancybox_image.php:91
+#: ../template/admin/plugin_fancybox_image.php:101
+#: ../template/admin/plugin_fancybox_image.php:111
+#: ../template/admin/plugin_fancybox_image.php:121
+#: ../template/admin/plugin_fancybox_image.php:131
+#: ../template/admin/plugin_fancybox_image.php:141
+#: ../template/admin/plugin_fancybox_image.php:151
+#: ../template/admin/plugin_fancybox_video.php:51
+#: ../template/admin/plugin_fancybox_video.php:61
+#: ../template/admin/plugin_fancybox_video.php:71
+#: ../template/admin/plugin_fancybox_video.php:81
+#: ../template/admin/plugin_maintenance_mode.php:9
+msgid "Disable"
+msgstr ""
+
+#: ../template/admin/general_content_copying.php:13
+msgid "Text selection"
+msgstr ""
+
+#: ../template/admin/general_content_copying.php:14
+msgid "Enable or disable text selection."
+msgstr ""
+
+#: ../template/admin/general_custom_js_code.php:3
+msgid "Custom javascript code"
+msgstr ""
+
+#: ../template/admin/general_custom_js_code.php:4
+msgid "Don't enter <script> tags. These tags will be added automatically."
+msgstr ""
+
+#: ../template/admin/general_favicon.php:4
+msgid "Enter URL of favicon."
+msgstr ""
+
+#: ../template/admin/general_favicon.php:7
+#: ../template/admin/general_footer.php:37
+#: ../template/admin/general_main.php:63 ../template/admin/general_menu.php:7
+#: ../template/admin/meta_box_header.php:37
+msgid "Browse"
+msgstr ""
+
+#: ../template/admin/general_footer.php:3
+msgid "Enable footer"
+msgstr ""
+
+#: ../template/admin/general_footer.php:4
+msgid "Enable or disable footer."
+msgstr ""
+
+#: ../template/admin/general_footer.php:13
+msgid "Enable sticky footer"
+msgstr ""
+
+#: ../template/admin/general_footer.php:14
+msgid "Enable or disable sticky footer."
+msgstr ""
+
+#: ../template/admin/general_footer.php:23
+msgid "Enable top footer"
+msgstr ""
+
+#: ../template/admin/general_footer.php:24
+msgid "Enable or disable top footer (widget area)."
+msgstr ""
+
+#: ../template/admin/general_footer.php:33
+msgid "Top footer background image"
+msgstr ""
+
+#: ../template/admin/general_footer.php:34
+msgid "Select background image."
+msgstr ""
+
+#: ../template/admin/general_footer.php:41
+msgid "Top footer background image repeat"
+msgstr ""
+
+#: ../template/admin/general_footer.php:42
+msgid "Background image repeat."
+msgstr ""
+
+#: ../template/admin/general_footer.php:53
+msgid "Top footer background image position"
+msgstr ""
+
+#: ../template/admin/general_footer.php:54
+msgid "Background image position."
+msgstr ""
+
+#: ../template/admin/general_footer.php:60
+#: ../template/admin/general_footer.php:75
+msgid "Top footer background image size"
+msgstr ""
+
+#: ../template/admin/general_footer.php:62
+#: ../template/admin/general_main.php:88
+#: ../template/admin/meta_box_header.php:63
+msgid ""
+"Specify the image size. For options \"Length\" and \"Percentage\" you have "
+"to specify these values in next field."
+msgstr ""
+
+#: ../template/admin/general_footer.php:77
+#: ../template/admin/general_main.php:102
+#: ../template/admin/meta_box_header.php:78
+msgid "Sets the width and height of the background image."
+msgstr ""
+
+#: ../template/admin/general_footer.php:78
+#: ../template/admin/general_main.php:103
+#: ../template/admin/meta_box_header.php:79
+msgid ""
+"Sets the width and height of the background image in percent of the parent "
+"element."
+msgstr ""
+
+#: ../template/admin/general_footer.php:79
+#: ../template/admin/general_main.php:104
+#: ../template/admin/meta_box_header.php:80
+msgid ""
+"The first value sets the width, the second value sets the height. If only "
+"one value is given, the second is set to \"auto\"."
+msgstr ""
+
+#: ../template/admin/general_footer.php:86
+msgid "Enable bottom footer"
+msgstr ""
+
+#: ../template/admin/general_footer.php:87
+#: ../template/admin/meta_box_general.php:55
+msgid "Enable or disable bottom part of footer."
+msgstr ""
+
+#: ../template/admin/general_footer.php:96
+msgid "Bottom footer content"
+msgstr ""
+
+#: ../template/admin/general_footer.php:97
+msgid "Bottom footer content."
+msgstr ""
+
+#: ../template/admin/general_go_top_top.php:3
+msgid "Enable \"Go to page top\""
+msgstr ""
+
+#: ../template/admin/general_go_top_top.php:4
+msgid "Enable or disable hash \"Go to page top\"."
+msgstr ""
+
+#: ../template/admin/general_go_top_top.php:13
+#: ../template/admin/general_go_top_top.php:14
+msgid "Hash"
+msgstr ""
+
+#: ../template/admin/general_go_top_top.php:20
+msgid "Animation"
+msgstr ""
+
+#: ../template/admin/general_go_top_top.php:21
+msgid "Enable or disable animation during scrolling."
+msgstr ""
+
+#: ../template/admin/general_go_top_top.php:30
+msgid "Duration"
+msgstr ""
+
+#: ../template/admin/general_go_top_top.php:31
+msgid "Duration of animation in miliseconds"
+msgstr ""
+
+#: ../template/admin/general_go_top_top.php:37
+#: ../template/admin/plugin_fancybox_image.php:202
+msgid "Easing"
+msgstr ""
+
+#: ../template/admin/general_go_top_top.php:38
+msgid "Easing method of animation."
+msgstr ""
+
+#: ../template/admin/general_main.php:3
+#: ../template/admin/plugin_woocommerce.php:3
+msgid "Widget area in sidebar"
+msgstr ""
+
+#: ../template/admin/general_main.php:4
+#: ../template/admin/plugin_woocommerce.php:4
+msgid "Select widget area and widget area location."
+msgstr ""
+
+#: ../template/admin/general_main.php:6
+#: ../template/admin/plugin_woocommerce.php:6
+msgid "Widget area:"
+msgstr ""
+
+#: ../template/admin/general_main.php:15
+#: ../template/admin/meta_box_general.php:20
+#: ../template/admin/plugin_woocommerce.php:15
+msgid "Location:"
+msgstr ""
+
+#: ../template/admin/general_main.php:25
+#: ../template/admin/meta_box_general.php:30
+#: ../template/admin/plugin_woocommerce.php:25
+msgid "Widget area in footer"
+msgstr ""
+
+#: ../template/admin/general_main.php:26
+#: ../template/admin/meta_box_general.php:31
+#: ../template/admin/plugin_woocommerce.php:26
+msgid "Select widget area in footer."
+msgstr ""
+
+#: ../template/admin/general_main.php:37
+#: ../template/admin/meta_box_general.php:42
+#: ../template/admin/plugin_woocommerce.php:37
+msgid "Top menu"
+msgstr ""
+
+#: ../template/admin/general_main.php:38
+#: ../template/admin/meta_box_general.php:43
+#: ../template/admin/plugin_woocommerce.php:38
+msgid "Select top menu."
+msgstr ""
+
+#: ../template/admin/general_main.php:49
+#: ../template/admin/meta_box_header.php:4
+msgid "Enable header"
+msgstr ""
+
+#: ../template/admin/general_main.php:50
+#: ../template/admin/meta_box_header.php:5
+msgid "Enable or disable header visibility."
+msgstr ""
+
+#: ../template/admin/general_main.php:59
+#: ../template/admin/meta_box_header.php:30
+msgid "Header background image"
+msgstr ""
+
+#: ../template/admin/general_main.php:60
+msgid "Select header background image."
+msgstr ""
+
+#: ../template/admin/general_main.php:67
+#: ../template/admin/meta_box_header.php:41
+msgid "Header background image repeat"
+msgstr ""
+
+#: ../template/admin/general_main.php:68
+#: ../template/admin/meta_box_header.php:42
+msgid "Header background image repeat."
+msgstr ""
+
+#: ../template/admin/general_main.php:79
+#: ../template/admin/meta_box_header.php:54
+msgid "Header background image position"
+msgstr ""
+
+#: ../template/admin/general_main.php:80
+#: ../template/admin/meta_box_header.php:55
+msgid "Header background image position."
+msgstr ""
+
+#: ../template/admin/general_main.php:86
+#: ../template/admin/general_main.php:100
+msgid "Background image size"
+msgstr ""
+
+#: ../template/admin/general_menu.php:3
+msgid "Logo"
+msgstr ""
+
+#: ../template/admin/general_menu.php:4
+msgid "Enter URL of image"
+msgstr ""
+
+#: ../template/admin/general_menu.php:12
+msgid "Enable responsive menu when screen width (in px) is less than selected."
+msgstr ""
+
+#: ../template/admin/general_menu.php:28
+msgid "Sticky menu"
+msgstr ""
+
+#: ../template/admin/general_menu.php:29
+msgid "Enable or disable sticky menu."
+msgstr ""
+
+#: ../template/admin/general_menu.php:38
+msgid "Sticky menu hide"
+msgstr ""
+
+#: ../template/admin/general_menu.php:39
+msgid "Hide menu when page is scrolled."
+msgstr ""
+
+#: ../template/admin/general_menu.php:48
+msgid "Menu animation"
+msgstr ""
+
+#: ../template/admin/general_menu.php:49
+msgid "Enable or disable menu animation."
+msgstr ""
+
+#: ../template/admin/general_menu.php:58
+msgid "Menu opening speed"
+msgstr ""
+
+#: ../template/admin/general_menu.php:59
+msgid "Speed of the opening animation in miliseconds"
+msgstr ""
+
+#: ../template/admin/general_menu.php:65
+msgid "Menu closing speed"
+msgstr ""
+
+#: ../template/admin/general_menu.php:66
+msgid "Speed of the closing animation in miliseconds"
+msgstr ""
+
+#: ../template/admin/general_menu.php:72
+msgid "Menu delay"
+msgstr ""
+
+#: ../template/admin/general_menu.php:73
+msgid ""
+"The delay in milliseconds that the mouse can remain outside a submenu "
+"without it closing."
+msgstr ""
+
+#: ../template/admin/general_menu.php:79
+msgid "Scrolling animation"
+msgstr ""
+
+#: ../template/admin/general_menu.php:80
+msgid ""
+"Enable or disable animation during page scrolling (after clicking on menu "
+"item)."
+msgstr ""
+
+#: ../template/admin/general_menu.php:89
+msgid "Scrolling speed"
+msgstr ""
+
+#: ../template/admin/general_menu.php:90
+msgid "Speed of the scrolling in miliseconds."
+msgstr ""
+
+#: ../template/admin/general_menu.php:96
+msgid "Scrolling easing"
+msgstr ""
+
+#: ../template/admin/general_menu.php:97
+msgid "Type of easing for scrolling animation."
+msgstr ""
+
+#: ../template/admin/general_page.php:3
+msgid "404 error page"
+msgstr ""
+
+#: ../template/admin/general_page.php:4
+msgid "Get settings for 404 page from selected page."
+msgstr ""
+
+#: ../template/admin/general_post.php:3
+msgid "Show post categories"
+msgstr ""
+
+#: ../template/admin/general_post.php:4
+msgid "Show post categories."
+msgstr ""
+
+#: ../template/admin/general_post.php:7 ../template/admin/general_post.php:17
+#: ../template/admin/general_post.php:27 ../template/admin/general_post.php:37
+#: ../template/admin/general_post.php:47
+#: ../template/admin/meta_box_post.php:27
+#: ../template/admin/meta_box_post.php:39
+#: ../template/admin/meta_box_post.php:51
+#: ../template/admin/meta_box_post.php:63
+#: ../template/admin/meta_box_post.php:75
+msgid "Yes"
+msgstr ""
+
+#: ../template/admin/general_post.php:9 ../template/admin/general_post.php:19
+#: ../template/admin/general_post.php:29 ../template/admin/general_post.php:39
+#: ../template/admin/general_post.php:49
+#: ../template/admin/meta_box_post.php:29
+#: ../template/admin/meta_box_post.php:41
+#: ../template/admin/meta_box_post.php:53
+#: ../template/admin/meta_box_post.php:65
+#: ../template/admin/meta_box_post.php:77
+msgid "No"
+msgstr ""
+
+#: ../template/admin/general_post.php:13
+msgid "Show post author"
+msgstr ""
+
+#: ../template/admin/general_post.php:14
+msgid "Show post author."
+msgstr ""
+
+#: ../template/admin/general_post.php:23
+msgid "Show post tags"
+msgstr ""
+
+#: ../template/admin/general_post.php:24
+msgid "Show post tags."
+msgstr ""
+
+#: ../template/admin/general_post.php:33
+msgid "Show post comment count"
+msgstr ""
+
+#: ../template/admin/general_post.php:34
+msgid "Show post comment count."
+msgstr ""
+
+#: ../template/admin/general_post.php:43
+#: ../template/admin/meta_box_post.php:71
+msgid "Show post navigation"
+msgstr ""
+
+#: ../template/admin/general_post.php:44
+#: ../template/admin/meta_box_post.php:72
+msgid "Show previous/next post navigation."
+msgstr ""
+
+#: ../template/admin/general_responsive_mode.php:4
+msgid "Enable or disable responsive mode."
+msgstr ""
+
+#: ../template/admin/meta_box_general.php:5
+msgid "Sidebar"
+msgstr ""
+
+#: ../template/admin/meta_box_general.php:7
+msgid "Select sidebar and sidebar location."
+msgstr ""
+
+#: ../template/admin/meta_box_general.php:8
+msgid ""
+"You can choose sidebar only for templates named \"Page\" and \"Blog\". Other "
+"templates don't support sidebars."
+msgstr ""
+
+#: ../template/admin/meta_box_general.php:11
+msgid "Sidebar:"
+msgstr ""
+
+#: ../template/admin/meta_box_general.php:54
+msgid "Bottom footer"
+msgstr ""
+
+#: ../template/admin/meta_box_general.php:62
+#: ../template/admin/meta_box_header.php:12
+#: ../template/admin/meta_box_post.php:31
+#: ../template/admin/meta_box_post.php:43
+#: ../template/admin/meta_box_post.php:55
+#: ../template/admin/meta_box_post.php:67
+#: ../template/admin/meta_box_post.php:79
+msgid "Use global settings"
+msgstr ""
+
+#: ../template/admin/meta_box_general.php:66
+msgid "Page background color"
+msgstr ""
+
+#: ../template/admin/meta_box_general.php:67
+msgid "Page background color in HEX."
+msgstr ""
+
+#: ../template/admin/meta_box_header.php:17
+msgid "Header text color in HEX."
+msgstr ""
+
+#: ../template/admin/meta_box_header.php:24
+msgid "Header background color in HEX."
+msgstr ""
+
+#: ../template/admin/meta_box_header.php:32
+msgid "Header background image."
+msgstr ""
+
+#: ../template/admin/meta_box_header.php:33
+msgid ""
+"To disable background image (previously set up in Theme Options) simply "
+"enter \"-1\" or \"none\"."
+msgstr ""
+
+#: ../template/admin/meta_box_header.php:61
+#: ../template/admin/meta_box_header.php:76
+msgid "Header background image size"
+msgstr ""
+
+#: ../template/admin/meta_box_header.php:88
+msgid "Subheader text."
+msgstr ""
+
+#: ../template/admin/meta_box_header.php:95
+msgid "Subheader text color in HEX."
+msgstr ""
+
+#: ../template/admin/meta_box_page.php:4
+msgid "Restrict displaying posts only from selected categories"
+msgstr ""
+
+#: ../template/admin/meta_box_page.php:6
+msgid "Select blog categories from which posts have to be displayed."
+msgstr ""
+
+#: ../template/admin/meta_box_page.php:7
+msgid "This option is available only for blog pages."
+msgstr ""
+
+#: ../template/admin/meta_box_post.php:4
+msgid "Post type"
+msgstr ""
+
+#: ../template/admin/meta_box_post.php:5
+msgid ""
+"Select one of the available posts types and enter additional details about "
+"it (if needed)."
+msgstr ""
+
+#: ../template/admin/meta_box_post.php:16
+msgid "Preambule"
+msgstr ""
+
+#: ../template/admin/meta_box_post.php:17
+msgid ""
+"Enter preambule (the top part of the post, e.g: video, audio, image slider "
+"etc.) of the post. You can use shortcodes in this field."
+msgstr ""
+
+#: ../template/admin/meta_box_post.php:23
+msgid "Show categories"
+msgstr ""
+
+#: ../template/admin/meta_box_post.php:24
+msgid "Show categories."
+msgstr ""
+
+#: ../template/admin/meta_box_post.php:35
+msgid "Show author"
+msgstr ""
+
+#: ../template/admin/meta_box_post.php:36
+msgid "Show author."
+msgstr ""
+
+#: ../template/admin/meta_box_post.php:47
+msgid "Show tags"
+msgstr ""
+
+#: ../template/admin/meta_box_post.php:48
+msgid "Show tags."
+msgstr ""
+
+#: ../template/admin/meta_box_post.php:59
+msgid "Show comments count"
+msgstr ""
+
+#: ../template/admin/meta_box_post.php:60
+msgid "Show comments count."
+msgstr ""
+
+#: ../template/admin/meta_box_widget_area.php:5
+msgid "Footer layout"
+msgstr ""
+
+#: ../template/admin/meta_box_widget_area.php:6
+msgid ""
+"Select layout of widgets in footer. This option works only if this widget "
+"area is selected as sidebar in footer."
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:3
+#: ../template/admin/plugin_fancybox_video.php:3
+msgid "Padding"
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:4
+#: ../template/admin/plugin_fancybox_video.php:4
+msgid "Space between FancyBox wrapper and content (in px)."
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:10
+#: ../template/admin/plugin_fancybox_video.php:10
+msgid "Margin"
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:11
+#: ../template/admin/plugin_fancybox_video.php:11
+msgid "Space between viewport and FancyBox wrapper (in px)."
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:17
+#: ../template/admin/plugin_fancybox_video.php:17
+msgid "Minimum width"
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:18
+#: ../template/admin/plugin_fancybox_video.php:18
+msgid "Minimum width fancyBox should be allowed to resize to\t(in px)."
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:24
+#: ../template/admin/plugin_fancybox_video.php:24
+msgid "Minimum height"
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:25
+#: ../template/admin/plugin_fancybox_video.php:25
+msgid "Minimum height fancyBox should be allowed to resize to (in px)."
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:31
+#: ../template/admin/plugin_fancybox_video.php:31
+msgid "Maximum width"
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:32
+#: ../template/admin/plugin_fancybox_video.php:32
+msgid "Maximum width fancyBox should be allowed to resize to\t(in px)."
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:38
+#: ../template/admin/plugin_fancybox_video.php:38
+msgid "Maximum height"
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:39
+#: ../template/admin/plugin_fancybox_video.php:39
+msgid "Maximum height fancyBox should be allowed to resize to (in px)."
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:46
+msgid "When enabled, helper buttons will appear over the image."
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:55
+#: ../template/admin/plugin_fancybox_video.php:45
+msgid "Auto resize"
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:56
+#: ../template/admin/plugin_fancybox_video.php:46
+msgid "When enabled, the content will be resized after window resize event."
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:65
+#: ../template/admin/plugin_fancybox_video.php:55
+msgid "Auto center"
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:66
+#: ../template/admin/plugin_fancybox_video.php:56
+msgid "When enabled, the content will always be centered."
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:75
+#: ../template/admin/plugin_fancybox_video.php:65
+msgid "Fit to view"
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:76
+#: ../template/admin/plugin_fancybox_video.php:66
+msgid ""
+"When enabled, fancyBox is resized to fit inside viewport before opening."
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:85
+msgid "Arrows"
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:86
+msgid "When enabled, navigation arrows will be displayed."
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:96
+#: ../template/admin/plugin_fancybox_video.php:76
+msgid "When enabled, close button will be displayed."
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:105
+msgid "Close on content click"
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:106
+msgid "When enabled, fancyBox will be closed when user clicks the content."
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:115
+msgid "Next click"
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:116
+msgid ""
+"When enabled, will navigate to next gallery item when user clicks the "
+"content."
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:125
+msgid "Mouse wheel"
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:126
+msgid ""
+"When enabled, you will be able to navigate gallery using the mouse wheel."
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:135
+msgid "Auto play"
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:136
+msgid ""
+"When enabled, slideshow will start after opening the first gallery item."
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:145
+msgid "Loop"
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:146
+msgid ""
+"When enabled, enables cyclic navigation. This means, if you click 'next' "
+"after you reach the last element, first element will be displayed (and vice "
+"versa)."
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:155
+msgid "Play speed"
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:156
+msgid "Slideshow speed (in ms)."
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:162
+msgid "Transition"
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:163
+msgid "Select transition type."
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:165
+#: ../template/admin/plugin_fancybox_image.php:205
+#: ../template/admin/plugin_fancybox_image.php:245
+msgid "Open:"
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:174
+#: ../template/admin/plugin_fancybox_image.php:214
+#: ../template/admin/plugin_fancybox_image.php:249
+msgid "Close:"
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:183
+#: ../template/admin/plugin_fancybox_image.php:223
+#: ../template/admin/plugin_fancybox_image.php:253
+msgid "Next:"
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:192
+#: ../template/admin/plugin_fancybox_image.php:232
+#: ../template/admin/plugin_fancybox_image.php:257
+msgid "Previous:"
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:203
+msgid "Easing method for each transition type."
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:242
+msgid "Speed"
+msgstr ""
+
+#: ../template/admin/plugin_fancybox_image.php:243
+msgid "The time it takes (in ms) to complete transition."
+msgstr ""
+
+#: ../template/admin/plugin_maintenance_mode.php:4
+msgid "Enable or disable maintenance mode."
+msgstr ""
+
+#: ../template/admin/plugin_maintenance_mode.php:13
+msgid "Splash page"
+msgstr ""
+
+#: ../template/admin/plugin_maintenance_mode.php:14
+msgid "Get settings for splash page from selected page."
+msgstr ""
+
+#: ../template/admin/plugin_maintenance_mode.php:25
+msgid "Disable maintenance mode for users"
+msgstr ""
+
+#: ../template/admin/plugin_maintenance_mode.php:26
+msgid "Allow to visit page (in normal mode) selected users:"
+msgstr ""
+
+#: ../template/admin/plugin_maintenance_mode.php:42
+msgid "Disable maintenance mode for IP addreses"
+msgstr ""
+
+#: ../template/admin/plugin_maintenance_mode.php:43
+msgid ""
+"Allow to visit page (in normal mode) visitors from selected (seperated by "
+"line break) IP addresses:"
+msgstr ""
+
+#: ../template/admin/widget_post_most_comment.php:6
+#: ../template/admin/widget_post_recent.php:6
+msgid "Total number of posts to show"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:23
+msgid "Reviews"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:44
+msgid "There are no reviews yet."
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:57
+msgid "Add a review"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:57
+msgid "Be the first to review"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:58
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:67
+msgid "Submit"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:73
+msgid "Your Rating"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:74
+msgid "Rate&hellip;"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:75
+msgid "Perfect"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:76
+msgid "Good"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:77
+msgid "Average"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:78
+msgid "Not that bad"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:79
+msgid "Very Poor"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:83
+msgid "Your Review"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:92
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: ../woocommerce/cart/cart-empty.php:19
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: ../woocommerce/cart/cart-empty.php:19
+msgid "Return to shop"
+msgstr ""
+
+#: ../woocommerce/cart/cart-totals.php:16
+msgid "Cart Totals"
+msgstr ""
+
+#: ../woocommerce/cart/cart-totals.php:21
+msgid "Cart Subtotal"
+msgstr ""
+
+#: ../woocommerce/cart/cart-totals.php:75
+msgid "Order Total"
+msgstr ""
+
+#: ../woocommerce/cart/cart-totals.php:87
+#, php-format
+msgid " (taxes estimated for %s)"
+msgstr ""
+
+#: ../woocommerce/cart/cart-totals.php:90
+#, php-format
+msgid ""
+"Note: Shipping and taxes are estimated%s and will be updated during checkout "
+"based on your billing and shipping information."
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:27 ../woocommerce/order/order-details.php:18
+msgid "Product"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:30 ../woocommerce/myaccount/my-orders.php:37
+#: ../woocommerce/order/order-details.php:19
+msgid "Total"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:47
+msgid "Remove this item"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:74
+msgid "Available on backorder"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:119
+msgid "Coupon"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:119
+msgid "Coupon code"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:119
+msgid "Apply Coupon"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:126
+msgid "Update Cart"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:126 ../woocommerce/cart/cart.php:144
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: ../woocommerce/cart/cross-sells.php:38
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: ../woocommerce/checkout/form-billing.php:15
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: ../woocommerce/checkout/form-billing.php:19
+msgid "Billing Details"
+msgstr ""
+
+#: ../woocommerce/checkout/form-billing.php:38
+msgid "Create an account?"
+msgstr ""
+
+#: ../woocommerce/checkout/form-billing.php:49
+msgid ""
+"Create an account by entering the information below. If you are a returning "
+"customer please login at the top of the page."
+msgstr ""
+
+#: ../woocommerce/checkout/form-checkout.php:18
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: ../woocommerce/checkout/form-checkout.php:49
+msgid "Your order"
+msgstr ""
+
+#: ../woocommerce/checkout/form-shipping.php:29
+msgid "Ship to a different address?"
+msgstr ""
+
+#: ../woocommerce/checkout/form-shipping.php:55
+#: ../woocommerce/single-product/tabs/additional-information.php:17
+msgid "Additional Information"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:21
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction."
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:32
+#: ../woocommerce/checkout/thankyou.php:42
+#: ../woocommerce/notices/notice.php:25
+msgid "Information"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:33
+msgid "Please attempt your purchase again or go to your account page"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:43
+msgid "Please attempt your purchase again."
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:51
+#: ../woocommerce/myaccount/my-orders.php:70
+msgid "Pay"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:53
+msgid "My Account"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:63
+msgid "Thank you"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:64
+msgid "Your order has been received."
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:72
+msgid "Order:"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:76
+msgid "Date:"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:80
+msgid "Total:"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:85
+msgid "Payment method:"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:99
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:23
+msgid "First name"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:27
+msgid "Last name"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:33
+#: ../woocommerce/myaccount/form-login.php:79
+msgid "Email address"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:39
+msgid "Current Password (leave blank to leave unchanged)"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:43
+msgid "New Password (leave blank to leave unchanged)"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:47
+msgid "Confirm New Password"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-address.php:16
+#: ../woocommerce/myaccount/my-address.php:19
+#: ../woocommerce/myaccount/my-address.php:25
+#: ../woocommerce/order/order-details.php:116
+msgid "Billing Address"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-address.php:16
+#: ../woocommerce/myaccount/my-address.php:20
+#: ../woocommerce/order/order-details.php:131
+msgid "Shipping Address"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-address.php:46
+msgid "Save Address"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:32
+msgid "Username or email address"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:36
+#: ../woocommerce/myaccount/form-login.php:86
+msgid "Password"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:44
+msgid "Login"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:46
+msgid "Remember me"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:50
+msgid "Lost your password?"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:63
+#: ../woocommerce/myaccount/form-login.php:100
+msgid "Register"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:72
+msgid "Username"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:93
+msgid "Anti-spam"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-address.php:17
+msgid "My Addresses"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-address.php:23
+msgid "My Address"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-address.php:35
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: ../woocommerce/myaccount/my-address.php:45
+msgid "Edit"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-address.php:64
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: ../woocommerce/myaccount/my-orders.php:26
+msgid "Recent Orders"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-orders.php:34
+msgid "Order"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-orders.php:83
+msgid "View"
+msgstr ""
+
+#: ../woocommerce/order/order-details.php:14
+msgid "Order Details"
+msgstr ""
+
+#: ../woocommerce/order/order-details.php:52
+#, php-format
+msgid "Download file%s"
+msgstr ""
+
+#: ../woocommerce/order/order-details.php:95
+msgid "Customer details"
+msgstr ""
+
+#: ../woocommerce/order/order-details.php:99
+msgid "Email:"
+msgstr ""
+
+#: ../woocommerce/order/order-details.php:100
+msgid "Telephone:"
+msgstr ""
+
+#: ../woocommerce/order/order-details.php:120
+#: ../woocommerce/order/order-details.php:135
+msgid "N/A"
+msgstr ""
+
+#: ../woocommerce/single-product/related.php:40
+msgid "Related Products"
+msgstr ""
+
+#: ../woocommerce/single-product/up-sells.php:39
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: ../woocommerce/single-product/tabs/description.php:14
+msgid "Product Description"
+msgstr ""
