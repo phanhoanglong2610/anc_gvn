@@ -6,7 +6,7 @@ Description: Image Slider (Lite) - Displaying your image as slider in post/page/
 Author: GhozyLab, Inc.
 Text Domain: image-slider-widget
 Domain Path: /languages
-Version: 1.1.55
+Version: 1.1.57
 Author URI: http://www.ghozylab.com/plugins/
 */
 
@@ -41,7 +41,7 @@ define( 'EWIC_API_URLCURL', 'https://secure.ghozylab.com/' );
 define( 'EWIC_API_URL', 'http://secure.ghozylab.com/' );
 
 if ( !defined( 'EWIC_VERSION' ) ) {
-	define( 'EWIC_VERSION', '1.1.55' );
+	define( 'EWIC_VERSION', '1.1.57' );
 	}
 
 if ( !defined( 'EWIC_NAME' ) ) {
@@ -112,14 +112,6 @@ function ewic_lang_init() {
 	}
 add_action( 'init', 'ewic_lang_init' );
 
-
-/*-------------------------------------------------------------------------------*/
-/* Put Admin css file
-/*-------------------------------------------------------------------------------*/
-function ewic_admin_stylesheet() {
-	wp_enqueue_style( 'ewic_admin_styles', plugins_url('inc/css/admin.css' , __FILE__ ) );
-	}
-add_action( 'admin_print_styles', 'ewic_admin_stylesheet' );	
 
 /*-------------------------------------------------------------------------------*/
 /*   Registers custom post type
@@ -241,7 +233,7 @@ if ( is_array( get_post_meta( $post_id, 'ewic_meta_select_images', true ) ) ) {
 		
 	    case 'ewic_sc':
 		
-		echo '<span class="ewic-scode-block">[espro-slider id='.$post_id.']</span>';
+		echo '<input size="21" readonly="readonly" value="[espro-slider id='.$post_id.']" class="ewic-scode-block" type="text">';
 
 	        break;
 			

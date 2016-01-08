@@ -13,9 +13,188 @@ Version: 0.1
 /* Long's STYLE */
 /* --------------------------------------- */
 
+/* For Layout */
+div.theme-main{
+	width: 1170px;
+}
+.theme-page-sidebar-enable.theme-page-sidebar-left > div.theme-column-left{
+	max-width:170px;
+    color: black;
+}
+div.theme-page-sidebar-enable.theme-page-sidebar-left>.theme-column-right{
+	width: auto;
+}
+div.theme-page-sidebar-enable.theme-page-sidebar-left>.theme-column-right ul.pb-main{
+	width: auto;
+	max-width: 1000px;
+}
 
+/* For Sidebar */
+div.sidebar-logo{
+	text-align: center;
+}
+div.sidebar-logo img{
+	margin: auto;
+	max-width: 80px;
+}
+div.widget_nav_menu{
+	margin-top: 0px;
+}
+div.widget_nav_menu ul.menu li:first-child a{
+	border-top: none;
+}
+div.widget_nav_menu ul.menu li:last-child a{
+	border-bottom: none;
+}
+div.widget_nav_menu ul.menu li{
+	text-align: right;
+    text-transform: uppercase;
+    /*background-color: #338BB9;*/
+}
+div.widget_nav_menu ul.menu li:hover,
+div.widget_nav_menu ul.menu li a > span{
+    background-color: #338cbb;
+    background: #338cbb; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #338cbb, #4eb7e8); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, #338cbb, #4eb7e8); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, #338cbb, #4eb7e8); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(left, #338cbb, #4eb7e8); /* Standard syntax */
+}
+div.widget_nav_menu ul.menu li a{
+    font-size: 11px;
+    color: black;
+}
+div.widget_nav_menu ul.menu li a:hover{
+	color: white;
+}
+div.widget_search label{
+	font-size: 10px;
+	height: 32px;
+    line-height: 32px;
+    padding: 0px 11px;
+}
+div.widget_search input[type="text"]{
+	width: 140px;
+	height: 32px;
+}
+div.widget_search input[type="submit"]{
+	width: 30px;
+	height: 32px;
+	padding: 0px;
+	background-image: url('images/magnifier.png');
+	background-repeat: no-repeat;
+	margin-top: 0px;
+	background-color: #64BFEB;
+}
+div.sidebar-hotline{
+	text-align: right;
+	padding-right: 30px;
+	/*font-weight: bold;*/
+	font-size: 10px;
+	margin-top: -20px;
+}
+div.sidebar-hotline div.row1{
+	font-size: 10px;
+}
+div.sidebar-hotline div.row2{
+	font-size: 15px;
+	color: #24b8eb;
+}
+div.sidebar-social{
+	text-align: right;
+	padding-right: 30px;
+	font-weight: bold;
+	margin-top: -40px;
+}
+div.sidebar-social img{
+	width: 20px;
+	height: 20px;
+	float: right;
+	padding: 2px;
+}
+div.sidebar-footer{
+	margin-top: -40px;
+	text-align: right;
+	font-size: 7px;
+	text-transform: uppercase;
+	padding-right: 30px;
+}
 
+/* For Home page */
+div.box-third{
+	color: white;
+}
+div.pb-text.box-third p:first-child{
+	font-weight: bold;
+	font-size: 16px;
+}
+div.pb-text.box-third p:last-child{
+	font-size: 12px;
+}
+div.pb-button{
+	margin-left: 10px;
+}
+ul.pb-layout.pb-layout-33x33x33 li div div.pb-button a{
+	color: white;
+	border: 1px solid white;
+	background-color: #FFC600;
+	font-weight: bold;
+}
+ul.pb-layout.pb-layout-33x33x33 li div div.pb-button a:hover{
+	color: white;
+	border: 1px solid white;
+	background-color: transparent;
+	font-weight: bold;
+}
+.pb .pb-layout-33x33x33div.pb-button span.pb-button-content{
+	font-size: 11pt;
+}
+.pb-button.pb-button-size-medium>a>.pb-button-box{
+	margin: 10px;
+	line-height: 10px;
+}
+.pb .pb-layout-33x33x33>.pb-layout-column-left,
+.pb .pb-layout-33x33x33>.pb-layout-column-right{
+	margin: 0px;
+	width: 33%;
+}
+.pb .pb-layout-33x33x33>.pb-layout-column-center{
+	margin: 0px;
+	width: 34%;	
+}
+div.theme-column-left > div:last-child{
+	font-size: 6px;
+	text-transform: uppercase;
+}
+
+div.home-boxes li.pb-layout-column-left, div.home-boxes li.pb-layout-column-right{
+	background-color: #338BB9;
+}
+div.home-boxes li.pb-layout-column-center{
+	background-color: #64BFEB;
+}
+.pb .pb-layout-33x33x33>.pb-layout-column-left div div.box-third,
+.pb .pb-layout-33x33x33>.pb-layout-column-right div div.box-third,
+.pb .pb-layout-33x33x33>.pb-layout-column-center div div.box-third{
+	margin: 10px;
+}
+.pb .pb-layout-33x33x33> li div div.pb-box{
+	margin: 0px;
+	padding: 0px;
+	height: 32px;
+	border: none;
+    background-color: #338cbb;
+    background: #338cbb; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #338cbb, #4eb7e8); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, #338cbb, #4eb7e8); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, #338cbb, #4eb7e8); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(left, #338cbb, #4eb7e8); /* Standard syntax */
+}
+ul.pb-layout div.home-slider{
+	max-width: 1000px;
+	max-height: 450px;
+}
 
 /* --------------------------------------- */
 /* Hoang's Xi-tin dau */
-/* --------------------------------------- */
+/* --------------------------------------- 

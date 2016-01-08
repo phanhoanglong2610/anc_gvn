@@ -1,8 +1,8 @@
 <?php
 $min_enableBuilder = false;
 $min_builderPassword = 'admin';
-$min_errorLogger = false;
-$min_allowDebugFlag = false;
+$min_errorLogger = true;
+$min_allowDebugFlag = true;
 $min_cachePath = dirname(dirname(__FILE__)) . '/cache';
 $min_documentRoot = 'C:/xampp/apps/gvn/htdocs';
 $min_cacheFileLocking = true;
@@ -13,4 +13,4 @@ $min_symlinks = array();
 $min_uploaderHoursBehind = 0;
 $min_libPath = dirname(__FILE__) . '/lib';
 ini_set('zlib.output_compression', '0');
-// auto-generated on 2016-01-06 14:29:21
+// auto-generated on 2016-01-07 04:07:01

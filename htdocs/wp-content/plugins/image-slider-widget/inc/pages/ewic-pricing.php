@@ -19,7 +19,7 @@ function ewic_pricing_table() {
     <div class="wrap">
         <div id="icon-edit" class="icon32 icon32-posts-easymedia"><br /></div>
         <h2><?php _e('Comparison', 'image-slider-widget'); ?></h2>   
-  <div class="tsc_pricingtable03 tsc_pt3_style1" style="margin-bottom:110px; height:930px;">
+  <div class="tsc_pricingtable03 tsc_pt3_style1" style="margin-bottom:110px; height:850px;">
     <div class="caption_column">
       <ul>
         <li class="header_row_1 align_center radius5_topleft"><?php ewic_share(); ?></li>
@@ -107,7 +107,7 @@ function ewic_pricing_table() {
         <li class="row_style_4 align_center"><span class="pricing_no"></span></li>
         <li class="row_style_2 align_center"><span>1 Month</span></li>
         <li class="row_style_4 align_center"><span>1 Year</span></li>
-        <li class="footer_row"><a target="_blank" href="http://ghozylab.com/plugins/ordernow.php?order=eispro&utm_source=imageslider&utm_medium=demo&utm_campaign=orderfromcomparepage" class="tsc_buttons2 red">Upgrade Now</a></li>
+        <li class="footer_row"><a target="_blank" href="https://ghozylab.com/plugins/ordernow.php?order=eispro&utm_source=imageslider&utm_medium=demo&utm_campaign=orderfromcomparepage" class="tsc_buttons2 green">Upgrade Now</a></li>
       </ul>
     </div>    
     
@@ -138,7 +138,7 @@ function ewic_pricing_table() {
         <li class="row_style_4 align_center"><span class="pricing_no"></span></li>
         <li class="row_style_2 align_center"><span>1 Month</span></li>
         <li class="row_style_4 align_center"><span>1 Year</span></li>
-        <li class="footer_row"><a target="_blank" href="http://ghozylab.com/plugins/ordernow.php?order=eisproplus&utm_source=imageslider&utm_medium=demo&utm_campaign=orderfromcomparepage" class="tsc_buttons2 red">Upgrade Now</a></li>
+        <li class="footer_row"><a target="_blank" href="https://ghozylab.com/plugins/ordernow.php?order=eisproplus&utm_source=imageslider&utm_medium=demo&utm_campaign=orderfromcomparepage" class="tsc_buttons2 blue">Upgrade Now</a></li>
       </ul>
     </div>
     <div class="column_2">
@@ -168,7 +168,7 @@ function ewic_pricing_table() {
         <li class="row_style_4 align_center"><span class="pricing_no"></span></li>
         <li class="row_style_2 align_center"><span>6 Month</span></li>
         <li class="row_style_4 align_center"><span>1 Year</span></li>
-        <li class="footer_row"><a target="_blank" href="http://ghozylab.com/plugins/ordernow.php?order=eisplusplus&utm_source=imageslider&utm_medium=demo&utm_campaign=orderfromcomparepage" class="tsc_buttons2 red">Upgrade Now</a></li>
+        <li class="footer_row"><a target="_blank" href="https://ghozylab.com/plugins/ordernow.php?order=eisplusplus&utm_source=imageslider&utm_medium=demo&utm_campaign=orderfromcomparepage" class="tsc_buttons2 orange">Upgrade Now</a></li>
       </ul>
     </div>    
      <div class="column_4">
@@ -198,7 +198,7 @@ function ewic_pricing_table() {
         <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_1 align_center"><span>1 year</span></li>
         <li class="row_style_3 align_center"><span>1 year</span></li>
-        <li class="footer_row"><a target="_blank" href="http://ghozylab.com/plugins/ordernow.php?order=eisdev&utm_source=imageslider&utm_medium=demo&utm_campaign=orderfromcomparepage" class="tsc_buttons2 red">Upgrade Now</a></li>
+        <li class="footer_row"><a target="_blank" href="https://ghozylab.com/plugins/ordernow.php?order=eisdev&utm_source=imageslider&utm_medium=demo&utm_campaign=orderfromcomparepage" class="tsc_buttons2 red">Upgrade Now</a></li>
       </ul>
     </div>   
     

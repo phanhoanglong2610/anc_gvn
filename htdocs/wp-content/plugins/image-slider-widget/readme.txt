@@ -4,7 +4,7 @@ Donate link: http://ghozylab.com/donate
 Tags: image, slider, image slider, plugin slider, slider plugin, best slider, gallery slider, wordpress slider, images, free slider, image slider plugin, wp slider, best slider plugin, meta slider, coin slider, facebook, google, wordpress, twitter, image slideshow, images slider, jquery slider, jquery slideshow, photo slider, picture slider, plugin, plugins, admin, page, post, posts, responsive slider, responsive slideshow, seo, slide, slider shortcode, slider widget, slides, slideshow, slideshow plugin, widget, widget slider, shortcode, widget slideshow, widgets, wordpress slideshow, carousel, carousel slider, slider image
 Requires at least: 3.5
 Tested up to: 4.4
-Stable tag: 1.1.55
+Stable tag: 1.1.57
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -170,7 +170,12 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Changelog ==
 
-= 1.1.55 ( none ) =
+= 1.1.57 ( none ) =
+* Added : On Click Copy Shortcode ( Only Available on Slider Overview Page )
+* Fixed : Enqueue Script Optimization
+* Fixed : Many other PHP and CSS clean and optimization
+
+= 1.1.55 ( 12/31/15 11:45:47 ) =
 * Fixed : Localization on Extra Page
 * Fixed : Many other PHP and CSS clean and optimization
 
@@ -329,5 +334,5 @@ There are no complicated instructions for using Image Slider plugin because this
 
 == Upgrade Notice ==
 
-= 1.1.55 =
+= 1.1.57 =
 IMPORTANT! SECURITY BUGS FIX, PLEASE UPDATE NOW!

@@ -72,7 +72,7 @@ div.tsc_pricingtable03 div.column_2,
 div.tsc_pricingtable03 div.column_3,
 div.tsc_pricingtable03 div.column_4 { /* transitions */ -webkit-transition:box-shadow 0.1s ease; -moz-transition:box-shadow 0.1s ease; -o-transition:box-shadow 0.1s ease; -ms-transition:box-shadow 0.1s ease; transition:box-shadow 0.1s ease;}
 
-
+/*
 div.tsc_pricingtable03 div.column_1:hover,
 div.tsc_pricingtable03 div.column_2:hover,
 div.tsc_pricingtable03 div.column_3:hover,
@@ -105,7 +105,7 @@ div.tsc_pricingtable03 div.column_1:hover li.footer_row,
 div.tsc_pricingtable03 div.column_2:hover li.footer_row,
 div.tsc_pricingtable03 div.column_3:hover li.footer_row,
 div.tsc_pricingtable03 div.column_4:hover li.footer_row { padding-left:5px !important; padding-right:5px !important;}
-
+*/
 
 
 div.tsc_pricingtable03 li.row_style_1,

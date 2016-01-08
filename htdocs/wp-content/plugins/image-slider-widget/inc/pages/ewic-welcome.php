@@ -31,6 +31,7 @@ class EWIC_Welcome {
 	public function __construct() {
 		add_action( 'admin_menu', array( $this, 'ewic_admin_menus') );
 		add_action( 'admin_head', array( $this, 'ewic_admin_head' ) );
+		add_action( 'admin_head', array( $this, 'ewic_welcome_styles' ) );
 		add_action( 'admin_init', array( $this, 'ewic_welcome_page' ) );
 	}
 
@@ -88,7 +89,56 @@ class EWIC_Welcome {
 		//remove_submenu_page( 'edit.php?post_type=easyimageslider', 'ewic-premium-plugins' );
 		remove_submenu_page( 'edit.php?post_type=easyimageslider', 'ewic-addons' );
 		remove_submenu_page( 'edit.php?post_type=easyimageslider', 'ewic-earn-xtra-money' );
+		
+	}
+	
 
+	/**
+	 * Put Copy Shortcode
+	 *
+	 * @access public
+	 * @since 1.1.57
+	 * @return void
+	 */
+	public function ewic_include_clipboard_script() {
+	
+			?>
+				<script>
+					jQuery(function($) {
+						$('.ewic-scode-block').click( function () {
+							try {
+								//select the contents
+								this.select();
+								//copy the selection
+								document.execCommand('copy');
+								//show the copied message
+								$('.ewic-shortcode-message').remove();
+								$(this).after('<p class="ewic-shortcode-message"><?php _e( 'Shortcode copied to clipboard','image-slider-widget' ); ?></p>');
+							} catch(err) {
+								console.log('Oops, unable to copy!');
+							}
+						});
+					});
+				</script>
+				<?php	
+	}
+
+
+	/**
+	 * Put Style on Individual Pages
+	 *
+	 * @access public
+	 * @since 1.1.57
+	 * @return void
+	 */
+	public function ewic_welcome_styles() {
+		
+		global $current_screen;
+	
+		if( 'easyimageslider' == $current_screen->post_type ) {
+			
+		add_action( 'admin_footer', array( $this, 'ewic_include_clipboard_script') );
+		
 		// Badge for welcome page
 		$badge_url = EWIC_URL . '/images/assets/slider-logo.png';
 		?>
@@ -141,12 +191,7 @@ class EWIC_Welcome {
 		.about-wrap .feature-section .plugin-card-bottom {
     		font-size: 13px;
 		}	
-		
-		.customh3 {
 
-		}
-		
-		
 		.customh4 {
 			display:inline-block;
 			border-bottom: 1px dashed #CCC;
@@ -187,11 +232,41 @@ class EWIC_Welcome {
 		}
 		
 		
+	/* Featured Plugin Styles
+	-------------------------------------------------------------- */
+	#ghozy-featured h2 { margin: 0 0 15px; }
+	#ghozy-featured .ghozy-extension { float: left; margin: 0 15px 15px 0; background: #FFF; border: 1px solid #DEDEDE; width: 320px; height: auto; position: relative; }
+	#ghozy-featured .ghozy-extension h3 { margin: 0 0 8px; font-size: 13px;  }
+	#ghozy-featured .ghozy-extension .button-secondary { position: relative; left: 0px; margin-bottom: 5px; }
+	#ghozy-featured .ghozy-browse-all { clear:both; width:100%; }
+	#ghozy-featured .ghozy-extension .third-party { display: none; }
+	#ghozy-featured .ghozy-extension .feedtop { padding: 8px; }
+	#ghozy-featured .feedbottom {clear: both; background-color: #FAFAFA; border-top: 1px solid #DEDEDE; overflow: hidden; }
+	#ghozy-featured .feeddesc { margin-bottom: 25px; padding: 0px 8px 8px 8px; }
+	#ghozy-featured .getitfeed { margin-left: 8px; bottom: 8px;}
+	
+	
+	.ewic-scode-block {
+		padding: 4px;
+		background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.07);
+		font-family: "courier new",courier;
+		cursor: pointer;
+		font-size:1em !important;
+		}
+	
+	.ewic-shortcode-message {
+    	font-style: italic;
+    	color: #2EA2CC !important;
+	}
 
 		/*]]>*/
 		</style>
 		<?php
+		
+		}
+		
 	}
+
 
 	/**
 	 * Navigation tabs
