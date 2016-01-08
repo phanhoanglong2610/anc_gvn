@@ -22,7 +22,8 @@ div.theme-main{
     color: black;
 }
 div.theme-page-sidebar-enable.theme-page-sidebar-left>.theme-column-right{
-	width: auto;
+	width: 100%;
+	max-width: 1000px;
 }
 div.theme-page-sidebar-enable.theme-page-sidebar-left>.theme-column-right ul.pb-main{
 	width: auto;
@@ -193,6 +194,12 @@ div.home-boxes li.pb-layout-column-center{
 ul.pb-layout div.home-slider{
 	max-width: 1000px;
 	max-height: 450px;
+}
+
+/* For Services Page */
+div.theme-column-right ul.pb-layout.pb-layout-50x50 li.pb-layout-column-left,
+div.theme-column-right ul.pb-layout.pb-layout-50x50 li.pb-layout-column-right{
+	text-align: center;
 }
 
 /* --------------------------------------- */
