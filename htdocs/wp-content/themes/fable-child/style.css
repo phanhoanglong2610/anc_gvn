@@ -8,6 +8,7 @@ Template: fable
 Version: 0.1
 */
 @import url("../fable/style.css");
+@import url("fonts/font-awesome-4.5.0/css/font-awesome.min.css");
 
 /* --------------------------------------- */
 /* Long's STYLE */
@@ -31,6 +32,9 @@ div.theme-page-sidebar-enable.theme-page-sidebar-left>.theme-column-right ul.pb-
 }
 
 /* For Sidebar */
+div.theme-widget{
+	margin-top: 0px;
+}
 div.sidebar-logo{
 	text-align: center;
 }
@@ -68,6 +72,9 @@ div.widget_nav_menu ul.menu li a{
 div.widget_nav_menu ul.menu li a:hover{
 	color: white;
 }
+div.widget_search, div.widget_text{
+	margin-top: 50px;
+}
 div.widget_search label{
 	font-size: 10px;
 	height: 32px;
@@ -82,10 +89,20 @@ div.widget_search input[type="submit"]{
 	width: 30px;
 	height: 32px;
 	padding: 0px;
-	background-image: url('images/magnifier.png');
-	background-repeat: no-repeat;
+	/*background-image: url('images/magnifier.png');*/
+	/*background-repeat: no-repeat;*/
 	margin-top: 0px;
 	background-color: #64BFEB;
+}
+div.widget_search div:after{
+	font-family: FontAwesome;
+   	content: '\f002';
+   	/*display: inline-block;*/
+   	position: absolute;
+    top: 5px;
+    color: white;
+    left: 150px;
+    font-size: 16px;
 }
 div.sidebar-hotline{
 	text-align: right;
@@ -107,11 +124,14 @@ div.sidebar-social{
 	font-weight: bold;
 	margin-top: -40px;
 }
-div.sidebar-social img{
+div.sidebar-social a{
 	width: 20px;
 	height: 20px;
 	float: right;
-	padding: 2px;
+	margin: 3px;
+	border: 1px solid black;
+	border-radius: 15px;
+	font-size: 13px;
 }
 div.sidebar-footer{
 	margin-top: -40px;
@@ -195,11 +215,29 @@ ul.pb-layout div.home-slider{
 	max-width: 1000px;
 	max-height: 450px;
 }
+ul.pb-layout div.home-slider div.tp-bullets {
+	left: 97%;
+}
+ul.pb-layout div.home-slider div.tp-bullets div.tp-bullet{
+	border: 1px solid #fff;
+	left: -10px;
+}
 
 /* For Services Page */
 div.theme-column-right ul.pb-layout.pb-layout-50x50 li.pb-layout-column-left,
 div.theme-column-right ul.pb-layout.pb-layout-50x50 li.pb-layout-column-right{
 	text-align: center;
+}
+div.box-testo.pb-testimonial div.pb-slider-pagination{
+	text-align: center;
+}
+div.box-testo.pb-testimonial div.pb-slider-pagination a{
+	width: 12px !important;
+	border-radius: 20px;
+	margin: 2% !important;
+	position: inherit;
+	float: none;
+	display: inline-block;
 }
 
 /* --------------------------------------- */

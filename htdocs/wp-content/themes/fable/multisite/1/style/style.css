@@ -6,7 +6,7 @@ select,
 textarea,
 label
 {
-	font-family:'Open Sans';
+	font-family:'Roboto';
 	font-style:normal;
 	font-weight:normal;
 	line-height:1.5em;
@@ -91,7 +91,7 @@ div.pb-counter-list>ul>li>span.pb-counter-list-value,
 
 .pb-header-subheader .pb-subheader span
 {
-	font-family:'Open Sans';
+	font-family:'Roboto';
 }
 
 a,
