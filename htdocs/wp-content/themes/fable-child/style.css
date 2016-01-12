@@ -240,6 +240,17 @@ div.box-testo.pb-testimonial div.pb-slider-pagination a{
 	display: inline-block;
 }
 
+/* For Contact Page */
+div.pb-line.pb-clear-fix.pb-line-css-group-contact-feature{
+	margin: 80px;
+}
+
+/* For Footer */
+body.theme-footer-sticky div.theme-footer.theme-clear-fix{
+	margin-top: 100px;
+	position: relative;
+}
+
 /* --------------------------------------- */
 /* Hoang's Xi-tin dau */
 /* --------------------------------------- 
