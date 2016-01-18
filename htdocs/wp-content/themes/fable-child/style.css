@@ -15,6 +15,9 @@ Version: 0.1
 /* --------------------------------------- */
 
 /* For Layout */
+body, h2, span, a, div{
+	font-family: 'Roboto' !important;
+}
 div.theme-main{
 	width: 1170px;
 }
@@ -254,3 +257,61 @@ body.theme-footer-sticky div.theme-footer.theme-clear-fix{
 /* --------------------------------------- */
 /* Hoang's Xi-tin dau */
 /* --------------------------------------- 
+
+/* For Posts page */
+
+div.theme-column-right ul.theme-blog li.theme-post{
+	width: 30%;
+	text-align: center;
+	float: left;
+	padding: 1px;
+}
+div.theme-column-right ul.theme-blog li.theme-post:hover{
+	border: 1px dashed #24b8eb;
+	padding: 0px;
+}
+ul.theme-blog > li > div.theme-post-section-icon,
+ul.theme-blog > li > div > div.theme-post-date,
+ul.theme-blog > li > div.theme-post-section-header,
+ul.theme-blog > li > div.theme-post-section-button,
+ul.theme-blog > li > div.theme-post-section-divider{
+	display: none;
+}
+ul.theme-blog > li > div.theme-post-section-preambule{
+	padding: 10px;
+}
+ul.theme-blog > li > div.theme-post-section-header-cstm{
+	padding: 15px;
+}
+ul.theme-blog > li div.theme-post-section-content{
+	text-align: left;
+}
+ul.theme-blog > li > div.theme-post-section-header-cstm a{
+	text-decoration: none;
+}
+ul.theme-blog > li > div.theme-post-section-header-cstm h6{
+	color: #24b8eb;
+	text-align: left;
+	font-size: 18px;
+	font-style: normal;
+}
+div.theme-blog-pagination-box div.theme-blog-pagination > a:hover,
+div.theme-blog-pagination-box div.theme-blog-pagination > span{
+	border-radius: 50px;
+	background-color: #24b8eb;
+}
+
+/* For Single Post */
+div.theme-column-right div.theme-post.post{
+	padding: 10px;
+}
+div.theme-column-right div.theme-post-section-navigation div a img{
+	width: auto;
+	max-width: 150px;
+}
+div.theme-column-right div.wp_rp_wrap{
+	text-align: center;
+}
+div.wp_rp_wrap div.wp_rp_content div.wp_rp_footer{
+	display: none;
+}

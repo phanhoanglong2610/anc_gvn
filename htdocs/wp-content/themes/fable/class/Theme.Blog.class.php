@@ -71,7 +71,7 @@ class ThemeBlog
 		$default=array
 		(
 			'post_status'		=>	'publish',
-			'posts_per_page'	=>	(int)get_option('posts_per_page'),
+			'posts_per_page'	=>	6, //(int)get_option('posts_per_page'),
 			'paged'				=>	(int)ThemeHelper::getPageNumber(),
 			'orderby'			=>	ThemeOption::getOption('blog_sort_field'),
 			'order'				=>	ThemeOption::getOption('blog_sort_direction')		
@@ -98,8 +98,10 @@ class ThemeBlog
 			'format'		=>	'',
 			'current'		=>	$current,  
 			'total'			=>	$total,  
-			'next_text'		=>	__('Next',THEME_CONTEXT),
-			'prev_text'		=>	__('Previous',THEME_CONTEXT)
+			// 'next_text'		=>	__('Next',THEME_CONTEXT),
+			// 'prev_text'		=>	__('Previous',THEME_CONTEXT)
+			'next_text'		=>	__(' >',THEME_CONTEXT),
+			'prev_text'		=>	__('< ',THEME_CONTEXT)
 		);
 
 		if($wp_rewrite->using_permalinks() )

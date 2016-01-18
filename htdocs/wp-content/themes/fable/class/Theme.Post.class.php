@@ -245,10 +245,14 @@ class ThemePost
 		$Validation=new ThemeValidation();
 		
 		$prevPost=get_previous_post();
-		if(!empty($prevPost)) $html.='<a class="theme-post-navigation-prev" href="'.get_permalink($prevPost->ID).'" title="'.sprintf(esc_attr('View post "%s"',THEME_DOMAIN),get_the_title($prevPost->ID)).'"><span class="theme-post-navigation-arrow"></span><span class="theme-post-navigation-content">'.get_the_title($prevPost->ID).'</span></a>';
+		if(!empty($prevPost)) $html.='<a class="theme-post-navigation-prev" href="'.get_permalink($prevPost->ID).'" title="'.sprintf(esc_attr('View post "%s"',THEME_DOMAIN),get_the_title($prevPost->ID)).'">'.get_the_post_thumbnail($prevPost->ID).'<span class="theme-post-navigation-arrow"></span><span class="theme-post-navigation-content">'.get_the_title($prevPost->ID).'</span></a>';
+		// $prevPost2=get_previous_post(false, '', true, 'category', $prevPost);
+		// if(!empty($prevPost2)) $html.='<a class="theme-post-navigation-prev" href="'.get_permalink($prevPost2->ID).'" title="'.sprintf(esc_attr('View post "%s"',THEME_DOMAIN),get_the_title($prevPost2->ID)).'">'.get_the_post_thumbnail($prevPost2->ID).'<span class="theme-post-navigation-arrow"></span><span class="theme-post-navigation-content">'.get_the_title($prevPost2->ID).'</span></a>';
 			
 		$nextPost=get_next_post();
-		if(!empty($nextPost)) $html.='<a class="theme-post-navigation-next" href="'.get_permalink($nextPost->ID).'" title="'.sprintf(esc_attr('View post "%s"',THEME_DOMAIN),get_the_title($nextPost->ID)).'"><span class="theme-post-navigation-content">'.get_the_title($nextPost->ID).'</span><span class="theme-post-navigation-arrow"></span></a>';		
+		if(!empty($nextPost)) $html.='<a class="theme-post-navigation-next" href="'.get_permalink($nextPost->ID).'" title="'.sprintf(esc_attr('View post "%s"',THEME_DOMAIN),get_the_title($nextPost->ID)).'">'.get_the_post_thumbnail($nextPost->ID).'<span class="theme-post-navigation-content">'.get_the_title($nextPost->ID).'</span><span class="theme-post-navigation-arrow"></span></a>';		
+		// $nextPost2=get_next_post(false, '', false, 'category', $nextPost);
+		// if(!empty($nextPost2)) $html.='<a class="theme-post-navigation-next" href="'.get_permalink($nextPost2->ID).'" title="'.sprintf(esc_attr('View post "%s"',THEME_DOMAIN),get_the_title($nextPost2->ID)).'">'.get_the_post_thumbnail($nextPost2->ID).'<span class="theme-post-navigation-content">'.get_the_title($nextPost2->ID).'</span><span class="theme-post-navigation-arrow"></span></a>';		
 			
 		if($Validation->isNotEmpty($html))
 		{

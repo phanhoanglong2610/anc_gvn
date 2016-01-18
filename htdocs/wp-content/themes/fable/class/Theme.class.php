@@ -1170,7 +1170,7 @@ class Theme
 		$Theme=new Theme();
 		$length=$Theme->automaticExcerptLength();
 		
-		if($length>0) return('<span class="excerpt-more"> <a href="'.get_the_permalink().'" title="'.sprintf(esc_attr('Continue reading post "%s"',THEME_DOMAIN),get_the_title()).'">[...]</a></span>');
+		if($length>0) return('<span class="excerpt-more"> <a href="'.get_the_permalink().'" title="'.sprintf(esc_attr('Continue reading post "%s"',THEME_DOMAIN),get_the_title()).'">...</a></span>');
 		
 		return('');
 	}
