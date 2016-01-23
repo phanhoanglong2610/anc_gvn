@@ -121,7 +121,7 @@
 				</div>
 			</div>
 
-			<div class="pb-header-subheader">
+			<div class="pb-header-subheader bg-gray-related">
 				<h2 class="pb-header">
 					<span class="pb-header-content">
 						Bài viết liên quan
@@ -130,7 +130,15 @@
 				<div class="pb-header-underline">
 				</div>
 			</div>
-			<?php wp_related_posts() ?>
+
+			<?php
+				// wp_related_posts();
+			?>
+
+			<?php
+				echo do_shortcode('[carousel-horizontal-posts-content-slider]'); 
+			?>
+
 
 <?php
 		if(comments_open())

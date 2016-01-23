@@ -19,7 +19,15 @@
 			<div class="pb-header-subheader">
 				<h2 class="pb-header">
 					<span class="pb-header-content">
-						<?php echo get_post_meta(get_the_ID(), 'page-title-header', true); ?>
+						<?php
+						$title_cstm = get_post_meta(get_the_ID(), 'page-title-header', true);
+						if($title_cstm != ''){
+							echo $title_cstm;
+						}
+						else{
+							echo "Kết qủa tìm kiếm";
+						}
+						?>
 					</span>
 				</h2>
 				<h6 class="pb-subheader">
