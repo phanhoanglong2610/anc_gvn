@@ -2450,7 +2450,7 @@ msgstr ""
 
 #: ../class/Theme.Post.class.php:122
 #, php-format
-msgid "Search result for phrase <i>%s</i>"
+msgid "Kết quả tìm kiếm <i>%s</i>"
 msgstr ""
 
 #: ../class/Theme.Post.class.php:188

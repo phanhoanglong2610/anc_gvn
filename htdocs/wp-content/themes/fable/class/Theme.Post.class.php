@@ -119,7 +119,7 @@ class ThemePost
 			elseif(is_search())
 			{
 				$data->post=get_post(ThemeOption::getOption('blog_search_post_id'));
-				$data->post->post_title=sprintf(__('Search result for phrase <i>%s</i>',THEME_DOMAIN),esc_html(get_query_var('s')));
+				$data->post->post_title=sprintf(__('Kết quả tìm kiếm: <i>%s</i>',THEME_DOMAIN),esc_html(get_query_var('s')));
 			}
 			elseif(is_404())
 			{

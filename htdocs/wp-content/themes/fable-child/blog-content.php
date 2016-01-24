@@ -16,7 +16,7 @@
 		{
 ?>
 		<div class="theme-clear-fix">
-			<div class="pb-header-subheader">
+			<div class="pb-header-subheader" style="display:none">
 				<h2 class="pb-header">
 					<span class="pb-header-content">
 						<?php
