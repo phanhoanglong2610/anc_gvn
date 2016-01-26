@@ -23,6 +23,25 @@
 		$visibleOption['post_navigation_visible']=ThemeOption::getGlobalOption($post,'post_navigation_visible');
 ?>
 		<div <?php post_class('theme-clear-fix theme-post theme-post-type-'.(is_sticky() ? 'sticky' : $option['post_type'])); ?> id="post-<?php the_ID(); ?>">
+
+			<div class="pb-header-subheader">
+				<h2 class="pb-header">
+					<span class="pb-header-content">
+						<?php
+						$title_cstm = the_title();
+						echo $title_cstm;
+						?>
+					</span>
+				</h2>
+				<h6 class="pb-subheader">
+					<span class="pb-subheader-content">
+						<?php echo get_post_meta(get_the_ID(), 'page-title-subheader', true); ?>
+					</span>
+				</h6>
+				<div class="pb-header-underline">
+				</div>
+			</div>
+
 <?php
 		switch($option['post_type'])
 		{

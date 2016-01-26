@@ -20,5 +20,4 @@ function vth_navigations(){
 	return easy_wp_pagenavigation($my_query);
 }
 
-
 // Hoang's Phân Sần

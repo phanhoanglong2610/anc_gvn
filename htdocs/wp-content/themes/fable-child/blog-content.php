@@ -1,5 +1,10 @@
 <?php
 		global $post,$fable_parentPost;
+		global $wp_query;
+
+		//get category id (or name, slug) and store to the transient api
+		$categoryId = $wp_query->queried_object->cat_ID;
+		set_transient( 'category_id_visited', $categoryId, 1 * HOUR_IN_SECONDS );
 
 		$Blog=new ThemeBlog();
 		$Page=new ThemePage();

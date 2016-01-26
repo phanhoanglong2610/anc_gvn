@@ -14,12 +14,78 @@ Version: 0.1
 /* Long's STYLE */
 /* --------------------------------------- */
 
+/*
+	Main Color:
+	yellow: #ffc600;
+	blue: #1ca6f6;
+	text: 959595;
+*/
+
+@font-face {
+	font-family: ProximaNova;  
+	src: url('fonts/Proxima/ProximaNova-Regular.otf');  
+	font-weight: normal;  
+}
+@font-face {
+	font-family: ProximaNovaL;  
+	src: url('fonts/Proxima/ProximaNova-Light.otf');  
+	font-weight: normal;  
+}
+@font-face {
+	font-family: ProximaNovaSB;  
+	src: url('fonts/Proxima/ProximaNova-SemiBold.otf');  
+	font-weight: normal;  
+}
+
+/* Responsive Mode */
+@media only screen and (max-width: 980px) and (min-width: 0px){
+	div.theme-page div.theme-column-left{
+		display: none;
+	}
+	div.pb-menu.pb-menu-responsive-mode div.pb-logo img{
+		max-width: 100px;
+	}
+	.pb-feature.pb-feature-icon-size-large ul>li>div>.pb-feature-icon{
+		width: 90px;
+		height: 90px;
+	}
+	div.theme-column-right ul.theme-blog li.theme-post{
+		width: 98% !important;
+	}
+	.pb-menu .pb-menu-responsive .nav-toggle span span{
+		background-image: url('images/chung/menu_responsive.png');
+	}
+	div.pb-menu-responsive div.opened ul li input.my-wp-search{
+		color: white;
+		background-color: #1ca6f6;
+	}
+	div.pb-menu-responsive div.opened ul li input.text_input{
+		font-style: italic;
+	}
+	div.theme-footer-top div ul.menu li.menu-item-search{
+		display: none;
+	}
+}
+@media only screen and (min-width: 1150px){
+	body div.pb-menu{
+		display: none !important;
+	}
+	div ul.menu li.menu-item.menu-item-search{
+		display: none !important;
+	}
+}
+
 /* For Layout */
 body, h2, h2 a, span, a, div, h1, h1 a, h6, h6 a, h6 label{
 	font-family: 'Roboto' !important;
 }
+div.theme-page div.theme-page-header h1{
+	font-family: 'ProximaNovaL' !important;
+	font-size: 42px;
+}
 div.theme-main{
-	width: 1170px;
+	width: 100%;
+	max-width: 1170px;
 }
 .theme-page-sidebar-enable.theme-page-sidebar-left > div.theme-column-left{
 	max-width:170px;
@@ -36,9 +102,71 @@ div.theme-page-sidebar-enable.theme-page-sidebar-left>.theme-column-right ul.pb-
 div.theme-column-right div.theme-page-header{
 	margin-bottom: 50px;
 }
-div.pb-header-subheader span.pb-header-content,
-div.pb-header-subheader span.pb-subheader-content{
+div.theme-column-right div.theme-page-header h6{
+	font-size: 16px;
+	text-transform: none;
+}
+div.pb-header-subheader span.pb-header-content{
+	font-family: 'ProximaNovaL' !important;
+	font-size: 40px;
 	color: #64BFEB;
+}
+div.pb-header-subheader span.pb-subheader-content{
+	font-size: 16px;
+	color: #64BFEB;	
+}
+ul.pb-layout li div.pb-header-subheader div.pb-header-underline,
+.pb-header .pb-header-underline,
+.pb-header-subheader .pb-header-underline{
+	background-image: url('images/chung/symbol.png') !important;
+	width: 130px;
+}
+div.theme-page div.theme-page-header{
+	padding: 29px 0px 25px 0px;
+}
+
+/* For Footer */
+div.theme-layout-33x33x33 > div.theme-layout-column-left{
+	clear: none;
+}
+div.theme-layout-33x33x33 > div.theme-layout-column-left,
+div.theme-layout-33x33x33 > div.theme-layout-column-right,
+div.theme-layout-33x33x33 > div.theme-layout-column-center{
+	/*width: 24%;*/
+	margin-right: 1%;
+}
+div.theme-footer-top.theme-clear-fix {
+	margin-top: 20px;
+	background: #3396de;
+	color: white !important;
+}
+div.theme-footer-top.theme-clear-fix div.theme-main{
+	width: 100%;
+	max-width: 900px !important;
+}
+div.theme-footer-top.theme-clear-fix div.theme-main h6 span.pb-header-content{
+	font-family: 'ProximaNovaSB' !important;
+	font-size: 16px;
+}
+div.theme-footer-top div.theme-widget > h6.pb-header > span.pb-header-underline{
+	background-color: #ffc600;
+}
+div.theme-footer-top div.menu-gvn-footer-container ul li{
+	text-align: left;
+	text-transform: none;
+}
+div.theme-page div.theme-footer-top div.widget_nav_menu div.menu-gvn-footer-container ul.menu > li > a{
+	border: none;
+	color: white;
+	font-size: 14px;
+	padding: 0px 0px 10px 0px;
+	opacity: 0.9;
+}
+div.theme-footer-top div.menu-gvn-footer-container ul li a:before{
+	font-family: FontAwesome;
+   	content: '\f0da';
+   	color: #FFC600;
+   	padding-right: 10px;
 }
 
 /* For Sidebar */
@@ -64,20 +192,38 @@ div.widget_nav_menu ul.menu li:last-child a{
 div.widget_nav_menu ul.menu li{
 	text-align: right;
     text-transform: uppercase;
+    height: 35px;
     /*background-color: #338BB9;*/
 }
-div.widget_nav_menu ul.menu li:hover,
-div.widget_nav_menu ul.menu li a > span{
-    background-color: #338cbb;
-    background: #338cbb; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(left, #338cbb, #4eb7e8); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(left, #338cbb, #4eb7e8); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(left, #338cbb, #4eb7e8); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(left, #338cbb, #4eb7e8); /* Standard syntax */
+div.widget_nav_menu ul.menu li > a:last-child{
+	border-bottom: none !important;
 }
-div.widget_nav_menu ul.menu li a{
+div.theme-page div.widget_nav_menu ul.menu > li.menu-item > a{
+	border: none;
     font-size: 11px;
     color: black;
+    height: 35px;
+    line-height: 35px;
+    padding: 0px 20px 0px 20px;
+	background-color: transparent !important;
+    border-bottom: 1px solid #959595;
+}
+div.widget_nav_menu ul.menu li.current_page_item,
+div.widget_nav_menu ul.menu li.current_page_item:hover{
+    background-image: url('images/chung/menu_active.png');
+}
+div.theme-page div.widget_nav_menu ul.menu > li.menu-item.current_page_item > a{
+    /*border-bottom: 1px solid transparent;*/
+}
+div.widget_nav_menu ul.menu li a > span{
+	height: 0%;
+}
+div.widget_nav_menu ul.menu li:hover,
+div.widget_nav_menu ul.menu li a:hover,
+div.widget_nav_menu ul.menu li a > span:hover{
+    background-color: #ffc600;
+	color: white !important;    
+	border: none;
 }
 div.widget_nav_menu ul.menu li a:hover{
 	color: white;
@@ -142,6 +288,7 @@ div.sidebar-social a{
 	border: 1px solid black;
 	border-radius: 15px;
 	font-size: 13px;
+	color: #959595;
 }
 div.sidebar-footer{
 	margin-top: -40px;
@@ -235,7 +382,7 @@ ul.pb-layout div.home-slider div.tp-bullets div.tp-bullet{
 
 /* For Services Page */
 div.theme-column-right div.pb-line{
-	padding-top: 20px;
+	padding: 20px 10px 0px 40px;
 }
 div.theme-column-right ul.pb-layout.pb-layout-50x50 li.pb-layout-column-left,
 div.theme-column-right ul.pb-layout.pb-layout-50x50 li.pb-layout-column-right{
@@ -243,6 +390,14 @@ div.theme-column-right ul.pb-layout.pb-layout-50x50 li.pb-layout-column-right{
 }
 div.box-testo.pb-testimonial div.pb-slider-pagination{
 	text-align: center;
+}
+div.box-testo.pb-testimonial > div > ul > li > div > p{
+	font-family: 'ProximaNovaL' !important;
+	font-size: 32px;
+}
+div.box-testo.pb-testimonial > div > ul > li > div > div.pb-testimonial-author-name{
+	font-family: 'ProximaNova' !important;
+	font-size: 14px;
 }
 div.box-testo.pb-testimonial div.pb-slider-pagination a{
 	width: 12px !important;
@@ -256,16 +411,40 @@ div.box-testo.pb-testimonial div.pb-slider-pagination a.selected{
     background-color: #4eb7e8;
     border-color: #4eb7e8;
 }
+div.pb-line.pb-line-css-group-page-dv-ft ul > li > div > h3 > span.pb-header-content{
+	font-family: 'ProximaNovaL' !important;
+	font-size: 32px;
+}
+div.pb-line.pb-line-css-group-page-dv-ft ul > li > div > h6 > span.pb-header-content{
+	font-size: 16px;
+	font-style: italic;
+}
+div.pb-line.pb-line-css-group-page-dv-ft ul > li > div > div.pb-text{
+	font-size: 14px;
+}
 
 /* For Contact Page */
 div.pb-line.pb-clear-fix.pb-line-css-group-contact-feature{
 	margin: 80px;
 }
-
-/* For Footer */
 body.theme-footer-sticky div.theme-footer.theme-clear-fix{
 	margin-top: 100px;
 	position: relative;
+}
+div.page-lh-s1 ul li.pb-layout-column-left > div > div.pb-feature-icon{
+    background-image: url('images/lien-he/7-1.png') !important;
+    background-size: 100%;
+}
+div.page-lh-s1 ul li.pb-layout-column-center > div > div.pb-feature-icon{
+    background-image: url('images/lien-he/7-2.png') !important;
+    background-size: 100%;
+}
+div.page-lh-s1 ul li.pb-layout-column-right > div > div.pb-feature-icon{
+    background-image: url('images/lien-he/7-3.png') !important;
+    background-size: 100%;
+}
+ul.pb-layout div.pb-google-map{
+	margin-bottom: 75px;
 }
 
 /* For Jobs page */
@@ -276,8 +455,95 @@ ul.pb-layout div.job-content ul{
 	padding-left: 15px;
 }
 ul.pb-layout div.job-content ul li{
-	background-image: url('images/bullet.png');
+	background-image: none;
 }
+ul.pb-layout div.job-content ul li:before{
+	/*background-image: url('images/bullet.png');*/
+	font-family: FontAwesome;
+   	content: '\f0da';
+	color: #1ca6f6;
+	padding-right: 15px;
+}
+
+/* For Introduction page */
+div.page-gt-s1 ul li.pb-layout-column-left > div > div.pb-feature-icon{
+    background-image: url('images/gioi-thieu/icon-gt1.png') !important;
+    background-size: 100%;
+}
+div.page-gt-s1 ul li.pb-layout-column-center-left > div > div.pb-feature-icon{
+    background-image: url('images/gioi-thieu/icon-gt2.png') !important;
+    background-size: 100%;
+}
+div.page-gt-s1 ul li.pb-layout-column-center-right > div > div.pb-feature-icon{
+    background-image: url('images/gioi-thieu/icon-gt3.png') !important;
+    background-size: 100%;
+}
+div.page-gt-s1 ul li.pb-layout-column-right > div > div.pb-feature-icon{
+    background-image: url('images/gioi-thieu/icon-gt4.png') !important;
+    background-size: 100%;
+}
+div.page-gt-s2 ul li.pb-layout-column-left > div > div.pb-feature-icon{
+    background-image: url('images/gioi-thieu/icon2.png') !important;
+    background-size: 100%;
+    background-color: transparent;
+}
+div.page-gt-s1 h5.pb-feature-header{
+	font-family: 'ProximaNovaL' !important;
+	font-size: 20px;
+}
+div.page-gt-s1 div.pb-feature-content{
+	font-size: 14px;
+}
+div.page-gt-s2 div.ui-tabs-panel h4 span.pb-header-content{
+	font-family: 'ProximaNovaSB' !important;
+	font-size: 24px;
+}
+div.page-gt-s2 div.ui-tabs-panel div.pb-feature h5.pb-feature-header{
+	font-family: 'ProximaNova' !important;
+	font-size: 20px;
+}
+div.page-gt-s2 div.ui-tabs-panel div.pb-feature div.pb-feature-content{
+	font-size: 16px;
+}
+
+div.page-gt-s4{
+	display: none;
+}
+div.pb-line.pb-clear-fix.pb-line-css-group-page-gt-s3 div.pb-text{
+	text-align: center;
+}
+div.pb-line.pb-clear-fix.pb-line-css-group-page-gt-s3 div.pb-feature.pb-feature-icon-size-medium ul>li>div,
+div.pb-line.pb-clear-fix.pb-line-css-group-page-gt-s3 div.pb-feature.pb-feature-icon-size-medium ul>li>div div{
+	margin-bottom: 25px;
+}
+div.pb-line.pb-clear-fix.pb-line-css-group-page-gt-s3 div.pb-feature.pb-feature-icon-size-medium ul>li>div h5{
+	margin-bottom: 3px;
+}
+div.page-gt-s31 ul li.pb-layout-column-left:nth-child(1) > div > div.pb-feature-icon{
+    background-image: url('images/gioi-thieu/icon-l1.png') !important;
+    background-size: 100%;
+}
+div.page-gt-s31 ul li.pb-layout-column-left:nth-child(2) > div > div.pb-feature-icon{
+    background-image: url('images/gioi-thieu/icon-l2.png') !important;
+    background-size: 100%;
+}
+div.page-gt-s31 ul li.pb-layout-column-left:nth-child(3) > div > div.pb-feature-icon{
+    background-image: url('images/gioi-thieu/icon-l3.png') !important;
+    background-size: 100%;
+}
+div.page-gt-s33 ul li.pb-layout-column-left:nth-child(1) > div > div.pb-feature-icon{
+    background-image: url('images/gioi-thieu/icon-r1.png') !important;
+    background-size: 100%;
+}
+div.page-gt-s33 ul li.pb-layout-column-left:nth-child(2) > div > div.pb-feature-icon{
+    background-image: url('images/gioi-thieu/icon-r2.png') !important;
+    background-size: 100%;
+}
+div.page-gt-s33 ul li.pb-layout-column-left:nth-child(3) > div > div.pb-feature-icon{
+    background-image: url('images/gioi-thieu/icon-r3.png') !important;
+    background-size: 100%;
+}
+
 
 /* --------------------------------------- */
 /* Hoang's Xi-tin dau */
@@ -295,7 +561,7 @@ div.theme-column-right ul.theme-blog li.theme-post{
 	padding: 1px;
 }
 div.theme-column-right ul.theme-blog li.theme-post:hover{
-	border: 1px dashed #24b8eb;
+	border: 1px solid #24b8eb;
 	padding: 0px;
 }
 ul.theme-blog > li > div.theme-post-section-icon,
@@ -310,12 +576,14 @@ ul.theme-blog > li > div.theme-post-section-preambule{
 	width: 150px;
 	height: 100px;
 	float: left;
+	margin-right: 20px;
 }
 ul.theme-blog > li > div.theme-post-section-header-cstm{
 	padding-top: 5px;
 }
 ul.theme-blog > li div.theme-post-section-content{
 	text-align: left;
+	font-size: 16px;
 }
 ul.theme-blog > li > div.theme-post-section-header-cstm a{
 	text-decoration: none;
@@ -325,6 +593,10 @@ ul.theme-blog > li > div.theme-post-section-header-cstm h6{
 	text-align: left;
 	font-size: 18px;
 	font-style: normal;
+	font-family: 'ProximaNova' !important;
+}
+ul.theme-blog > li > div.theme-post-section-header-cstm h6:hover{
+	font-family: 'ProximaNovaSB' !important;
 }
 div.theme-blog-pagination-box div.theme-blog-pagination > a:hover,
 div.theme-blog-pagination-box div.theme-blog-pagination > span{
@@ -433,7 +705,22 @@ div.chpcs_image_carousel > a.chpcs_next{
     -ms-animation-name: fadeInLeft;
     animation-name: fadeInLeft;
 }
-.et-animation{
+ul.theme-blog li.theme-post.type-post.post{
+	-webkit-animation-name: fadeInUp;
+    -moz-animation-name: fadeInUp;
+    -o-animation-name: fadeInUp;
+    -ms-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+ul.theme-blog li.theme-post.type-post.post{
+	-webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    animation-duration: 1s;
+}
+.et-animation,
+ul.theme-blog li.theme-post.type-post.post{
     opacity: 0;
     filter: alpha(opacity=0);
     filter: alpha(opacity=100)\0/;

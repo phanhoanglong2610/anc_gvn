@@ -105,7 +105,9 @@ class ThemePage
 			if($Validation->isNotEmpty($option['header_subheader']))
 				$subheaderHTML='<h6'.ThemeHelper::createStyleAttribute($style[2]).'>'.$option['header_subheader'].'</h6>';
 			elseif($post->post_type=='post')
-				$subheaderHTML='<h6'.ThemeHelper::createStyleAttribute($style[2]).'>'.get_the_date().'</h6>';
+				$cat = get_category(the_category_ID(false));
+				$cat_name = $cat->cat_name;
+				$subheaderHTML='<h6'.ThemeHelper::createStyleAttribute($style[2]).'>'.'Trang chủ / '.$cat_name.'</h6>';
 
 			$html=
 			'
