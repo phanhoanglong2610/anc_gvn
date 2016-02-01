@@ -17,7 +17,7 @@ Version: 0.1
 /*
 	Main Color:
 	yellow: #ffc600;
-	blue: #1ca6f6;
+	blue: #1AC6F6;
 	text: 959595;
 */
 
@@ -57,7 +57,7 @@ Version: 0.1
 	}
 	div.pb-menu-responsive div.opened ul li input.my-wp-search{
 		color: white;
-		background-color: #1ca6f6;
+		background-color: #1AC6F6;
 	}
 	div.pb-menu-responsive div.opened ul li input.text_input{
 		font-style: italic;
@@ -113,7 +113,7 @@ div.pb-header-subheader span.pb-header-content{
 }
 div.pb-header-subheader span.pb-subheader-content{
 	font-size: 16px;
-	color: #64BFEB;	
+	color: #959595;	
 }
 ul.pb-layout li div.pb-header-subheader div.pb-header-underline,
 .pb-header .pb-header-underline,
@@ -134,11 +134,13 @@ div.theme-layout-33x33x33 > div.theme-layout-column-right,
 div.theme-layout-33x33x33 > div.theme-layout-column-center{
 	/*width: 24%;*/
 	margin-right: 1%;
+	margin-bottom: 30px;
 }
 div.theme-footer-top.theme-clear-fix {
 	margin-top: 20px;
 	background: #3396de;
 	color: white !important;
+	padding: 30px 0px 0px 0px;
 }
 div.theme-footer-top.theme-clear-fix div.theme-main{
 	width: 100%;
@@ -151,22 +153,34 @@ div.theme-footer-top.theme-clear-fix div.theme-main h6 span.pb-header-content{
 div.theme-footer-top div.theme-widget > h6.pb-header > span.pb-header-underline{
 	background-color: #ffc600;
 }
-div.theme-footer-top div.menu-gvn-footer-container ul li{
+div.theme-footer-top div.menu-gvn-footer-1-container ul li,
+div.theme-footer-top div.menu-gvn-footer-2-container ul li,
+div.theme-footer-top div.menu-gvn-footer-3-container ul li{
 	text-align: left;
 	text-transform: none;
 }
-div.theme-page div.theme-footer-top div.widget_nav_menu div.menu-gvn-footer-container ul.menu > li > a{
+div.theme-page div.theme-footer-top div.widget_nav_menu div.menu-gvn-footer-1-container ul.menu > li > a,
+div.theme-page div.theme-footer-top div.widget_nav_menu div.menu-gvn-footer-2-container ul.menu > li > a,
+div.theme-page div.theme-footer-top div.widget_nav_menu div.menu-gvn-footer-3-container ul.menu > li > a{
 	border: none;
 	color: white;
 	font-size: 14px;
 	padding: 0px 0px 10px 0px;
 	opacity: 0.9;
 }
-div.theme-footer-top div.menu-gvn-footer-container ul li a:before{
+div.theme-footer-top div.menu-gvn-footer-1-container ul li a:before,
+div.theme-footer-top div.menu-gvn-footer-2-container ul li a:before,
+div.theme-footer-top div.menu-gvn-footer-3-container ul li a:before{
 	font-family: FontAwesome;
    	content: '\f0da';
    	color: #FFC600;
    	padding-right: 10px;
+}
+div.theme-footer-bottom.theme-clear-fix{
+	background-color: #007ac0;
+	color: #fff;
+	font-size: 14px;
+	padding: 18px 0px 18px 0px;
 }
 
 /* For Sidebar */
@@ -180,59 +194,70 @@ div.sidebar-logo img{
 	margin: auto;
 	max-width: 80px;
 }
-div.widget_nav_menu{
+div.theme-page-sidebar-left > div div.menu-vertical-sidebar-menu-container{
 	margin-top: 0px;
 }
-div.widget_nav_menu ul.menu li:first-child a{
+div.theme-page-sidebar-left > div div.menu-vertical-sidebar-menu-container ul.menu li:first-child a{
 	border-top: none;
 }
-div.widget_nav_menu ul.menu li:last-child a{
+div.theme-page-sidebar-left > div div.menu-vertical-sidebar-menu-container ul.menu li:last-child a{
 	border-bottom: none;
 }
-div.widget_nav_menu ul.menu li{
+div.theme-page-sidebar-left > div div.menu-vertical-sidebar-menu-container ul.menu li{
 	text-align: right;
     text-transform: uppercase;
     height: 35px;
     /*background-color: #338BB9;*/
 }
-div.widget_nav_menu ul.menu li > a:last-child{
+div.theme-page-sidebar-left > div div.menu-vertical-sidebar-menu-container ul.menu li > a:last-child{
 	border-bottom: none !important;
 }
-div.theme-page div.widget_nav_menu ul.menu > li.menu-item > a{
+div.theme-page div.theme-page-sidebar-left > div div.menu-vertical-sidebar-menu-container ul.menu > li.menu-item > a{
 	border: none;
-    font-size: 11px;
-    color: black;
+    font-family: 'ProximaNova' !important;
+	font-size: 14px;
+	color: black;
     height: 35px;
     line-height: 35px;
     padding: 0px 20px 0px 20px;
 	background-color: transparent !important;
     border-bottom: 1px solid #959595;
 }
-div.widget_nav_menu ul.menu li.current_page_item,
-div.widget_nav_menu ul.menu li.current_page_item:hover{
+div.menu-vertical-sidebar-menu-container ul.menu li.current_page_item,
+div.menu-vertical-sidebar-menu-container ul.menu li.current_page_item:hover{
     background-image: url('images/chung/menu_active.png');
 }
-div.theme-page div.widget_nav_menu ul.menu > li.menu-item.current_page_item > a{
+div.theme-page div.menu-vertical-sidebar-menu-container ul.menu > li.menu-item.current_page_item > a{
     /*border-bottom: 1px solid transparent;*/
+    font-family: 'ProximaNovaSB' !important;
+	color: white !important;    
 }
-div.widget_nav_menu ul.menu li a > span{
+div.menu-vertical-sidebar-menu-container ul.menu li a > span{
 	height: 0%;
 }
 div.widget_nav_menu ul.menu li:hover,
-div.widget_nav_menu ul.menu li a:hover,
-div.widget_nav_menu ul.menu li a > span:hover{
+div.widget_nav_menu ul.menu li a:hover{
     background-color: #ffc600;
 	color: white !important;    
 	border: none;
 }
-div.widget_nav_menu ul.menu li a:hover{
+div.theme-page div.menu-vertical-sidebar-menu-container ul.menu > li.menu-item > a:hover,
+div.menu-vertical-sidebar-menu-container ul.menu li a > span:hover{
+    background-image: url('images/chung/menu_active.png');
+    font-family: 'ProximaNovaSB' !important;
+    background-color: #ffc600;
+	color: white !important;    
+	border: none;
+}
+div.menu-vertical-sidebar-menu-container ul.menu li a:hover{
 	color: white;
 }
 div.widget_search, div.widget_text{
 	margin-top: 50px;
 }
 div.widget_search label{
-	font-size: 10px;
+	font-size: 12px;
+	color: #8d8d8d;
 	height: 32px;
     line-height: 32px;
     padding: 0px 11px;
@@ -268,11 +293,14 @@ div.sidebar-hotline{
 	margin-top: -20px;
 }
 div.sidebar-hotline div.row1{
-	font-size: 10px;
+	font-family: 'ProximaNova' !important;
+	font-size: 14px;
+	color: #5c5c5c;
 }
 div.sidebar-hotline div.row2{
-	font-size: 15px;
-	color: #24b8eb;
+	font-family: 'ProximaNova' !important;
+	font-size: 14px;
+	color: #1CA6F6;
 }
 div.sidebar-social{
 	text-align: right;
@@ -285,15 +313,20 @@ div.sidebar-social a{
 	height: 20px;
 	float: right;
 	margin: 3px;
-	border: 1px solid black;
+	border: 1px solid #8d8d8d;
 	border-radius: 15px;
 	font-size: 13px;
 	color: #959595;
 }
+div.sidebar-social a:hover{
+	background-color: #46629E;
+	color: white;
+}
 div.sidebar-footer{
+	font-family: 'ProximaNova' !important;
 	margin-top: -40px;
 	text-align: right;
-	font-size: 7px;
+	font-size: 8px;
 	text-transform: uppercase;
 	padding-right: 30px;
 }
@@ -335,14 +368,33 @@ ul.pb-layout.pb-layout-33x33x33 li div div.pb-button a:hover{
 .pb .pb-layout-33x33x33>.pb-layout-column-right{
 	margin: 0px;
 	width: 33%;
+	font-size: 13px;
 }
 .pb .pb-layout-33x33x33>.pb-layout-column-center{
 	margin: 0px;
 	width: 34%;	
+	font-size: 13px;
 }
 div.theme-column-left > div:last-child{
 	font-size: 6px;
 	text-transform: uppercase;
+}
+div.pb-line.pb-line-css-group-two-hand-section{
+	text-align: center;
+	margin-top: -70px;
+}
+div.pb-line div.pb-text.two-hands-strong{
+	font-family: 'ProximaNovaSB';
+	color: #1AC6F6;
+	font-size: 24px;
+	max-width: 600px;
+	margin: auto;
+}
+div.pb-line div.pb-text.two-hands-normal{
+	color: #5c5c5c;
+	font-size: 16px;
+	max-width: 600px;
+	margin: auto;
 }
 
 div.home-boxes li.pb-layout-column-left, div.home-boxes li.pb-layout-column-right{
@@ -373,11 +425,41 @@ ul.pb-layout div.home-slider{
 	max-height: 450px;
 }
 ul.pb-layout div.home-slider div.tp-bullets {
-	left: 97%;
+	/*left: 97%;*/
+}
+.zeus .tp-bullet-image,
+.zeus .tp-bullet-imageoverlay,
+.zeus .tp-bullet-title{
+	display: none;
 }
 ul.pb-layout div.home-slider div.tp-bullets div.tp-bullet{
-	border: 1px solid #fff;
+	border: 1px solid #1AC6F6;
 	left: -10px;
+}
+ul.pb-layout div.home-slider div.tp-bullets div.tp-bullet.selected,
+ul.pb-layout div.home-slider div.tp-bullets.zeus div.tp-bullet:after{
+	background-color: #1AC6F6 !important;
+	background: #1AC6F6 !important;
+}
+div.home-boxes{
+	display: none;
+}
+div.pb-text.result-analysis-title{
+	padding-left: 30px;
+}
+div.pb-text.analysis-lines{
+	font-size: 16px;
+	color: #5c5c5c;
+	text-align: left;
+}
+div.pb-text.analysis-lines ul li{
+	background-image: none;
+}
+div.pb-text.analysis-lines ul li:before{
+	font-family: FontAwesome;
+   	content: '\f046';
+	color: #1AC6F6;
+	padding-right: 15px;
 }
 
 /* For Services Page */
@@ -461,7 +543,7 @@ ul.pb-layout div.job-content ul li:before{
 	/*background-image: url('images/bullet.png');*/
 	font-family: FontAwesome;
    	content: '\f0da';
-	color: #1ca6f6;
+	color: #1AC6F6;
 	padding-right: 15px;
 }
 
