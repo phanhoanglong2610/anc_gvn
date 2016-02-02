@@ -299,8 +299,11 @@ div.sidebar-hotline div.row1{
 }
 div.sidebar-hotline div.row2{
 	font-family: 'ProximaNova' !important;
-	font-size: 14px;
+	font-size: 19px;
 	color: #1CA6F6;
+}
+div.sidebar-hotline img{
+	margin-top: -10px;
 }
 div.sidebar-social{
 	text-align: right;
