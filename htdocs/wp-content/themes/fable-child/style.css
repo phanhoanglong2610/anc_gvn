@@ -659,20 +659,10 @@ div.page-gt-s33 ul li.pb-layout-column-left:nth-child(3) > div > div.pb-feature-
 
 
 /* For Testimonial Page */
-div.page-testimonial div.testimonial-image{
-	max-width: 120px;
-	margin: auto;
-	padding: 20px 20px 10px 20px;
-}
-div.page-testimonial div.testimonial-image img{
-	width: 120px !important;
-	border-radius: 50%;
-}
-
 /* Left arrow */
 div.page-testimonial div.testimonial-single:nth-child(odd) div.easy_t_single_testimonial blockquote{
 	position: relative;
-	border: 1px solid #1AC6F6;
+	border: 1px solid #EEE;
 }
 div.page-testimonial div.testimonial-single:nth-child(odd) div.easy_t_single_testimonial blockquote:after,
 div.page-testimonial div.testimonial-single:nth-child(odd) div.easy_t_single_testimonial blockquote:before{
@@ -687,13 +677,13 @@ div.page-testimonial div.testimonial-single:nth-child(odd) div.easy_t_single_tes
 }
 div.page-testimonial div.testimonial-single:nth-child(odd) div.easy_t_single_testimonial blockquote:after{
 	border-color: rgba(136, 183, 213, 0);
-	border-right-color: #88b7d5;
+	border-right-color: #EEE;
 	border-width: 10px;
 	margin-top: -10px;
 }
 div.page-testimonial div.testimonial-single:nth-child(odd) div.easy_t_single_testimonial blockquote:before{
 	border-color: rgba(26, 198, 246, 0);
-	border-right-color: #1AC6F6;
+	border-right-color: #EEE;
 	border-width: 11px;
 	margin-top: -11px;
 }
@@ -701,11 +691,11 @@ div.page-testimonial div.testimonial-single:nth-child(odd) div.easy_t_single_tes
 /* Right arrow */
 div.page-testimonial div.testimonial-single:nth-child(even) div.easy_t_single_testimonial blockquote{
 	position: relative;
-	border: 1px solid #1AC6F6;
+	border: 1px solid #EEE;
 }
 div.page-testimonial div.testimonial-single:nth-child(even) div.easy_t_single_testimonial blockquote:after,
 div.page-testimonial div.testimonial-single:nth-child(even) div.easy_t_single_testimonial blockquote:before{
-	left: 100%;
+	right: 100%;
 	top: 20%;
 	border: solid transparent;
 	content: " ";
@@ -716,38 +706,55 @@ div.page-testimonial div.testimonial-single:nth-child(even) div.easy_t_single_te
 }
 div.page-testimonial div.testimonial-single:nth-child(even) div.easy_t_single_testimonial blockquote:after{
 	border-color: rgba(136, 183, 213, 0);
-	border-left-color: #88b7d5;
+	border-right-color: #EEE;
 	border-width: 10px;
 	margin-top: -10px;
 }
 div.page-testimonial div.testimonial-single:nth-child(even) div.easy_t_single_testimonial blockquote:before{
 	border-color: rgba(26, 198, 246, 0);
-	border-left-color: #1AC6F6;
+	border-right-color: #EEE;
 	border-width: 11px;
 	margin-top: -11px;
 }
 
-
+div.page-testimonial div.testimonial-image{
+	max-width: 120px;
+	margin: auto;
+	padding: 20px 20px 10px 20px;
+	vertical-align: top;
+}
+div.page-testimonial div.testimonial-image img{
+	width: 120px !important;
+	border-radius: 50%;
+}
 div.page-testimonial div.testimonial-single:nth-child(odd) div{
-	float: left;
+	display: inline-block;
+	text-align: left;
 }
 div.page-testimonial div.testimonial-single:nth-child(even) div{
-	float: right;
+	display: inline-block;
+	text-align: left;
 }
 div.page-testimonial div.testimonial-single{
 	clear: both;
+	text-align: center;
 }
 div.page-testimonial div.testimonial-single div.easy_t_single_testimonial{
 	max-width: 760px;
 }
+div.page-testimonial div.testimonial-single div.easy_t_single_testimonial blockquote{
+	padding: 10px 20px 10px 20px;
+}
 div.page-testimonial div.testimonial-single div.easy_t_single_testimonial span.testimonial-client{
 	display: inline;
+	font-style: normal;
 	font-weight: bold;
-	color: #1CA6F6;
+	color: #000;
 }
 div.page-testimonial div.testimonial-single div.easy_t_single_testimonial span.testimonial-position{
 	display: inline;
-	font-style: italic;
+	font-style: normal;
+	font-weight: bold;
 	color: #959595;
 }
 div.easy_t_pagination span,
