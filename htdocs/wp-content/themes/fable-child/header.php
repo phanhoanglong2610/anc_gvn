@@ -47,6 +47,8 @@
 ?>
 			</head>
 
+
+
 			<body <?php body_class($Theme->getFooterStickyClass()); ?>>
 				
 				<?php echo $Menu->create(); ?>
