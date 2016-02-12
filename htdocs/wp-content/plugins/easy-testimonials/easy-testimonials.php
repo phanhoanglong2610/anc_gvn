@@ -1363,11 +1363,11 @@ function outputTestimonialsCycle($atts){
 		
 		<?php if(!$display_pagers_above): ?>
 		<div class="easy-t-cycle-controls">				
-			<?php if($prev_next):?><div class="cycle-prev easy-t-cycle-prev"><?php echo get_option('easy_t_previous_text', '<'); ?></div><?php endif; ?>
+			<?php if($prev_next):?><div class="cycle-prev easy-t-cycle-prev"><?php echo get_option('easy_t_previous_text', '<< Prev'); ?></div><?php endif; ?>
 			<?php if($pager || $show_pager_icons ): ?>
 				<div class="easy-t-cycle-pager"></div>
 			<?php endif; ?>
-			<?php if($prev_next):?><div class="cycle-next easy-t-cycle-next"><?php echo get_option('easy_t_next_text', '>'); ?></div><?php endif; ?>			
+			<?php if($prev_next):?><div class="cycle-next easy-t-cycle-next"><?php echo get_option('easy_t_next_text', 'Next >>'); ?></div><?php endif; ?>			
 		</div>	
 		<?php endif; ?>
 		
@@ -1666,7 +1666,7 @@ function easy_testimonials_build_metadata_html($testimonial, $author_class, $sho
 				<span class="testimonial-client" itemprop="author" style="<?php echo $client_css; ?>">
 					<?php echo $testimonial['client'];?>
 					<?php if($show_the_position): ?>
-						<span class="testimonial-position" style="<?php echo $position_css; ?>">, <?php echo $testimonial['position'];?></span>
+						<span class="testimonial-position" style="<?php echo $position_css; ?>"> - <?php echo $testimonial['position'];?></span>
 					<?php endif; ?>
 				</span>
 			<?php endif; ?>
