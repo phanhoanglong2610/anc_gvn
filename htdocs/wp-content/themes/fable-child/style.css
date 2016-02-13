@@ -1359,6 +1359,11 @@ ul.theme-blog li.theme-post.type-post.post{
 		margin-bottom: 20px;
 	}
 
+	/*post*/
+	div.theme-post.post.type-post .theme-post-section-preambule{
+		display: none;
+	}
+/**/
 }
 
 
@@ -1375,6 +1380,10 @@ ul.theme-blog li.theme-post.type-post.post{
 	li.pb-layout-column-left div.two-hands-strong
 	{
 		/*max-width: 700px !important;*/
+	}
+	/*post*/
+	div.theme-post.post.type-post .theme-post-section-preambule{
+		display: none;
 	}
 
 }
