@@ -1352,6 +1352,13 @@ ul.theme-blog li.theme-post.type-post.post{
 		margin-bottom: 30px;
 	}
 
+	/*page dich vu*/
+	div.pb-line.pb-line-css-group-page-dv-ft{
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-bottom: 20px;
+	}
+
 }
 
 
