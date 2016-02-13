@@ -1315,6 +1315,8 @@ ul.theme-blog li.theme-post.type-post.post{
 /*Hoang Responsive*/
 
 @media only screen and (max-width: 980px) and (min-width: 0px){
+
+	/*home page*/
 	li.pb-layout-column-left .two-hands-normal{
 		text-align: justify;
 		padding: 15px 0px 15px 0px;
@@ -1335,6 +1337,21 @@ ul.theme-blog li.theme-post.type-post.post{
 		width: 100%;
 		padding: 0px;
 	}
+	/*van tay hoc*/
+	ul.theme-blog > li > div.theme-post-section-header-cstm h6{
+		margin:0px 10px 0px 10px;
+	}
+
+	ul.theme-blog > li div.theme-post-section-content{
+		margin-left: 10px;
+		margin-right: 10px;
+		text-align: justify;
+	}
+
+	ul.theme-blog li.theme-post.type-post.post{
+		margin-bottom: 30px;
+	}
+
 }
 
 
