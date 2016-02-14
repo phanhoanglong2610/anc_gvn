@@ -33,11 +33,6 @@
 						?>
 					</span>
 				</h2>
-				<h6 class="pb-subheader">
-					<span class="pb-subheader-content">
-						<?php echo get_post_meta(get_the_ID(), 'page-title-subheader', true); ?>
-					</span>
-				</h6>
 				<div class="pb-header-underline">
 				</div>
 			</div>
