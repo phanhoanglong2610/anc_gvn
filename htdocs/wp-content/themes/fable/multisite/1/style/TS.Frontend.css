@@ -1120,16 +1120,6 @@ div.theme-footer-top p.pb-dropcap>span.pb-dropcap-first-letter
 	background-color:#FFFFFF;
 }
 
-.pb-feature ul>li.pb-feature-element-even>div>.pb-feature-icon
-{
-	background-color:#FE6500;
-}
-
-.pb-feature ul>li.pb-feature-element-odd>div>.pb-feature-icon
-{
-	background-color:#FE6500;
-}
-
 .pb-feature ul>li>div>.pb-feature-header,
 .pb-feature ul>li>div>.pb-feature-header a
 {
@@ -1141,20 +1131,9 @@ div.theme-footer-top p.pb-dropcap>span.pb-dropcap-first-letter
 	color:#959595;
 }
 
-.pb-feature .pb-slider-pagination a
-{
-	border-color:#FE6500;
-}
-
 .pb-feature .pb-slider-pagination a:hover
 {
 	border-color:#56509F;
-}
-
-.pb-feature .pb-slider-pagination a:active,
-.pb-feature .pb-slider-pagination a.selected
-{
-	border-color:#FE6500;
 }
 
 div.theme-footer-top .pb-feature ul>li.pb-feature-element-even>div>.pb-feature-icon
@@ -1641,7 +1620,7 @@ div.theme-footer-top .pb-image-box.pb-image-hover:hover .pb-image-text .pb-image
 
 .pb-nivo-slider .pb-slider-pagination a
 {
-	border-color:#1AC6F6;
+	border-color:#1CA6F6;
 }
 
 .pb-nivo-slider .pb-slider-pagination a:hover
@@ -1652,13 +1631,13 @@ div.theme-footer-top .pb-image-box.pb-image-hover:hover .pb-image-text .pb-image
 .pb-nivo-slider .pb-slider-pagination a.active,
 .pb-nivo-slider .pb-slider-pagination a.selected
 {
-	border-color:#1AC6F6;
+	border-color:#1CA6F6;
 }
 
 .pb-nivo-slider .nivo-directionNav .nivo-prevNav,
 .pb-nivo-slider .nivo-directionNav .nivo-nextNav
 {
-	background-color:#1AC6F6;
+	background-color:#1CA6F6;
 }
 
 .pb-nivo-slider .nivo-directionNav .nivo-prevNav:hover,
@@ -1680,7 +1659,7 @@ div.theme-footer-top .pb-image-box.pb-image-hover:hover .pb-image-text .pb-image
 .pb-nivo-slider .pb-slider-pagination.nivo-controlNav.nivo-thumbs-enabled a.active,
 .pb-nivo-slider .pb-slider-pagination.nivo-controlNav.nivo-thumbs-enabled a.selected
 {
-	border-color:#1AC6F6;
+	border-color:#1CA6F6;
 }
 
 .pb-notice>.pb-notice-content
@@ -1910,7 +1889,7 @@ div.theme-footer-top .pb-social-icon>li>a:hover
 
 .pb-tab.ui-tabs>.ui-tabs-nav .ui-state-default
 {
-	border-color:#E8E8E8;
+	border-color:#1ca6f6;
 	border-style:solid;
 	border-top-width:0px;
 	border-right-width:0px;

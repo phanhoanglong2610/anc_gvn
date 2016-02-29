@@ -45,6 +45,21 @@
 					
 		wp_head(); 
 ?>
+
+<script type="text/javascript">
+			function focus_s(x){
+				if(x.value == 'Tìm kiếm thông tin') { 
+					x.value = '';
+				}
+			}
+			function blur_s(x){
+				if(x.value == '') { 
+					x.value='Tìm kiếm thông tin';
+				}
+			}
+		</script>
+
+
 			</head>
 
 

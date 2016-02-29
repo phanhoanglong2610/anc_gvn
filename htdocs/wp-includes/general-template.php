@@ -233,8 +233,8 @@ function get_search_form( $echo = true ) {
 		} else {
 			$form = '<form role="search" method="get" id="searchform" class="searchform" action="' . esc_url( home_url( '/' ) ) . '">
 				<div>
-					<label style="font-style:italic" class="screen-reader-text" for="s">' . _x( 'Tìm kiếm thông tin', 'label' ) . '</label>
-					<input type="text" value="' . get_search_query() . '" name="s" id="s" />
+					<label style="font-style:italic;display:none" class="screen-reader-text" for="s">' . _x( 'Tìm kiếm thông tin', 'label' ) . '</label>
+					<input type="text" onfocus="focus_s(this)" onblur="blur_s(this)" value="' . get_search_query() . '" name="s" id="s"' . $event . '/>
 					<input type="submit" id="searchsubmit" value="'. esc_attr_x( '', 'submit button' ) .'" />
 				</div>
 			</form>';
@@ -2586,6 +2586,9 @@ function get_search_query( $escaped = true ) {
 	 * @param mixed $search Contents of the search query variable.
 	 */
 	$query = apply_filters( 'get_search_query', get_query_var( 's' ) );
+
+	if ( $query == '')
+		$query = "Tìm kiếm thông tin";
 
 	if ( $escaped )
 		$query = esc_attr( $query );

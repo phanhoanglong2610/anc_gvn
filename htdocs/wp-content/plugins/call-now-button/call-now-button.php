@@ -154,7 +154,7 @@ if(get_option('cnb') && !is_admin()) {
 				$ButtonExtra = "";				
 			}
 			// echo $credits."<style>#callnowbutton {display:none;} @media screen and (max-width:650px){#callnowbutton {display:block; ".$ButtonAppearance." height:80px; position:fixed; bottom:-20px; border-top:2px solid ".changeColor($options['color'],'lighter')."; background:url(data:image/svg+xml;base64,".svg(changeColor($options['color'], 'darker') ).") center 2px no-repeat ".$options['color']."; text-decoration:none; box-shadow:0 0 5px #888; z-index:9999;background-size:58px 58px}".$ButtonExtra."}</style>\n";
-			echo $credits."<style>#callnowbutton {display:none;} @media screen and (max-width:650px){#callnowbutton {display:block; ".$ButtonAppearance." height:80px; position:fixed; bottom:-20px; border-top:2px solid ".changeColor($options['color'],'lighter')."; background:url('wp-content/themes/fable-child/images/telephone46.png'".") center 2px no-repeat ".$options['color']."; text-decoration:none; box-shadow:0 0 5px #888; z-index:9999;background-size:58px 58px}".$ButtonExtra."}</style>\n";
+			echo $credits."<style>#callnowbutton {display:none;} @media screen and (max-width:900px){#callnowbutton {display:block; ".$ButtonAppearance." height:80px; position:fixed; bottom:-20px; border-top:2px solid ".changeColor($options['color'],'lighter')."; background:url('wp-content/themes/fable-child/images/telephone46.png'".") center 2px no-repeat ".$options['color']."; text-decoration:none; box-shadow:0 0 5px #888; z-index:9999;background-size:58px 58px}".$ButtonExtra."}</style>\n";
 		}
 		add_action('wp_head', 'cnb_head');
 		
