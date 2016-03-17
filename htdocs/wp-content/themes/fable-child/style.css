@@ -29,7 +29,7 @@ Version: 0.1
 }
 @font-face {
 	font-family: ProximaNovaL;  
-	src: url('fonts/Proxima/ProximaNova-Light.otf') format('embedded-opentype');
+	src: url('fonts/Proxima/ProximaNova-Light.otf');
 	font-weight: normal;  
 }
 @font-face {
@@ -55,7 +55,7 @@ p{
 	margin-bottom: -6px !important;
 }
 .theme-page .theme-page-content{
-	padding-bottom: 10px;
+	padding-bottom: 0px;
 	padding-top: 0px;
 }
 .no-display{
@@ -125,6 +125,7 @@ ul.pb-layout li div.pb-header-subheader div.pb-header-underline,
 }
 div.theme-page div.theme-page-header{
 	padding: 37px 0px 36px 0px;
+	background-color: #1CA6F6;
 }
 .pb-header-subheader .pb-subheader{
 	margin-top: 5px;
@@ -146,6 +147,10 @@ div.theme-page div.theme-page-header{
 div.theme-layout-33x33x33 > div.theme-layout-column-left{
 	clear: none;
 }
+#theme-go-to-top{
+	bottom: 40px !important;
+}
+
 div.theme-layout-33x33x33 > div.theme-layout-column-left,
 div.theme-layout-33x33x33 > div.theme-layout-column-right,
 div.theme-layout-33x33x33 > div.theme-layout-column-center{
@@ -160,6 +165,9 @@ div.theme-clear-fix > div.theme-blog-pagination-box{
 }
 div.theme-blog-pagination-box div.theme-blog-pagination{
 	/*margin-bottom: 50px;*/
+}
+div.theme-page div.theme-footer{
+	margin-top: 35px;
 }
 div.theme-footer-top.theme-clear-fix {
 	background: #3396de;
@@ -332,7 +340,7 @@ div.widget_search input[type="submit"]{
 	/*background-image: url('images/magnifier.png');*/
 	/*background-repeat: no-repeat;*/
 	margin-top: 0px;
-	background-color: #64BFEB;
+	background-color: #1CA6F6;
 }
 div.widget_search input[type="submit"]:hover{
 	background-color: #ffc600;
@@ -472,8 +480,11 @@ div.pb-line div.pb-text.two-hands-strong{
 	font-family: 'ProximaNovaSB' !important;
 	color: #1CA6F6;
 	font-size: 24px;
-	max-width: 600px;
+	max-width: 650px;
 	margin: auto;
+}
+div.pb-line.brain-hands div.pb-text img{
+	width: 100% !important;
 }
 div.pb-line div.pb-text.two-hands-normal{
 	color: #5c5c5c;
@@ -510,8 +521,14 @@ ul.pb-layout div.home-slider div.rev_slider {
 	max-width: 100%;
 	max-height: 650px;
 }
-ul.pb-layout div.home-slider div.tp-bullets {
-	/*left: 97%;*/
+ul.pb-layout div.home-slider div.rev_slider div.tparrows{
+	background-image: none !important;
+}
+ul.pb-layout div.home-slider div.rev_slider div.tp-leftarrow:before{
+	content: "\e82c" !important;
+}
+ul.pb-layout div.home-slider div.rev_slider div.tp-rightarrow:before{
+	content: "\e82d" !important;
 }
 ul.pb-layout div.home-slider div.rev_slider_wrapper.fullwidthbanner-container{
 	width: 100% !important;
@@ -613,7 +630,7 @@ div.pb-line.pb-line-css-group-page-dv-ft ul > li > div > h3 > span.pb-header-con
 	font-family: 'ProximaNovaB' !important;
 	color: #008ade;
 	font-size: 30px;
-	margin-bottom: -10px;
+	margin-top: -10px;
 }
 div.pb-line.pb-line-css-group-page-dv-ft ul > li > div > h6 > span.pb-header-content{
 	font-size: 16px;
@@ -643,6 +660,7 @@ div.pb-feature.pb-feature-icon-position-left.pb-feature-icon-size-medium ul>li>d
 div.pb-line.pb-clear-fix.pb-line-css-group-contact-feature .pb-contact-form input[type="submit"], .pb-contact-form input[type="button"]{
 	font-family: 'ProximaNovaSB' !important;
 	font-size: 14px;
+	width: 140px;
 }
 body.theme-footer-sticky div.theme-footer.theme-clear-fix{
 	margin-top: 100px;
@@ -660,19 +678,19 @@ div.page-lh-s1 ul li > div > h5.pb-feature-header{
 }
 div.page-lh-s1 ul li.pb-layout-column-left > div > div.pb-feature-icon{
     background-image: url('images/lien-he/7-1.png') !important;
-    background-size: 100%;
+    background-size: 100% 100%;
     width: 69px;
     height: 69px;
 }
 div.page-lh-s1 ul li.pb-layout-column-center > div > div.pb-feature-icon{
     background-image: url('images/lien-he/7-2.png') !important;
-    background-size: 100%;
+    background-size: 100% 100%;
     width: 69px;
     height: 69px;
 }
 div.page-lh-s1 ul li.pb-layout-column-right > div > div.pb-feature-icon{
     background-image: url('images/lien-he/7-3.png') !important;
-    background-size: 100%;
+    background-size: 100% 100%;
     width: 69px;
     height: 69px;
 }
@@ -740,7 +758,7 @@ div.page-gt-s2 ul li > a {
 }
 div.page-gt-s2 ul li.pb-layout-column-left > div > div.pb-feature-icon{
     background-image: url('images/gioi-thieu/icon2.png') !important;
-    background-size: 100%;
+    background-size: 64px 64px;
     background-color: transparent;
 }
 div.page-gt-s2 ul li{
@@ -748,11 +766,12 @@ div.page-gt-s2 ul li{
 	border-bottom-width: 2px !important;
 }
 div.page-gt-s2 ul li:hover{
-	border: none !important;
+	border-bottom: 2px solid transparent !important;
 }
 div.page-gt-s1 h5.pb-feature-header{
 	font-family: 'ProximaNovaL' !important;
 	font-size: 20px;
+	font-weight: bold;
 }
 div.page-gt-s1 div.pb-feature-content{
 	font-size: 14px;
@@ -761,12 +780,14 @@ div.page-gt-s2 div.ui-tabs-panel h4 span.pb-header-content{
 	font-family: 'ProximaNovaSB' !important;
 	font-size: 24px;
 	color: #1ca6f6;
+	line-height: 1em;
 }
 div.page-gt-s2 div.ui-tabs-panel div.pb-feature h5.pb-feature-header{
 	font-family: 'ProximaNova' !important;
 	font-size: 20px;
 	color: #1ca6f6;
 	padding-left: 10px;
+	margin-bottom: 5px;
 }
 div.page-gt-s2 div.ui-tabs-panel div.pb-feature div.pb-feature-content{
 	font-size: 14px;
@@ -782,6 +803,7 @@ div.page-gt-s4{
 div.pb-line.pb-clear-fix.pb-line-css-group-page-gt-s3{
 	margin-right: 75px;
 	margin-left: 75px;
+	margin-bottom: 70px;
 }
 div.pb-line.pb-clear-fix.pb-line-css-group-page-gt-s3 div.pb-text{
 	text-align: center;
@@ -789,48 +811,49 @@ div.pb-line.pb-clear-fix.pb-line-css-group-page-gt-s3 div.pb-text{
 div.pb-line.pb-clear-fix.pb-line-css-group-page-gt-s3 div.pb-feature.pb-feature-icon-size-medium ul>li>div,
 div.pb-line.pb-clear-fix.pb-line-css-group-page-gt-s3 div.pb-feature.pb-feature-icon-size-medium ul>li>div div{
 	margin-bottom: 25px;
+	font-weight: normal;
 }
 div.pb-line.pb-clear-fix.pb-line-css-group-page-gt-s3 div.pb-feature.pb-feature-icon-size-medium ul>li>div h5{
 	margin-bottom: 3px;
 	color: #1CA6F6;
 }
 div.page-gt-s31 ul li.pb-layout-column-left:nth-child(1) > div > div.pb-feature-icon{
-    background-image: url('images/gioi-thieu/icon-l1.png') !important;
+    background-image: url('images/gioi-thieu/1X/s4-1.png') !important;
     background-color: transparent;
     background-size: 100%;
     width: 64px;
     height: 64px;
 }
 div.page-gt-s31 ul li.pb-layout-column-left:nth-child(2) > div > div.pb-feature-icon{
-    background-image: url('images/gioi-thieu/icon-l2.png') !important;
+    background-image: url('images/gioi-thieu/1X/s4-2.png') !important;
     background-color: transparent;
     background-size: 100%;
     width: 64px;
     height: 64px;
 }
 div.page-gt-s31 ul li.pb-layout-column-left:nth-child(3) > div > div.pb-feature-icon{
-    background-image: url('images/gioi-thieu/icon-l3.png') !important;
+    background-image: url('images/gioi-thieu/1X/s4-3.png') !important;
     background-color: transparent;
     background-size: 100%;
     width: 64px;
     height: 64px;
 }
 div.page-gt-s33 ul li.pb-layout-column-left:nth-child(1) > div > div.pb-feature-icon{
-    background-image: url('images/gioi-thieu/icon-r1.png') !important;
+    background-image: url('images/gioi-thieu/1X/s4-4.png') !important;
     background-color: transparent;
     background-size: 100%;
     width: 64px;
     height: 64px;
 }
 div.page-gt-s33 ul li.pb-layout-column-left:nth-child(2) > div > div.pb-feature-icon{
-    background-image: url('images/gioi-thieu/icon-r2.png') !important;
+    background-image: url('images/gioi-thieu/1X/s4-5.png') !important;
     background-color: transparent;
     background-size: 100%;
     width: 64px;
     height: 64px;
 }
 div.page-gt-s33 ul li.pb-layout-column-left:nth-child(3) > div > div.pb-feature-icon{
-    background-image: url('images/gioi-thieu/icon-r3.png') !important;
+    background-image: url('images/gioi-thieu/1X/s4-6.png') !important;
     background-color: transparent;
     background-size: 100%;
     width: 64px;
@@ -1069,6 +1092,7 @@ div.theme-blog-pagination-box div.theme-blog-pagination > span{
 	border-color: transparent;
 	padding: 8px 12px 8px 12px;
 	margin-left: 10px;
+	width: 8px;
 }
 div.theme-post-section-preambule div.pb-image-box > a > img{
 	-webkit-transition: all 1s ease; /* Safari and Chrome */
@@ -1156,6 +1180,10 @@ div.chpcs_image_carousel > a.chpcs_next{
 	margin-top: -150px;
 	font-weight: 100;
     color: #82cffc ;
+}
+div.chpcs_image_carousel > a.chpcs_prev:hover,
+div.chpcs_image_carousel > a.chpcs_next:hover{
+	color: #ffc600;
 }
 div#wa_chpc_slider span.chpcs_title a,
 div#wa_chpc_slider span.chpcs_title a:visited,
@@ -1513,7 +1541,7 @@ ul.theme-blog li.theme-post.type-post.post{
 	}
 	li.pb-layout-column-left div.pb-clear-fix{
 		height: auto !important;
-		margin-top: 10px;
+		margin-top: 20px;
 	}
 
 	div.pb-text.result-analysis-title{
@@ -1599,6 +1627,12 @@ ul.theme-blog li.theme-post.type-post.post{
 	.pb-menu .pb-menu-responsive .nav-toggle span span{
 		background-image: url('images/chung/menu_responsive.png');
 	}
+	.pb-menu .pb-menu-responsive .nav-toggle:hover>span{
+		margin-bottom: 5px;
+	}
+	.pb-menu .pb-menu-responsive a{
+		color: #58595b;
+	}
 	div.pb-menu-responsive div.opened ul li input.my-wp-search{
 		color: white;
 		background-color: #1CA6F6;
@@ -1608,9 +1642,6 @@ ul.theme-blog li.theme-post.type-post.post{
 	}
 	div.theme-footer-top div ul.menu li.menu-item-search{
 		display: none;
-	}
-	#theme-go-to-top{
-		bottom: 40px !important;
 	}
 	div.theme-layout-33x33x33 > div.theme-layout-column-left,
 	div.theme-layout-33x33x33 > div.theme-layout-column-right,
@@ -1655,6 +1686,38 @@ ul.theme-blog li.theme-post.type-post.post{
 		padding: 15px;
 		color: #000;
 	}
+	div.pb-space.result-analysis-title-right,
+	div.pb-space.result-analysis-title-right-bottom{
+		display: none;
+	}
+	div.pb-line-css-group-two-parts-analysis ul li.pb-responsive-column-a:last-child{
+		margin-top: -50px;
+		margin-bottom: 0px;
+	}
+	div.pb-line-css-group-two-parts-analysis{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	ul.pb-layout div.home-slider.home-slider-bottom div.tp-bullets {
+		/*left: 97%;*/
+		top: 40% !important;
+	}
+	ul.pb-layout div.home-slider.home-slider-top div.tp-bullets {
+		/*left: 97%;*/
+		left: 40% !important;
+	}
+	ul.pb-layout div.home-slider.home-slider-top div.tp-bullets div.tp-bullet{
+		width: 10px;
+		height: 10px;
+	}
+	div.pb-header-subheader{
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	div.theme-section-padding-bottom{
+		padding-bottom: 0px;
+	}
+
 }
 @media only screen and (min-width: 980px){
 	body div.pb-menu{
@@ -1688,5 +1751,36 @@ ul.theme-blog li.theme-post.type-post.post{
 	div.theme-column-right ul.theme-blog{
 		padding-left: 30px !important;
 		padding-right: 30px !important;
+	}
+}
+
+@media not all, not all, only screen and (-webkit-min-device-pixel-ratio: 2), not all{
+	div.page-lh-s1 ul li.pb-layout-column-left > div > div.pb-feature-icon{
+	    background-image: url('images/lien-he/7-1-2x.png') !important;
+	}
+	div.page-lh-s1 ul li.pb-layout-column-center > div > div.pb-feature-icon{
+	    background-image: url('images/lien-he/7-2-2x.png') !important;
+	}
+	div.page-lh-s1 ul li.pb-layout-column-right > div > div.pb-feature-icon{
+	    background-image: url('images/lien-he/7-3-2x.png') !important;
+	}
+	
+	div.page-gt-s31 ul li.pb-layout-column-left:nth-child(1) > div > div.pb-feature-icon{
+	    background-image: url('images/gioi-thieu/2X/s4-1-2x.png') !important;
+	}
+	div.page-gt-s31 ul li.pb-layout-column-left:nth-child(2) > div > div.pb-feature-icon{
+	    background-image: url('images/gioi-thieu/2X/s4-2-2x.png') !important;
+	}
+	div.page-gt-s31 ul li.pb-layout-column-left:nth-child(3) > div > div.pb-feature-icon{
+	    background-image: url('images/gioi-thieu/2X/s4-3-2x.png') !important;
+	}
+	div.page-gt-s33 ul li.pb-layout-column-left:nth-child(1) > div > div.pb-feature-icon{
+	    background-image: url('images/gioi-thieu/2X/s4-4-2x.png') !important;
+	}
+	div.page-gt-s33 ul li.pb-layout-column-left:nth-child(2) > div > div.pb-feature-icon{
+	    background-image: url('images/gioi-thieu/2X/s4-5-2x.png') !important;
+	}
+	div.page-gt-s33 ul li.pb-layout-column-left:nth-child(3) > div > div.pb-feature-icon{
+	    background-image: url('images/gioi-thieu/2X/s4-6-2x.png') !important;
 	}
 }

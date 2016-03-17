@@ -20,13 +20,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'test');
+define('DB_NAME', 'freev_17657681_gvn');
 
 /** MySQL database username */
-define('DB_USER', 'bn_wordpress');
+define('DB_USER', 'freev_17657681');
 
 /** MySQL database password */
-define('DB_PASSWORD', '10435e68c0');
+define('DB_PASSWORD', '10092610');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost:3306');
@@ -88,8 +88,8 @@ define('WP_DEBUG', false);
  *
 */
 
-define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] . '/gvn');
-define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST'] . '/gvn');
+define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] );
+define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST'] );
 
 
 /** Absolute path to the WordPress directory. */
@@ -99,5 +99,5 @@ if ( !defined('ABSPATH') )
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
 
-define('WP_TEMP_DIR', 'C:/xampp/apps/gvn/tmp');
+// define('WP_TEMP_DIR', 'C:/xampp/apps/gvn/tmp');
 

@@ -25,14 +25,14 @@
 
 .pb-accordion.ui-accordion .ui-accordion-header.ui-state-hover .ui-accordion-header-icon
 {
-	border-color:#1AC6F6;
+	border-color:#1CA6F6;
 	border-style:solid;
 	border-width:2px;
 }
 
 .pb-accordion.ui-accordion .ui-accordion-header.ui-state-hover .ui-accordion-header-icon
 {
-	background-color:#1AC6F6;
+	background-color:#1CA6F6;
 }
 
 .pb-accordion.ui-accordion .ui-accordion-header.ui-state-active,
@@ -43,14 +43,14 @@
 
 .pb-accordion.ui-accordion .ui-accordion-header.ui-state-active .ui-accordion-header-icon
 {
-	border-color:#1AC6F6;
+	border-color:#1CA6F6;
 	border-style:solid;
 	border-width:2px;
 }
 
 .pb-accordion.ui-accordion .ui-accordion-header.ui-state-active .ui-accordion-header-icon
 {
-	background-color:#1AC6F6;
+	background-color:#1CA6F6;
 }
 
 div.theme-footer-top .pb-accordion.ui-accordion .ui-accordion-header.ui-state-default,
@@ -1239,49 +1239,49 @@ h2 a b
 h3,
 h3 a
 {
-	color:#1AC6F6;
+	color:#1CA6F6;
 }
 
 h3 b,
 h3 a b
 {
-	color:#1AC6F6;
+	color:#1CA6F6;
 }
 
 h4,
 h4 a
 {
-	color:#1AC6F6;
+	color:#1CA6F6;
 }
 
 h4 b,
 h4 a b
 {
-	color:#1AC6F6;
+	color:#1CA6F6;
 }
 
 h5,
 h5 a
 {
-	color:#1AC6F6;
+	color:#1CA6F6;
 }
 
 h5 b,
 h5 a b
 {
-	color:#1AC6F6;
+	color:#1CA6F6;
 }
 
 h6,
 h6 a
 {
-	color:#1AC6F6;
+	color:#1CA6F6;
 }
 
 h6 b,
 h6 a b
 {
-	color:#1AC6F6;
+	color:#1CA6F6;
 }
 
 .theme-widget>.pb-header>.pb-header-underline
@@ -1603,11 +1603,11 @@ div.theme-footer-top .pb-image-box.pb-image-hover:hover .pb-image-text .pb-image
 .pb-menu .pb-menu-responsive li.current-menu-ancestor a:hover,
 .pb-menu .pb-menu-responsive li.current-page-ancestor a:hover
 {
-	border-color:#1AC6F6;
+	border-color:#1CA6F6;
 	border-style:solid;
 	border-width:1px;
 }
-.pb-menu .pb-menu-responsive .nav-toggle:hover>span { border-left:solid 1px #1AC6F6; }
+.pb-menu .pb-menu-responsive .nav-toggle:hover>span { border-left:solid 1px #1CA6F6; }
 .pb-menu .pb-menu-responsive li.current-menu-item a,
 .pb-menu .pb-menu-responsive li.current-menu-ancestor a,
 .pb-menu .pb-menu-responsive li.current-page-ancestor a,
@@ -1615,7 +1615,7 @@ div.theme-footer-top .pb-image-box.pb-image-hover:hover .pb-image-text .pb-image
 .pb-menu .pb-menu-responsive li.current-menu-ancestor a:hover,
 .pb-menu .pb-menu-responsive li.current-page-ancestor a:hover
 {
-	background-color:#1AC6F6;
+	background-color:#1CA6F6;
 }
 
 .pb-nivo-slider .pb-slider-pagination a
