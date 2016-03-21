@@ -1123,7 +1123,7 @@ div.theme-footer-top p.pb-dropcap>span.pb-dropcap-first-letter
 .pb-feature ul>li>div>.pb-feature-header,
 .pb-feature ul>li>div>.pb-feature-header a
 {
-	color:#1AC6F6;
+	color:#1CA6F6;
 }
 
 .pb-feature ul>li>div>.pb-feature-content
@@ -2809,7 +2809,7 @@ div.theme-footer-top .widget_rss>ul>li>div.rssSummary
 
 .widget_search input[type="text"]:focus
 {
-	border-color:#FE6500;
+	border-color:#1ca6f6;
 	border-top-width:2px;
 	border-bottom-width:2px;
 	border-top-color:transparent;
@@ -2830,7 +2830,7 @@ div.theme-footer-top .widget_rss>ul>li>div.rssSummary
 
 .widget_search input[type="submit"]
 {
-	background-color:#FE6500;
+	background-color:#1ca6f6;
 }
 
 .widget_search input[type="submit"]:hover

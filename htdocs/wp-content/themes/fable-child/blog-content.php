@@ -71,7 +71,7 @@
 ?>
 					<div class="theme-post-section-header">
 						<h<?php echo $headerImportance; ?> class="theme-post-header">
-							<a href="<?php the_permalink(); ?>" title="<?php echo sprintf(esc_attr('View post "%s"',THEME_DOMAIN),get_the_title()); ?>"><?php the_title(); ?></a>
+						<?php the_title(); ?>
 						</h<?php echo $headerImportance; ?>>
 <?php
 				if(get_post_type()=='post')
@@ -124,7 +124,7 @@
 					
 					<div class="theme-post-section-preambule">
 						<div class="pb-image-box pb-image-preloader pb-image-preloader-animation-enable pb-image-hover pb-image-hover-type-fade">
-							<a href="<?php the_permalink(); ?>" class="pb-image" title="<?php echo sprintf(esc_attr('View post "%s"',THEME_DOMAIN),get_the_title()); ?>">
+							<a href="<?php the_permalink(); ?>" class="pb-image" title="<?php echo sprintf(esc_attr('Xem nội dung "%s"',THEME_DOMAIN),get_the_title()); ?>">
 								<?php echo get_the_post_thumbnail(get_the_ID(),$Page->getImageClass($widgetAreaData['location'])); ?>
 							</a>
 						</div>
@@ -168,16 +168,18 @@
 				{
 ?>
 					<div class="theme-post-section-header-cstm">
-						<a href="<?php the_permalink(); ?>" title="<?php echo sprintf(esc_attr('View post "%s"',THEME_DOMAIN),get_the_title()); ?>">
+						<a href="<?php the_permalink(); ?>" title="<?php echo sprintf(esc_attr('Xem nội dung "%s"',THEME_DOMAIN),get_the_title()); ?>">
 							<h6 class="theme-post-header">
 								<?php the_title(); ?>
 							</h6>
 						</a>
-						<div class="theme-post-section-content">
-							<div class="theme-post-content">
-								<?php the_excerpt(); ?>
+						<a href="<?php the_permalink(); ?>" title="<?php echo sprintf(esc_attr('Xem nội dung "%s"',THEME_DOMAIN),get_the_title()); ?>">
+							<div class="theme-post-section-content">
+								<div class="theme-post-content">
+									<?php the_excerpt(); ?>
+								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 
 <?php
